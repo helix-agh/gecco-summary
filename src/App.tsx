@@ -3,6 +3,7 @@ import { BarList } from './components/BarList'
 import { PapersTable } from './components/PapersTable'
 import { StatTile } from './components/StatTile'
 import { TopicMap } from './components/TopicMap'
+import { YearSummary } from './components/YearSummary'
 import { DEFAULT_YEAR, YEARS, datasets, isYear } from './lib/data'
 import type { Year } from './lib/data'
 import {
@@ -106,6 +107,8 @@ export default function App() {
       </header>
 
       <main className="container">
+        <YearSummary year={year} />
+
         <section className="stat-row" aria-label="Key figures">
           <StatTile label="Accepted papers" value={papers.length} />
           <StatTile label="Authors" value={stats.authorCount} />
