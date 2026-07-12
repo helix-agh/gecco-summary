@@ -1,8 +1,10 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { BarList } from './components/BarList'
 import { PapersTable } from './components/PapersTable'
 import { StatTile } from './components/StatTile'
-import { dataset } from './lib/data'
+import { TopicMap } from './components/TopicMap'
+import { DEFAULT_YEAR, YEARS, datasets, isYear } from './lib/data'
+import type { Year } from './lib/data'
 import {
   papersByTrack,
   teamSizeDistribution,
@@ -11,13 +13,34 @@ import {
   uniqueAuthorCount,
   uniqueInstitutionCount,
 } from './lib/stats'
-import { scholarUrl } from './lib/scholar'
+import { authorUrl } from './lib/scholar'
 import { trackName } from './lib/tracks'
 
 const TOP_N = 10
 
+/** Natural pixel size of each public/logo-<year>.png, for layout reservation. */
+const LOGO_SIZES: Record<Year, { width: number; height: number }> = {
+  2024: { width: 800, height: 800 },
+  2025: { width: 1000, height: 876 },
+  2026: { width: 500, height: 468 },
+}
+
+function initialYear(): Year {
+  const param = Number(new URLSearchParams(window.location.search).get('year'))
+  return isYear(param) ? param : DEFAULT_YEAR
+}
+
 export default function App() {
-  const { meta, papers } = dataset
+  const [year, setYear] = useState<Year>(initialYear)
+  const { meta, papers } = datasets[year]
+
+  const selectYear = (next: Year) => {
+    setYear(next)
+    const url = new URL(window.location.href)
+    if (next === DEFAULT_YEAR) url.searchParams.delete('year')
+    else url.searchParams.set('year', String(next))
+    window.history.replaceState(null, '', url)
+  }
 
   const stats = useMemo(
     () => ({
@@ -31,6 +54,16 @@ export default function App() {
     [papers],
   )
 
+  const orcidByAuthor = useMemo(() => {
+    const map = new Map<string, string>()
+    for (const paper of papers) {
+      for (const author of paper.authors) {
+        if (author.orcid) map.set(author.name, author.orcid)
+      }
+    }
+    return map
+  }, [papers])
+
   return (
     <div className="page">
       <header className="site-header">
@@ -42,13 +75,28 @@ export default function App() {
               Every full paper accepted at the Genetic and Evolutionary Computation Conference —
               searchable by track, author, and institution, with links to the ACM proceedings.
             </p>
+            <div className="year-switch" role="group" aria-label="Conference year">
+              {YEARS.map((option) => (
+                <button
+                  key={option}
+                  type="button"
+                  className={option === year ? 'year-option is-active' : 'year-option'}
+                  aria-pressed={option === year}
+                  onClick={() => {
+                    selectYear(option)
+                  }}
+                >
+                  {option}
+                </button>
+              ))}
+            </div>
           </div>
           <img
             className="site-logo"
-            src="/logo.png"
-            alt="GECCO 2026 logo"
-            width="500"
-            height="468"
+            src={`${import.meta.env.BASE_URL}logo-${String(year)}.png`}
+            alt={`GECCO ${String(year)} logo`}
+            width={LOGO_SIZES[year].width}
+            height={LOGO_SIZES[year].height}
           />
         </div>
       </header>
@@ -80,9 +128,12 @@ export default function App() {
           <div className="card">
             <h2 className="card-title">Most prolific authors</h2>
             <p className="card-subtitle">
-              Papers co-authored, top {TOP_N}; names link to Google Scholar
+              Papers co-authored, top {TOP_N}; names link to their ORCID record
             </p>
-            <BarList items={stats.authors} labelHref={scholarUrl} />
+            <BarList
+              items={stats.authors}
+              labelHref={(name) => authorUrl(name, orcidByAuthor.get(name))}
+            />
           </div>
           <div className="card">
             <h2 className="card-title">Leading institutions</h2>
@@ -93,32 +144,34 @@ export default function App() {
           </div>
         </section>
 
+        <section className="card" style={{ marginBottom: 16 }}>
+          <h2 className="card-title">Topic map</h2>
+          <p className="card-subtitle">
+            Every paper embedded from its title and abstract, laid out so similar work sits
+            together — topics emerge from the text, not the submission tracks. Hover a point for
+            details, click it to open the paper, click a legend chip to isolate a group.
+          </p>
+          <TopicMap key={year} year={year} papers={papers} />
+        </section>
+
         <section className="card">
           <h2 className="card-title">All papers</h2>
           <p className="card-subtitle">
             Titles link to the ACM Digital Library ({meta.doiMatched} of {meta.paperCount}{' '}
-            matched); author names link to Google Scholar, hover one for their affiliation
+            matched); author names link to their ORCID record, hover one for their affiliation
           </p>
-          <PapersTable papers={papers} />
+          <PapersTable key={year} papers={papers} />
         </section>
       </main>
 
       <footer className="site-footer">
         <div className="container">
           <p>
-            Data scraped from the{' '}
-            <a href={meta.source} target="_blank" rel="noreferrer">
-              GECCO 2026 accepted papers list
+            Built with ❤️ by{' '}
+            <a href="https://helix-agh.github.io/" target="_blank" rel="noreferrer">
+              HELIX
             </a>{' '}
-            on {meta.scrapedAt.slice(0, 10)}; DOIs matched via{' '}
-            <a href="https://www.crossref.org" target="_blank" rel="noreferrer">
-              Crossref
-            </a>
-            . Institution counts fold institutes, labs, and name variants into their parent
-            university (e.g. LIACS → Leiden University); author tooltips show affiliations as
-            published.
-          </p>
-          <p>
+            ·{' '}
             <a
               href="https://github.com/helix-agh/gecco-summary"
               target="_blank"

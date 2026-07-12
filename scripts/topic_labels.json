@@ -1,0 +1,12 @@
+{
+  "0": "Benchmarking & algorithm selection",
+  "1": "Neuroevolution & RL",
+  "2": "Symbolic regression & evolutionary ML",
+  "3": "Surrogates & preference-based EMO",
+  "4": "Routing, scheduling & logistics",
+  "5": "Coevolution, games & open-endedness",
+  "6": "LLM-driven algorithm & code evolution",
+  "7": "Theory & search dynamics",
+  "8": "CMA-ES & fitness landscapes",
+  "9": "Swarm optimization & networked systems"
+}
