@@ -16,23 +16,17 @@
       "authors": [
         {
           "name": "Chixin Xiao",
-          "affiliations": [
-            "Xiangtan University"
-          ],
+          "affiliations": ["Xiangtan University"],
           "orcid": "0000-0002-3911-7113"
         },
         {
           "name": "Maoxin He",
-          "affiliations": [
-            "Xiangtan University"
-          ],
+          "affiliations": ["Xiangtan University"],
           "orcid": "0009-0005-3198-9100"
         },
         {
           "name": "Dechen Jiang",
-          "affiliations": [
-            "Xiangtan University"
-          ],
+          "affiliations": ["Xiangtan University"],
           "orcid": "0009-0003-9968-4421"
         }
       ]
@@ -45,37 +39,27 @@
       "authors": [
         {
           "name": "Kyo Kuroki",
-          "affiliations": [
-            "Tokyo Institute of Technology"
-          ],
+          "affiliations": ["Tokyo Institute of Technology"],
           "orcid": "0009-0006-5366-4603"
         },
         {
           "name": "Satoru Jimbo",
-          "affiliations": [
-            "Tokyo Institute of Technology"
-          ],
+          "affiliations": ["Tokyo Institute of Technology"],
           "orcid": "0009-0005-6710-8897"
         },
         {
           "name": "Thiem Van Chu",
-          "affiliations": [
-            "Tokyo Institute of Technology"
-          ],
+          "affiliations": ["Tokyo Institute of Technology"],
           "orcid": "0000-0002-2003-2574"
         },
         {
           "name": "Masato Motomura",
-          "affiliations": [
-            "Tokyo Institute of Technology"
-          ],
+          "affiliations": ["Tokyo Institute of Technology"],
           "orcid": "0000-0003-1543-1252"
         },
         {
           "name": "Kazushi Kawamura",
-          "affiliations": [
-            "Tokyo Institute of Technology"
-          ],
+          "affiliations": ["Tokyo Institute of Technology"],
           "orcid": "0000-0002-0795-2974"
         }
       ]
@@ -88,24 +72,17 @@
       "authors": [
         {
           "name": "Denis Antipov",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0001-7906-096X"
         },
         {
           "name": "Benjamin Doerr",
-          "affiliations": [
-            "École Polytechnique"
-          ],
+          "affiliations": ["École Polytechnique"],
           "orcid": "0000-0002-9786-220X"
         },
         {
           "name": "Alexandra Ivanova",
-          "affiliations": [
-            "HSE University",
-            "Skoltech"
-          ],
+          "affiliations": ["HSE University", "Skoltech"],
           "orcid": "0009-0002-6722-7499"
         }
       ]
@@ -118,17 +95,12 @@
       "authors": [
         {
           "name": "Martin S. Krejca",
-          "affiliations": [
-            "Ecole Polytechnique",
-            "Institut Polytechnique de Paris"
-          ],
+          "affiliations": ["Ecole Polytechnique", "Institut Polytechnique de Paris"],
           "orcid": "0000-0002-1765-1219"
         },
         {
           "name": "Carsten Witt",
-          "affiliations": [
-            "Technical University Of Denmark"
-          ],
+          "affiliations": ["Technical University Of Denmark"],
           "orcid": "0000-0002-6105-7700"
         }
       ]
@@ -141,37 +113,27 @@
       "authors": [
         {
           "name": "Yong-Feng Ge",
-          "affiliations": [
-            "Victoria University"
-          ],
+          "affiliations": ["Victoria University"],
           "orcid": "0000-0002-5955-6295"
         },
         {
           "name": "Hua Wang",
-          "affiliations": [
-            "Victoria University"
-          ],
+          "affiliations": ["Victoria University"],
           "orcid": "0000-0002-8465-0996"
         },
         {
           "name": "Jinli Cao",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0002-0221-6361"
         },
         {
           "name": "Yanchun Zhang",
-          "affiliations": [
-            "Victoria University"
-          ],
+          "affiliations": ["Victoria University"],
           "orcid": "0000-0002-5094-5980"
         },
         {
           "name": "Georgios Kambourakis",
-          "affiliations": [
-            "University of the Aegean"
-          ],
+          "affiliations": ["University of the Aegean"],
           "orcid": "0000-0001-6348-5031"
         }
       ]
@@ -184,30 +146,22 @@
       "authors": [
         {
           "name": "Fabio Faria",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0003-2956-6326"
         },
         {
           "name": "Luiz Buris",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0003-4957-928X"
         },
         {
           "name": "Luis Pereira",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0002-5392-0631"
         },
         {
           "name": "Fabio Cappabianco",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0002-2139-7938"
         }
       ]
@@ -220,37 +174,27 @@
       "authors": [
         {
           "name": "Shoichiro Tanaka",
-          "affiliations": [
-            "The University of Electro-Communications"
-          ],
+          "affiliations": ["The University of Electro-Communications"],
           "orcid": "0009-0002-9230-445X"
         },
         {
           "name": "Gabriela Ochoa",
-          "affiliations": [
-            "University of Stirling"
-          ],
+          "affiliations": ["University of Stirling"],
           "orcid": "0000-0001-7649-5669"
         },
         {
           "name": "Arnaud Liefooghe",
-          "affiliations": [
-            "Université du Littoral Côte d'Opale"
-          ],
+          "affiliations": ["Université du Littoral Côte d'Opale"],
           "orcid": "0000-0003-3283-3122"
         },
         {
           "name": "Keiki Takadama",
-          "affiliations": [
-            "The University of Electro-Communications"
-          ],
+          "affiliations": ["The University of Electro-Communications"],
           "orcid": "0009-0007-0916-5505"
         },
         {
           "name": "Hiroyuki Sato",
-          "affiliations": [
-            "The University of Electro-Communications"
-          ],
+          "affiliations": ["The University of Electro-Communications"],
           "orcid": "0009-0004-4515-2240"
         }
       ]
@@ -263,16 +207,12 @@
       "authors": [
         {
           "name": "Roman Kalkreuth",
-          "affiliations": [
-            "Sorbonne University"
-          ],
+          "affiliations": ["Sorbonne University"],
           "orcid": "0000-0003-1449-5131"
         },
         {
           "name": "Thomas Baeck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         }
       ]
@@ -285,31 +225,22 @@
       "authors": [
         {
           "name": "Thomas Helmuth",
-          "affiliations": [
-            "Hamilton College"
-          ],
+          "affiliations": ["Hamilton College"],
           "orcid": "0000-0002-2330-6809"
         },
         {
           "name": "Jayden Fedoroff",
-          "affiliations": [
-            "Hamilton College"
-          ],
+          "affiliations": ["Hamilton College"],
           "orcid": "0009-0007-1356-2992"
         },
         {
           "name": "Edward R. Pantridge",
-          "affiliations": [
-            "Real Chemistry"
-          ],
+          "affiliations": ["Real Chemistry"],
           "orcid": "0000-0003-0535-5268"
         },
         {
           "name": "Lee Spector",
-          "affiliations": [
-            "Amherst College",
-            "University of Massachusetts Amherst"
-          ],
+          "affiliations": ["Amherst College", "University of Massachusetts Amherst"],
           "orcid": "0000-0001-5299-4797"
         }
       ]
@@ -322,37 +253,27 @@
       "authors": [
         {
           "name": "Kameron Bielawski",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0009-0000-3036-8592"
         },
         {
           "name": "Nate Gaylinn",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0009-0004-9342-7843"
         },
         {
           "name": "Cameron Lunn",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0009-0005-5937-9400"
         },
         {
           "name": "Kevin Motia",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0009-0002-1466-6332"
         },
         {
           "name": "Joshua Bongard",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0000-0001-8515-0822"
         }
       ]
@@ -365,30 +286,22 @@
       "authors": [
         {
           "name": "Alejandro Marrero",
-          "affiliations": [
-            "Universidad de La Laguna"
-          ],
+          "affiliations": ["Universidad de La Laguna"],
           "orcid": "0000-0003-3866-5393"
         },
         {
           "name": "Eduardo Segredo",
-          "affiliations": [
-            "Universidad de La Laguna"
-          ],
+          "affiliations": ["Universidad de La Laguna"],
           "orcid": "0000-0002-4085-4356"
         },
         {
           "name": "Coromoto León",
-          "affiliations": [
-            "Universidad de La Laguna"
-          ],
+          "affiliations": ["Universidad de La Laguna"],
           "orcid": "0000-0002-9294-9234"
         },
         {
           "name": "Emma Hart",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0002-5405-4413"
         }
       ]
@@ -401,9 +314,7 @@
       "authors": [
         {
           "name": "Thalea Schlender",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0001-7385-112X"
         },
         {
@@ -416,9 +327,7 @@
         },
         {
           "name": "Tanja Alderliesten",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0003-4261-7511"
         },
         {
@@ -439,16 +348,12 @@
       "authors": [
         {
           "name": "Martina Saletta",
-          "affiliations": [
-            "University of Bergamo"
-          ],
+          "affiliations": ["University of Bergamo"],
           "orcid": "0000-0001-7250-8987"
         },
         {
           "name": "Claudio Ferretti",
-          "affiliations": [
-            "University Milano-Bicocca"
-          ],
+          "affiliations": ["University Milano-Bicocca"],
           "orcid": "0000-0001-9582-5045"
         }
       ]
@@ -461,23 +366,17 @@
       "authors": [
         {
           "name": "Kento Uchida",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4179-6020"
         },
         {
           "name": "Kenta Nishihara",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0003-4038-411X"
         },
         {
           "name": "Shinichi Shirakawa",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4659-6108"
         }
       ]
@@ -490,23 +389,17 @@
       "authors": [
         {
           "name": "Thilina Chathuranga Pathirage Don",
-          "affiliations": [
-            "Univerisity of Adelaide"
-          ],
+          "affiliations": ["Univerisity of Adelaide"],
           "orcid": "0000-0002-7709-5330"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "Univerisity of Adelaide"
-          ],
+          "affiliations": ["Univerisity of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "Univerisity of Adelaide"
-          ],
+          "affiliations": ["Univerisity of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         }
       ]
@@ -527,37 +420,27 @@
         },
         {
           "name": "Thiago Alves de Queiroz",
-          "affiliations": [
-            "Federal University of Catalão"
-          ],
+          "affiliations": ["Federal University of Catalão"],
           "orcid": "0000-0003-2674-3366"
         },
         {
           "name": "Manuel Iori",
-          "affiliations": [
-            "University of Modena and Reggio Emilia"
-          ],
+          "affiliations": ["University of Modena and Reggio Emilia"],
           "orcid": "0000-0003-2097-6572"
         },
         {
           "name": "André Gustavo dos Santos",
-          "affiliations": [
-            "Federal University of Viçosa"
-          ],
+          "affiliations": ["Federal University of Viçosa"],
           "orcid": "0000-0002-5743-3523"
         },
         {
           "name": "Mutsunory Yagiura",
-          "affiliations": [
-            "University of Nagoya"
-          ],
+          "affiliations": ["University of Nagoya"],
           "orcid": "0000-0003-0970-9414"
         },
         {
           "name": "Giorgio Zucchi",
-          "affiliations": [
-            "Coopservice scpa"
-          ],
+          "affiliations": ["Coopservice scpa"],
           "orcid": "0000-0002-5459-7290"
         }
       ]
@@ -570,26 +453,17 @@
       "authors": [
         {
           "name": "Giorgia Nadizar",
-          "affiliations": [
-            "MIGe",
-            "University of Trieste"
-          ],
+          "affiliations": ["MIGe", "University of Trieste"],
           "orcid": "0000-0002-3535-9748"
         },
         {
           "name": "Eric Medvet",
-          "affiliations": [
-            "DIA",
-            "University of Trieste"
-          ],
+          "affiliations": ["DIA", "University of Trieste"],
           "orcid": "0000-0001-5652-2113"
         },
         {
           "name": "Dennis G. Wilson",
-          "affiliations": [
-            "ISAE-SUPAERO",
-            "University of Toulouse"
-          ],
+          "affiliations": ["ISAE-SUPAERO", "University of Toulouse"],
           "orcid": "0000-0003-2414-0051"
         }
       ]
@@ -602,23 +476,17 @@
       "authors": [
         {
           "name": "Huy Quang Ngo",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-3862-3778"
         },
         {
           "name": "Mingyu Guo",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-3478-9201"
         },
         {
           "name": "Hung Nguyen",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0003-1028-920X"
         }
       ]
@@ -631,30 +499,22 @@
       "authors": [
         {
           "name": "Andre Opris",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-7730-7831"
         },
         {
           "name": "Duc-Cuong Dang",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-6660-6625"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "University of Adelaide"
-          ],
+          "affiliations": ["University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Dirk Sudholt",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0001-6020-1646"
         }
       ]
@@ -675,30 +535,22 @@
         },
         {
           "name": "Yang Nan",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-8396-294X"
         },
         {
           "name": "Meng Lie Pang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-7037-1630"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         },
         {
           "name": "Qingfu Zhang",
-          "affiliations": [
-            "City University of Hong Kong"
-          ],
+          "affiliations": ["City University of Hong Kong"],
           "orcid": "0000-0003-0786-0671"
         }
       ]
@@ -711,23 +563,17 @@
       "authors": [
         {
           "name": "Erdi Sayar",
-          "affiliations": [
-            "Technical University of Munich"
-          ],
+          "affiliations": ["Technical University of Munich"],
           "orcid": "0000-0002-5944-7291"
         },
         {
           "name": "Giovanni Iacca",
-          "affiliations": [
-            "University of Trento"
-          ],
+          "affiliations": ["University of Trento"],
           "orcid": "0000-0001-9723-1830"
         },
         {
           "name": "Alois Knoll",
-          "affiliations": [
-            "Technical University of Munich"
-          ],
+          "affiliations": ["Technical University of Munich"],
           "orcid": "0000-0003-4840-076X"
         }
       ]
@@ -740,23 +586,17 @@
       "authors": [
         {
           "name": "Longfei Felix Yan",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4273-198X"
         },
         {
           "name": "Hui Ma",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-6232-4436"
         },
         {
           "name": "Gang Chen",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-9597-497X"
         }
       ]
@@ -769,30 +609,22 @@
       "authors": [
         {
           "name": "Atanu Mazumdar",
-          "affiliations": [
-            "Aalto University"
-          ],
+          "affiliations": ["Aalto University"],
           "orcid": "0000-0002-7760-3171"
         },
         {
           "name": "Bhavya Jain",
-          "affiliations": [
-            "IIT BHU"
-          ],
+          "affiliations": ["IIT BHU"],
           "orcid": "0009-0009-2271-9204"
         },
         {
           "name": "Monisha Mitra",
-          "affiliations": [
-            "University of Helsinki"
-          ],
+          "affiliations": ["University of Helsinki"],
           "orcid": "0000-0001-7313-2256"
         },
         {
           "name": "Prodyut Dhar",
-          "affiliations": [
-            "IIT BHU"
-          ],
+          "affiliations": ["IIT BHU"],
           "orcid": "0000-0001-9716-3866"
         }
       ]
@@ -805,23 +637,17 @@
       "authors": [
         {
           "name": "Jiahong Wei",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-8148-2683"
         },
         {
           "name": "Bing Xue",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-4865-8026"
         },
         {
           "name": "Mengjie Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4463-9538"
         }
       ]
@@ -834,39 +660,27 @@
       "authors": [
         {
           "name": "Ryoki Hamano",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4425-1683"
         },
         {
           "name": "Shota Saito",
-          "affiliations": [
-            "Yokohama National University",
-            "SKILLUP NeXt Ltd."
-          ],
+          "affiliations": ["Yokohama National University", "SKILLUP NeXt Ltd."],
           "orcid": "0000-0002-9863-6765"
         },
         {
           "name": "Masahiro Nomura",
-          "affiliations": [
-            "CyberAgent",
-            "Inc."
-          ],
+          "affiliations": ["CyberAgent", "Inc."],
           "orcid": "0000-0002-4945-5984"
         },
         {
           "name": "Kento Uchida",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4179-6020"
         },
         {
           "name": "Shinichi Shirakawa",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4659-6108"
         }
       ]
@@ -879,30 +693,22 @@
       "authors": [
         {
           "name": "Miqing Li",
-          "affiliations": [
-            "The University of Birmingham"
-          ],
+          "affiliations": ["The University of Birmingham"],
           "orcid": "0000-0002-8607-9607"
         },
         {
           "name": "Xiaofeng Han",
-          "affiliations": [
-            "Harbin Institute of Technology"
-          ],
+          "affiliations": ["Harbin Institute of Technology"],
           "orcid": "0000-0003-1163-1863"
         },
         {
           "name": "Xiaochen Chu",
-          "affiliations": [
-            "Harbin Institute of Technology"
-          ],
+          "affiliations": ["Harbin Institute of Technology"],
           "orcid": "0000-0002-4931-0945"
         },
         {
           "name": "Zimin Liang",
-          "affiliations": [
-            "The University of Birmingham"
-          ],
+          "affiliations": ["The University of Birmingham"],
           "orcid": "0009-0005-6105-7777"
         }
       ]
@@ -915,37 +721,27 @@
       "authors": [
         {
           "name": "Yufan Kang",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0002-1027-6225"
         },
         {
           "name": "Rongsheng Zhang",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0002-7678-8813"
         },
         {
           "name": "Wei Shao",
-          "affiliations": [
-            "CSIRO"
-          ],
+          "affiliations": ["CSIRO"],
           "orcid": "0000-0002-9873-8331"
         },
         {
           "name": "Flora D. Salim",
-          "affiliations": [
-            "The University of New South Wales"
-          ],
+          "affiliations": ["The University of New South Wales"],
           "orcid": "0000-0002-1237-1664"
         },
         {
           "name": "Jeffrey Chan",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0002-7865-072X"
         }
       ]
@@ -972,9 +768,7 @@
         },
         {
           "name": "MICHELLA SALIBA",
-          "affiliations": [
-            "AUTONOMUS UNIVERSITY OF BARCELONA"
-          ],
+          "affiliations": ["AUTONOMUS UNIVERSITY OF BARCELONA"],
           "orcid": "0009-0001-5218-2139"
         }
       ]
@@ -987,30 +781,22 @@
       "authors": [
         {
           "name": "Darren Chitty",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0003-2566-1182"
         },
         {
           "name": "James Charles",
-          "affiliations": [
-            "City Science"
-          ],
+          "affiliations": ["City Science"],
           "orcid": "0009-0005-5277-4619"
         },
         {
           "name": "Alberto Moraglio",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0003-4782-6590"
         },
         {
           "name": "Ed Keedwell",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0003-3650-6487"
         }
       ]
@@ -1023,30 +809,22 @@
       "authors": [
         {
           "name": "Kordel Kade France",
-          "affiliations": [
-            "University of Texas at Dallas"
-          ],
+          "affiliations": ["University of Texas at Dallas"],
           "orcid": "0000-0001-6682-5337"
         },
         {
           "name": "Anirban Paul",
-          "affiliations": [
-            "University of Texas at Dallas"
-          ],
+          "affiliations": ["University of Texas at Dallas"],
           "orcid": "0000-0003-0484-0691"
         },
         {
           "name": "Ivneet Banga",
-          "affiliations": [
-            "University of Texas at Dallas"
-          ],
+          "affiliations": ["University of Texas at Dallas"],
           "orcid": "0000-0002-3726-3934"
         },
         {
           "name": "Shalini Prasad",
-          "affiliations": [
-            "University of Texas at Dallas"
-          ],
+          "affiliations": ["University of Texas at Dallas"],
           "orcid": "0000-0002-2404-3801"
         }
       ]
@@ -1059,16 +837,12 @@
       "authors": [
         {
           "name": "Kei Sen Fong",
-          "affiliations": [
-            "National University of Singapore"
-          ],
+          "affiliations": ["National University of Singapore"],
           "orcid": "0009-0000-4135-4858"
         },
         {
           "name": "Mehul Motani",
-          "affiliations": [
-            "National University of Singapore"
-          ],
+          "affiliations": ["National University of Singapore"],
           "orcid": "0000-0003-3262-0207"
         }
       ]
@@ -1081,30 +855,22 @@
       "authors": [
         {
           "name": "Ishara Hewa Pathiranage",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-8043-994X"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Denis Antipov",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0001-7906-096X"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         }
       ]
@@ -1117,16 +883,12 @@
       "authors": [
         {
           "name": "Felipe Dumont",
-          "affiliations": [
-            "UTFSM"
-          ],
+          "affiliations": ["UTFSM"],
           "orcid": "0009-0000-3984-7573"
         },
         {
           "name": "Riff Maria-Cristina",
-          "affiliations": [
-            "UTFSM"
-          ],
+          "affiliations": ["UTFSM"],
           "orcid": null
         }
       ]
@@ -1139,16 +901,12 @@
       "authors": [
         {
           "name": "Corinna Triebold",
-          "affiliations": [
-            "Vrije Universiteit Amsterdam"
-          ],
+          "affiliations": ["Vrije Universiteit Amsterdam"],
           "orcid": "0009-0009-3893-5972"
         },
         {
           "name": "Anil Yaman",
-          "affiliations": [
-            "Vrije Universiteit Amsterdam"
-          ],
+          "affiliations": ["Vrije Universiteit Amsterdam"],
           "orcid": "0000-0003-1379-3778"
         }
       ]
@@ -1161,45 +919,32 @@
       "authors": [
         {
           "name": "Hannah Janmohamed",
-          "affiliations": [
-            "Imperial College London",
-            "InstaDeep"
-          ],
+          "affiliations": ["Imperial College London", "InstaDeep"],
           "orcid": "0000-0001-7997-8455"
         },
         {
           "name": "Marta Wolinska",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0009-0002-7760-6839"
         },
         {
           "name": "Shikha Surana",
-          "affiliations": [
-            "InstaDeep"
-          ],
+          "affiliations": ["InstaDeep"],
           "orcid": "0009-0007-1701-6876"
         },
         {
           "name": "Thomas Pierrot",
-          "affiliations": [
-            "InstaDeep"
-          ],
+          "affiliations": ["InstaDeep"],
           "orcid": "0000-0002-5227-6194"
         },
         {
           "name": "Aron Walsh",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0001-5460-7033"
         },
         {
           "name": "Antoine Cully",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0002-3190-7073"
         }
       ]
@@ -1212,23 +957,17 @@
       "authors": [
         {
           "name": "Clint Max Morris",
-          "affiliations": [
-            "Georgia Tech Research Institute"
-          ],
+          "affiliations": ["Georgia Tech Research Institute"],
           "orcid": "0009-0006-2947-2193"
         },
         {
           "name": "Michael Jurado",
-          "affiliations": [
-            "Georgia Tech Research Institute"
-          ],
+          "affiliations": ["Georgia Tech Research Institute"],
           "orcid": "0009-0009-9896-7706"
         },
         {
           "name": "Jason P. Zutty",
-          "affiliations": [
-            "Georgia Tech Research Institute"
-          ],
+          "affiliations": ["Georgia Tech Research Institute"],
           "orcid": "0000-0001-7977-1454"
         }
       ]
@@ -1241,16 +980,12 @@
       "authors": [
         {
           "name": "Brahim Aboutaib",
-          "affiliations": [
-            "University of Minnesota"
-          ],
+          "affiliations": ["University of Minnesota"],
           "orcid": "0000-0003-1749-437X"
         },
         {
           "name": "Andrew M. Sutton",
-          "affiliations": [
-            "University of Minnesota"
-          ],
+          "affiliations": ["University of Minnesota"],
           "orcid": "0000-0003-1295-6715"
         }
       ]
@@ -1263,23 +998,17 @@
       "authors": [
         {
           "name": "Tao Xu",
-          "affiliations": [
-            "Zhejiang Lab"
-          ],
+          "affiliations": ["Zhejiang Lab"],
           "orcid": "0000-0001-8574-7768"
         },
         {
           "name": "Hongyang Chen Chen",
-          "affiliations": [
-            "Zhejiang Lab"
-          ],
+          "affiliations": ["Zhejiang Lab"],
           "orcid": "0000-0002-7626-0162"
         },
         {
           "name": "Jun He",
-          "affiliations": [
-            "Nottingham Trent University"
-          ],
+          "affiliations": ["Nottingham Trent University"],
           "orcid": "0000-0002-5616-4691"
         }
       ]
@@ -1301,9 +1030,7 @@
         },
         {
           "name": "Rosina Savisaar",
-          "affiliations": [
-            "Mondego Science"
-          ],
+          "affiliations": ["Mondego Science"],
           "orcid": "0000-0002-8367-2317"
         },
         {
@@ -1325,23 +1052,17 @@
       "authors": [
         {
           "name": "Michael Auer",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0009-0006-7861-8048"
         },
         {
           "name": "Dominik Diner",
-          "affiliations": [
-            "msg systems AG"
-          ],
+          "affiliations": ["msg systems AG"],
           "orcid": "0009-0008-8275-6691"
         },
         {
           "name": "Gordon Fraser",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-4364-6595"
         }
       ]
@@ -1354,9 +1075,7 @@
       "authors": [
         {
           "name": "Zhenyu Liang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0003-8876-8638"
         },
         {
@@ -1369,16 +1088,12 @@
         },
         {
           "name": "Kebin Sun",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0008-9213-7835"
         },
         {
           "name": "Ran Cheng",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9410-8263"
         }
       ]
@@ -1405,9 +1120,7 @@
         },
         {
           "name": "Gabriela Ochoa",
-          "affiliations": [
-            "University of Stirling"
-          ],
+          "affiliations": ["University of Stirling"],
           "orcid": "0000-0001-7649-5669"
         }
       ]
@@ -1420,31 +1133,22 @@
       "authors": [
         {
           "name": "Ting Dong",
-          "affiliations": [
-            "Tsinghua University"
-          ],
+          "affiliations": ["Tsinghua University"],
           "orcid": "0009-0009-6998-2819"
         },
         {
           "name": "Haoxin Wang",
-          "affiliations": [
-            "Tsinghua University"
-          ],
+          "affiliations": ["Tsinghua University"],
           "orcid": "0000-0002-2658-3772"
         },
         {
           "name": "Wenbo Ding",
-          "affiliations": [
-            "Tsinghua University"
-          ],
+          "affiliations": ["Tsinghua University"],
           "orcid": "0000-0002-0597-4512"
         },
         {
           "name": "Libao Shi",
-          "affiliations": [
-            "Shenzhen International Graduate School",
-            "Tsinghua University"
-          ],
+          "affiliations": ["Shenzhen International Graduate School", "Tsinghua University"],
           "orcid": "0000-0002-5916-9260"
         }
       ]
@@ -1457,26 +1161,17 @@
       "authors": [
         {
           "name": "Diego Daniel Pedroza-Perez",
-          "affiliations": [
-            "ITIS Software",
-            "Universidad de Málaga"
-          ],
+          "affiliations": ["ITIS Software", "Universidad de Málaga"],
           "orcid": "0009-0008-8513-1427"
         },
         {
           "name": "Jamal Toutouh",
-          "affiliations": [
-            "ITIS Software",
-            "Universidad de Málaga"
-          ],
+          "affiliations": ["ITIS Software", "Universidad de Málaga"],
           "orcid": "0000-0003-1152-0346"
         },
         {
           "name": "Gabriel Luque",
-          "affiliations": [
-            "ITIS Software",
-            "Universidad de Málaga"
-          ],
+          "affiliations": ["ITIS Software", "Universidad de Málaga"],
           "orcid": "0000-0001-7909-1416"
         }
       ]
@@ -1489,16 +1184,12 @@
       "authors": [
         {
           "name": "Ahmer Khan",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0002-9772-4659"
         },
         {
           "name": "Kalyanmoy Deb",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0001-7402-9939"
         }
       ]
@@ -1511,30 +1202,22 @@
       "authors": [
         {
           "name": "Xiang-Ling Chen",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0002-8424-2028"
         },
         {
           "name": "Xiao-Cheng Liao",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0009-0001-6992-8339"
         },
         {
           "name": "Feng-Feng Wei",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0003-4708-8791"
         },
         {
           "name": "Wei-Neng Chen",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0003-0843-5802"
         }
       ]
@@ -1547,30 +1230,22 @@
       "authors": [
         {
           "name": "Sofya Aksenyuk",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0009-0008-2496-1005"
         },
         {
           "name": "Szymon Bujowski",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0009-0004-9022-5197"
         },
         {
           "name": "Maciej Komosinski",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0000-0001-8438-5574"
         },
         {
           "name": "Konrad Miazga",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0000-0003-0567-914X"
         }
       ]
@@ -1583,9 +1258,7 @@
       "authors": [
         {
           "name": "Ryoji Tanabe",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0003-4049-0393"
         }
       ]
@@ -1598,37 +1271,27 @@
       "authors": [
         {
           "name": "Tongyu Wu",
-          "affiliations": [
-            "Beijing Intitute of Technology"
-          ],
+          "affiliations": ["Beijing Intitute of Technology"],
           "orcid": "0009-0003-9257-1491"
         },
         {
           "name": "Yuntian Zhang",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
+          "affiliations": ["Beijing Institute of Technology"],
           "orcid": "0000-0003-1908-6935"
         },
         {
           "name": "Changhao Miao",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
+          "affiliations": ["Beijing Institute of Technology"],
           "orcid": "0009-0009-7774-5864"
         },
         {
           "name": "Chen Chen",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
+          "affiliations": ["Beijing Institute of Technology"],
           "orcid": "0000-0001-9354-6974"
         },
         {
           "name": "Shuxin Ding",
-          "affiliations": [
-            "China Academy of Railway Sciences Corporation Limited"
-          ],
+          "affiliations": ["China Academy of Railway Sciences Corporation Limited"],
           "orcid": "0000-0002-7319-1878"
         }
       ]
@@ -1641,37 +1304,27 @@
       "authors": [
         {
           "name": "Lukasz Tulczyjew",
-          "affiliations": [
-            "Silesian University of Technology"
-          ],
+          "affiliations": ["Silesian University of Technology"],
           "orcid": "0000-0003-0763-0745"
         },
         {
           "name": "Michal Przewozniczek",
-          "affiliations": [
-            "Wroclaw University of Technology"
-          ],
+          "affiliations": ["Wroclaw University of Technology"],
           "orcid": "0000-0003-2446-6473"
         },
         {
           "name": "Renato Tinós",
-          "affiliations": [
-            "University of São Paulo"
-          ],
+          "affiliations": ["University of São Paulo"],
           "orcid": "0000-0003-4027-8851"
         },
         {
           "name": "Agata M. Wijata",
-          "affiliations": [
-            "Silesian University of Technology"
-          ],
+          "affiliations": ["Silesian University of Technology"],
           "orcid": "0000-0001-6180-9979"
         },
         {
           "name": "Jakub Nalepa",
-          "affiliations": [
-            "Silesian University of Technology"
-          ],
+          "affiliations": ["Silesian University of Technology"],
           "orcid": "0000-0002-4026-1569"
         }
       ]
@@ -1684,44 +1337,32 @@
       "authors": [
         {
           "name": "Deyun Lyu",
-          "affiliations": [
-            "Kyushu University"
-          ],
+          "affiliations": ["Kyushu University"],
           "orcid": "0000-0003-3017-7977"
         },
         {
           "name": "Zhenya Zhang",
-          "affiliations": [
-            "Kyushu University"
-          ],
+          "affiliations": ["Kyushu University"],
           "orcid": "0000-0002-3854-9846"
         },
         {
           "name": "Paolo Arcaini",
-          "affiliations": [
-            "National Institute of Informatics"
-          ],
+          "affiliations": ["National Institute of Informatics"],
           "orcid": "0000-0002-6253-4062"
         },
         {
           "name": "Fuyuki Ishikawa",
-          "affiliations": [
-            "National Institute of Informatics"
-          ],
+          "affiliations": ["National Institute of Informatics"],
           "orcid": "0000-0001-7725-2618"
         },
         {
           "name": "Thomas Laurent",
-          "affiliations": [
-            "Trinity College Dublin"
-          ],
+          "affiliations": ["Trinity College Dublin"],
           "orcid": "0000-0002-0953-774X"
         },
         {
           "name": "Jianjun Zhao",
-          "affiliations": [
-            "Kyushu University"
-          ],
+          "affiliations": ["Kyushu University"],
           "orcid": "0000-0001-8083-4352"
         }
       ]
@@ -1734,16 +1375,12 @@
       "authors": [
         {
           "name": "Alistair Benford",
-          "affiliations": [
-            "University of Birmingham"
-          ],
+          "affiliations": ["University of Birmingham"],
           "orcid": "0009-0009-4751-8871"
         },
         {
           "name": "Per Kristian Lehre",
-          "affiliations": [
-            "University of Birmingham"
-          ],
+          "affiliations": ["University of Birmingham"],
           "orcid": "0000-0002-9521-1251"
         }
       ]
@@ -1756,30 +1393,22 @@
       "authors": [
         {
           "name": "Eduardo Bouhid Neto",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0001-6515-0403"
         },
         {
           "name": "Fabio Augusto Faria",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0003-2956-6326"
         },
         {
           "name": "Amanda de Almeida Sales de Oliveira",
-          "affiliations": [
-            "University of Sao Paulo"
-          ],
+          "affiliations": ["University of Sao Paulo"],
           "orcid": "0000-0002-7967-8249"
         },
         {
           "name": "Alvaro Luiz Fazenda",
-          "affiliations": [
-            "Federal University of São Paulo"
-          ],
+          "affiliations": ["Federal University of São Paulo"],
           "orcid": "0000-0002-4052-1113"
         }
       ]
@@ -1792,17 +1421,12 @@
       "authors": [
         {
           "name": "Andrew Ni",
-          "affiliations": [
-            "Amherst College"
-          ],
+          "affiliations": ["Amherst College"],
           "orcid": "0000-0003-3480-4536"
         },
         {
           "name": "Lee Spector",
-          "affiliations": [
-            "Amherst College",
-            "University of Massachusetts Amherst"
-          ],
+          "affiliations": ["Amherst College", "University of Massachusetts Amherst"],
           "orcid": "0000-0001-5299-4797"
         }
       ]
@@ -1815,30 +1439,22 @@
       "authors": [
         {
           "name": "Zeqiong Lv",
-          "affiliations": [
-            "Sichuan University"
-          ],
+          "affiliations": ["Sichuan University"],
           "orcid": "0000-0002-1276-6711"
         },
         {
           "name": "Chao Bian",
-          "affiliations": [
-            "Nanjing University"
-          ],
+          "affiliations": ["Nanjing University"],
           "orcid": "0000-0003-2312-6733"
         },
         {
           "name": "Chao Qian",
-          "affiliations": [
-            "Nanjing University"
-          ],
+          "affiliations": ["Nanjing University"],
           "orcid": "0000-0001-6011-2512"
         },
         {
           "name": "Yanan Sun",
-          "affiliations": [
-            "Sichuan University"
-          ],
+          "affiliations": ["Sichuan University"],
           "orcid": "0000-0001-6374-1429"
         }
       ]
@@ -1851,9 +1467,7 @@
       "authors": [
         {
           "name": "Wen-Chi Yang",
-          "affiliations": [
-            "Bocom Holding Group"
-          ],
+          "affiliations": ["Bocom Holding Group"],
           "orcid": "0000-0003-4452-0545"
         }
       ]
@@ -1866,18 +1480,12 @@
       "authors": [
         {
           "name": "Daiki Morinaga",
-          "affiliations": [
-            "University of Tsukuba",
-            "RIKEN AIP"
-          ],
+          "affiliations": ["University of Tsukuba", "RIKEN AIP"],
           "orcid": "0009-0009-7937-7567"
         },
         {
           "name": "Youhei Akimoto",
-          "affiliations": [
-            "University of Tsukuba",
-            "RIKEN AIP"
-          ],
+          "affiliations": ["University of Tsukuba", "RIKEN AIP"],
           "orcid": "0000-0003-2760-8123"
         }
       ]
@@ -1890,37 +1498,27 @@
       "authors": [
         {
           "name": "Joachim Winther Pedersen",
-          "affiliations": [
-            "IT University of Copenhagen"
-          ],
+          "affiliations": ["IT University of Copenhagen"],
           "orcid": "0000-0001-7884-9432"
         },
         {
           "name": "Erwan Plantec",
-          "affiliations": [
-            "IT University of Copenhagen"
-          ],
+          "affiliations": ["IT University of Copenhagen"],
           "orcid": "0000-0002-6080-8912"
         },
         {
           "name": "Eleni Nisioti",
-          "affiliations": [
-            "IT University of Copenhagen"
-          ],
+          "affiliations": ["IT University of Copenhagen"],
           "orcid": "0000-0001-7170-7108"
         },
         {
           "name": "Milton Montero",
-          "affiliations": [
-            "IT University of Copenhagen"
-          ],
+          "affiliations": ["IT University of Copenhagen"],
           "orcid": "0000-0002-7440-3510"
         },
         {
           "name": "Sebastian Risi",
-          "affiliations": [
-            "IT University of Copenhagen"
-          ],
+          "affiliations": ["IT University of Copenhagen"],
           "orcid": "0000-0003-3607-8400"
         }
       ]
@@ -1933,23 +1531,17 @@
       "authors": [
         {
           "name": "Sharlotte Gounder",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0009-0008-9789-7016"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         }
       ]
@@ -1962,30 +1554,22 @@
       "authors": [
         {
           "name": "Qurrat Ul Ain",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-6891-9887"
         },
         {
           "name": "Harith Al-Sahaf",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4633-6135"
         },
         {
           "name": "Bing Xue",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-4865-8026"
         },
         {
           "name": "Mengjie Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4463-9538"
         }
       ]
@@ -1998,42 +1582,27 @@
       "authors": [
         {
           "name": "Jonathan Gadea Harder",
-          "affiliations": [
-            "Hasso Plattner Institute",
-            "University of Potsdam"
-          ],
+          "affiliations": ["Hasso Plattner Institute", "University of Potsdam"],
           "orcid": "0000-0002-0869-0865"
         },
         {
           "name": "Timo Kötzing",
-          "affiliations": [
-            "Hasso Plattner Institute",
-            "University of Potsdam"
-          ],
+          "affiliations": ["Hasso Plattner Institute", "University of Potsdam"],
           "orcid": "0000-0002-1028-5228"
         },
         {
           "name": "Xiaoyue Li",
-          "affiliations": [
-            "Hasso Plattner Institute",
-            "University of Potsdam"
-          ],
+          "affiliations": ["Hasso Plattner Institute", "University of Potsdam"],
           "orcid": "0000-0003-3245-1685"
         },
         {
           "name": "Aishwarya Radhakrishnan",
-          "affiliations": [
-            "Hasso Plattner Institute",
-            "University of Potsdam"
-          ],
+          "affiliations": ["Hasso Plattner Institute", "University of Potsdam"],
           "orcid": "0000-0002-5667-8780"
         },
         {
           "name": "Janosch Ruff",
-          "affiliations": [
-            "Hasso Plattner Institute",
-            "University of Potsdam"
-          ],
+          "affiliations": ["Hasso Plattner Institute", "University of Potsdam"],
           "orcid": "0009-0004-3564-4831"
         }
       ]
@@ -2046,16 +1615,12 @@
       "authors": [
         {
           "name": "Timothée Anne",
-          "affiliations": [
-            "Inria / CNRS / University Lorraine"
-          ],
+          "affiliations": ["Inria / CNRS / University Lorraine"],
           "orcid": "0000-0002-4805-0213"
         },
         {
           "name": "Jean-Baptiste Mouret",
-          "affiliations": [
-            "Inria / CNRS / University Lorraine"
-          ],
+          "affiliations": ["Inria / CNRS / University Lorraine"],
           "orcid": "0000-0002-2513-027X"
         }
       ]
@@ -2068,23 +1633,17 @@
       "authors": [
         {
           "name": "Francisco Zanartu",
-          "affiliations": [
-            "Monash University"
-          ],
+          "affiliations": ["Monash University"],
           "orcid": "0009-0000-7774-9245"
         },
         {
           "name": "Christoph Treude",
-          "affiliations": [
-            "Singapore Management University"
-          ],
+          "affiliations": ["Singapore Management University"],
           "orcid": "0000-0002-6919-2149"
         },
         {
           "name": "Markus Wagner",
-          "affiliations": [
-            "Monash University"
-          ],
+          "affiliations": ["Monash University"],
           "orcid": "0000-0002-3124-0061"
         }
       ]
@@ -2097,16 +1656,12 @@
       "authors": [
         {
           "name": "Duc-Cuong Dang",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-6660-6625"
         },
         {
           "name": "Per Kristian Lehre",
-          "affiliations": [
-            "University of Birmingham"
-          ],
+          "affiliations": ["University of Birmingham"],
           "orcid": "0000-0002-9521-1251"
         }
       ]
@@ -2133,9 +1688,7 @@
         },
         {
           "name": "Gabriela Ochoa",
-          "affiliations": [
-            "University of Stirling"
-          ],
+          "affiliations": ["University of Stirling"],
           "orcid": "0000-0001-7649-5669"
         }
       ]
@@ -2148,65 +1701,47 @@
       "authors": [
         {
           "name": "Yi Liu",
-          "affiliations": [
-            "Zhejiang Lab"
-          ],
+          "affiliations": ["Zhejiang Lab"],
           "orcid": "0000-0002-3244-3258"
         },
         {
           "name": "Yu Cui",
-          "affiliations": [
-            "Zhejiang Lab"
-          ],
+          "affiliations": ["Zhejiang Lab"],
           "orcid": "0000-0002-1781-4735"
         },
         {
           "name": "Wen Cheng",
-          "affiliations": [
-            "Zhejiang Lab"
-          ],
+          "affiliations": ["Zhejiang Lab"],
           "orcid": "0000-0001-7092-6376"
         },
         {
           "name": "Will Neil Browne",
-          "affiliations": [
-            "Queensland University of Technology"
-          ],
+          "affiliations": ["Queensland University of Technology"],
           "orcid": "0000-0001-8979-2224"
         },
         {
           "name": "Bing Xue",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-4865-8026"
         },
         {
           "name": "Chengyuan Zhu",
-          "affiliations": [
-            "Hainan Normal University"
-          ],
+          "affiliations": ["Hainan Normal University"],
           "orcid": "0009-0001-7317-682X"
         },
         {
           "name": "Yiding Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0009-0008-0557-9986"
         },
         {
           "name": "mingkai sheng",
-          "affiliations": [
-            "Zhejiang lab"
-          ],
+          "affiliations": ["Zhejiang lab"],
           "orcid": "0009-0003-5881-5691"
         },
         {
           "name": "lingfang zeng",
-          "affiliations": [
-            "Zhejiang lab"
-          ],
+          "affiliations": ["Zhejiang lab"],
           "orcid": "0000-0003-3130-3015"
         }
       ]
@@ -2219,30 +1754,22 @@
       "authors": [
         {
           "name": "Evi Maria Catharina Sijben",
-          "affiliations": [
-            "Centrum Wiskunde & Informatica (CWI)"
-          ],
+          "affiliations": ["Centrum Wiskunde & Informatica (CWI)"],
           "orcid": "0000-0002-0900-4353"
         },
         {
           "name": "Jeroen Casper Jansen",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0002-3955-0152"
         },
         {
           "name": "Peter Alexander Nicolaas Bosman",
-          "affiliations": [
-            "Centrum Wiskunde & Informatica (CWI)"
-          ],
+          "affiliations": ["Centrum Wiskunde & Informatica (CWI)"],
           "orcid": "0000-0002-4186-6666"
         },
         {
           "name": "Tanja Alderliesten",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0003-4261-7511"
         }
       ]
@@ -2255,51 +1782,37 @@
       "authors": [
         {
           "name": "Hangqi Ding",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-4526-6123"
         },
         {
           "name": "Haoran Xu",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0009-0005-4190-5257"
         },
         {
           "name": "Yue Wu",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-3459-5079"
         },
         {
           "name": "Hao Li",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-6294-6761"
         },
         {
           "name": "Maoguo Gong",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-0415-8556"
         },
         {
           "name": "Wenping Ma",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0001-8872-2195"
         },
         {
           "name": "Qiguang Miao",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-2872-388X"
         }
       ]
@@ -2312,30 +1825,22 @@
       "authors": [
         {
           "name": "Benjamin Doerr",
-          "affiliations": [
-            "École Polytechnique"
-          ],
+          "affiliations": ["École Polytechnique"],
           "orcid": "0000-0002-9786-220X"
         },
         {
           "name": "Joshua Knowles",
-          "affiliations": [
-            "Schlumberger"
-          ],
+          "affiliations": ["Schlumberger"],
           "orcid": "0000-0001-8112-6112"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         }
       ]
@@ -2348,16 +1853,12 @@
       "authors": [
         {
           "name": "Aline Hufschmitt",
-          "affiliations": [
-            "AMSCC / CReC"
-          ],
+          "affiliations": ["AMSCC / CReC"],
           "orcid": "0000-0003-1649-3180"
         },
         {
           "name": "Patrice Parraud",
-          "affiliations": [
-            "AMSCC / CReC"
-          ],
+          "affiliations": ["AMSCC / CReC"],
           "orcid": "0009-0007-8586-8261"
         }
       ]
@@ -2370,37 +1871,27 @@
       "authors": [
         {
           "name": "Nian Ran",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0009-0001-9418-3412"
         },
         {
           "name": "Bahrul Ilmi Nasution",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0000-0001-6526-7185"
         },
         {
           "name": "Claire Little",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0000-0003-4803-3007"
         },
         {
           "name": "Richard Allmendinger",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0000-0003-1236-3143"
         },
         {
           "name": "Mark Elliot",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0000-0002-3142-4493"
         }
       ]
@@ -2413,23 +1904,17 @@
       "authors": [
         {
           "name": "Jordan T. Bishop",
-          "affiliations": [
-            "CSIRO"
-          ],
+          "affiliations": ["CSIRO"],
           "orcid": "0000-0001-8691-9330"
         },
         {
           "name": "Jason Jooste",
-          "affiliations": [
-            "CSIRO"
-          ],
+          "affiliations": ["CSIRO"],
           "orcid": "0000-0002-2169-0552"
         },
         {
           "name": "David Howard",
-          "affiliations": [
-            "CSIRO"
-          ],
+          "affiliations": ["CSIRO"],
           "orcid": "0000-0002-5012-7224"
         }
       ]
@@ -2442,44 +1927,32 @@
       "authors": [
         {
           "name": "Kirill Antonov",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-8757-8598"
         },
         {
           "name": "Roman Kalkreuth",
-          "affiliations": [
-            "Sorbonne University"
-          ],
+          "affiliations": ["Sorbonne University"],
           "orcid": "0000-0003-1449-5131"
         },
         {
           "name": "Kaifeng Yang",
-          "affiliations": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "affiliations": ["University of Applied Sciences Upper Austria"],
           "orcid": "0000-0002-3353-3298"
         },
         {
           "name": "Thomas Bäck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         },
         {
           "name": "Niki van Stein",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-0013-7969"
         },
         {
           "name": "Anna Kononova",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-4138-7024"
         }
       ]
@@ -2492,37 +1965,27 @@
       "authors": [
         {
           "name": "David H. Lee",
-          "affiliations": [
-            "University of Southern California"
-          ],
+          "affiliations": ["University of Southern California"],
           "orcid": "0009-0003-1927-5039"
         },
         {
           "name": "Anishalakshmi V. Palaparthi",
-          "affiliations": [
-            "University of Southern California"
-          ],
+          "affiliations": ["University of Southern California"],
           "orcid": "0009-0003-9163-4075"
         },
         {
           "name": "Matthew C. Fontaine",
-          "affiliations": [
-            "University of Southern California"
-          ],
+          "affiliations": ["University of Southern California"],
           "orcid": "0000-0002-9354-196X"
         },
         {
           "name": "Bryon Tjanaka",
-          "affiliations": [
-            "University of Southern California"
-          ],
+          "affiliations": ["University of Southern California"],
           "orcid": "0000-0002-9602-5039"
         },
         {
           "name": "Stefanos Nikolaidis",
-          "affiliations": [
-            "University of Southern California"
-          ],
+          "affiliations": ["University of Southern California"],
           "orcid": "0000-0002-8617-3871"
         }
       ]
@@ -2535,37 +1998,27 @@
       "authors": [
         {
           "name": "Mario Alejandro Hevia Fajardo",
-          "affiliations": [
-            "University of Birmingham"
-          ],
+          "affiliations": ["University of Birmingham"],
           "orcid": "0000-0003-3529-0434"
         },
         {
           "name": "Erik Hemberg",
-          "affiliations": [
-            "MIT"
-          ],
+          "affiliations": ["MIT"],
           "orcid": "0000-0002-2153-3506"
         },
         {
           "name": "Jamal Toutouh",
-          "affiliations": [
-            "University of Malaga"
-          ],
+          "affiliations": ["University of Malaga"],
           "orcid": "0000-0003-1152-0346"
         },
         {
           "name": "Una-May O'Reilly",
-          "affiliations": [
-            "MIT"
-          ],
+          "affiliations": ["MIT"],
           "orcid": "0000-0001-6923-8445"
         },
         {
           "name": "Per Kristian Lehre",
-          "affiliations": [
-            "University of Birmingham"
-          ],
+          "affiliations": ["University of Birmingham"],
           "orcid": "0000-0002-9521-1251"
         }
       ]
@@ -2578,23 +2031,17 @@
       "authors": [
         {
           "name": "Amanda Bertschinger",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0009-0003-1469-3813"
         },
         {
           "name": "James Bagrow",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0000-0002-4614-0792"
         },
         {
           "name": "Joshua Bongard",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0000-0001-8515-0822"
         }
       ]
@@ -2607,23 +2054,17 @@
       "authors": [
         {
           "name": "Valentino Santucci",
-          "affiliations": [
-            "University for Foreigners of Perugia"
-          ],
+          "affiliations": ["University for Foreigners of Perugia"],
           "orcid": "0000-0003-1483-7998"
         },
         {
           "name": "Marco Baioletti",
-          "affiliations": [
-            "University of Perugia"
-          ],
+          "affiliations": ["University of Perugia"],
           "orcid": "0000-0001-5630-7173"
         },
         {
           "name": "Marco Tomassini",
-          "affiliations": [
-            "University of Lausanne"
-          ],
+          "affiliations": ["University of Lausanne"],
           "orcid": "0000-0002-9571-0683"
         }
       ]
@@ -2662,37 +2103,27 @@
       "authors": [
         {
           "name": "Marcus Schmidbauer",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0009-0005-8556-6824"
         },
         {
           "name": "Andre Opris",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-7730-7831"
         },
         {
           "name": "Jakob Bossek",
-          "affiliations": [
-            "University of Paderborn"
-          ],
+          "affiliations": ["University of Paderborn"],
           "orcid": "0000-0002-4121-4668"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "University of Adelaide"
-          ],
+          "affiliations": ["University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Dirk Sudholt",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0001-6020-1646"
         }
       ]
@@ -2705,16 +2136,12 @@
       "authors": [
         {
           "name": "Quentin Renau",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0002-2487-981X"
         },
         {
           "name": "Emma Hart",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0002-5405-4413"
         }
       ]
@@ -2727,25 +2154,17 @@
       "authors": [
         {
           "name": "Erik Hemberg",
-          "affiliations": [
-            "MIT CSAIL",
-            "ALFA Group"
-          ],
+          "affiliations": ["MIT CSAIL", "ALFA Group"],
           "orcid": "0000-0002-2153-3506"
         },
         {
           "name": "Una-May O'Reilly",
-          "affiliations": [
-            "MIT CSAIL",
-            "ALFA Group"
-          ],
+          "affiliations": ["MIT CSAIL", "ALFA Group"],
           "orcid": "0000-0001-6923-8445"
         },
         {
           "name": "Jamal Toutouh",
-          "affiliations": [
-            "University of Malaga"
-          ],
+          "affiliations": ["University of Malaga"],
           "orcid": "0000-0003-1152-0346"
         }
       ]
@@ -2758,30 +2177,22 @@
       "authors": [
         {
           "name": "Su Nguyen",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-2365-1087"
         },
         {
           "name": "Dhananjay Thiruvady",
-          "affiliations": [
-            "Deakin University"
-          ],
+          "affiliations": ["Deakin University"],
           "orcid": "0000-0002-8011-933X"
         },
         {
           "name": "Yuan Sun",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0003-2911-0070"
         },
         {
           "name": "Mengjie Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4463-9538"
         }
       ]
@@ -2794,16 +2205,12 @@
       "authors": [
         {
           "name": "Brandon Morgan",
-          "affiliations": [
-            "University of Oklahoma"
-          ],
+          "affiliations": ["University of Oklahoma"],
           "orcid": "0009-0008-4874-2149"
         },
         {
           "name": "Dean Hougen",
-          "affiliations": [
-            "University of Oklahoma"
-          ],
+          "affiliations": ["University of Oklahoma"],
           "orcid": "0000-0001-5393-1480"
         }
       ]
@@ -2816,37 +2223,27 @@
       "authors": [
         {
           "name": "Furong Ye",
-          "affiliations": [
-            "Chinese Academy of Sciences"
-          ],
+          "affiliations": ["Chinese Academy of Sciences"],
           "orcid": "0000-0002-8707-4189"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Jacob de Nobel",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-1169-1962"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Thomas Bäck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         }
       ]
@@ -2859,25 +2256,17 @@
       "authors": [
         {
           "name": "Gloria Pietropolli",
-          "affiliations": [
-            "DIA",
-            "University of Trieste"
-          ],
+          "affiliations": ["DIA", "University of Trieste"],
           "orcid": "0000-0001-7623-8419"
         },
         {
           "name": "Stefano Nichele",
-          "affiliations": [
-            "Østfold University College"
-          ],
+          "affiliations": ["Østfold University College"],
           "orcid": "0000-0003-4696-9872"
         },
         {
           "name": "Eric Medvet",
-          "affiliations": [
-            "DIA",
-            "University of Trieste"
-          ],
+          "affiliations": ["DIA", "University of Trieste"],
           "orcid": "0000-0001-5652-2113"
         }
       ]
@@ -2898,16 +2287,12 @@
         },
         {
           "name": "Xin Yao",
-          "affiliations": [
-            "Lingnan University"
-          ],
+          "affiliations": ["Lingnan University"],
           "orcid": "0000-0001-8837-4442"
         },
         {
           "name": "Qing Li",
-          "affiliations": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "affiliations": ["The Hong Kong Polytechnic University"],
           "orcid": "0000-0003-3370-471X"
         }
       ]
@@ -2920,37 +2305,27 @@
       "authors": [
         {
           "name": "Shuaiqun Pan",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-7039-4875"
         },
         {
           "name": "Diederick Vermetten",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-3040-7162"
         },
         {
           "name": "Thomas Bäck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         },
         {
           "name": "Manuel López-Ibáñez",
-          "affiliations": [
-            "University of Manchester"
-          ],
+          "affiliations": ["University of Manchester"],
           "orcid": "0000-0001-9974-1295"
         },
         {
           "name": "Hao Wang",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-4933-5181"
         }
       ]
@@ -2963,16 +2338,12 @@
       "authors": [
         {
           "name": "Thanh Hai Tran",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0009-0007-7156-9818"
         },
         {
           "name": "Long Doan",
-          "affiliations": [
-            "George Mason University"
-          ],
+          "affiliations": ["George Mason University"],
           "orcid": "0009-0004-6338-7916"
         },
         {
@@ -2986,9 +2357,7 @@
         },
         {
           "name": "Binh Huynh Thi Thanh",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0000-0003-1976-6113"
         }
       ]
@@ -3001,16 +2370,12 @@
       "authors": [
         {
           "name": "Etienne Russeil",
-          "affiliations": [
-            "Université Clermont Auvergne"
-          ],
+          "affiliations": ["Université Clermont Auvergne"],
           "orcid": "0000-0001-9923-2407"
         },
         {
           "name": "Fabricio Olivetti de Franca",
-          "affiliations": [
-            "Universidade Federal do ABC"
-          ],
+          "affiliations": ["Universidade Federal do ABC"],
           "orcid": "0000-0002-2741-8736"
         },
         {
@@ -3024,44 +2389,32 @@
         },
         {
           "name": "Bogdan Burlacu",
-          "affiliations": [
-            "University of Applied Sciences Upper Austria"
-          ],
+          "affiliations": ["University of Applied Sciences Upper Austria"],
           "orcid": "0000-0001-8785-2959"
         },
         {
           "name": "Emille Ishida",
-          "affiliations": [
-            "Université Clermont Auvergne"
-          ],
+          "affiliations": ["Université Clermont Auvergne"],
           "orcid": "0000-0002-0406-076X"
         },
         {
           "name": "Marion Leroux",
-          "affiliations": [
-            "Université Clermont Auvergne"
-          ],
+          "affiliations": ["Université Clermont Auvergne"],
           "orcid": "0009-0004-5889-6652"
         },
         {
           "name": "Clément Michelin",
-          "affiliations": [
-            "Université Clermont Auvergne"
-          ],
+          "affiliations": ["Université Clermont Auvergne"],
           "orcid": "0000-0002-8924-1809"
         },
         {
           "name": "Guillaume Moinard",
-          "affiliations": [
-            "Sorbonne Université"
-          ],
+          "affiliations": ["Sorbonne Université"],
           "orcid": "0009-0002-7208-0874"
         },
         {
           "name": "Emmanuel Gangler",
-          "affiliations": [
-            "Université Clermont Auvergne"
-          ],
+          "affiliations": ["Université Clermont Auvergne"],
           "orcid": "0000-0001-6728-1423"
         }
       ]
@@ -3074,30 +2427,22 @@
       "authors": [
         {
           "name": "Mujtaba Hassan",
-          "affiliations": [
-            "KU Leuven"
-          ],
+          "affiliations": ["KU Leuven"],
           "orcid": "0000-0001-9590-2469"
         },
         {
           "name": "Jo Vliegen",
-          "affiliations": [
-            "KU Leuven"
-          ],
+          "affiliations": ["KU Leuven"],
           "orcid": "0000-0003-4258-2208"
         },
         {
           "name": "Stjepan Picek",
-          "affiliations": [
-            "Radboud University"
-          ],
+          "affiliations": ["Radboud University"],
           "orcid": "0000-0001-7509-4337"
         },
         {
           "name": "Nele Mentens",
-          "affiliations": [
-            "KU Leuven"
-          ],
+          "affiliations": ["KU Leuven"],
           "orcid": "0000-0001-8753-7895"
         }
       ]
@@ -3110,24 +2455,17 @@
       "authors": [
         {
           "name": "Guilherme Seidyo Imai Aldeia",
-          "affiliations": [
-            "Federal University of ABC"
-          ],
+          "affiliations": ["Federal University of ABC"],
           "orcid": "0000-0002-0102-4958"
         },
         {
           "name": "Fabricio Olivetti de França",
-          "affiliations": [
-            "Federal University of ABC"
-          ],
+          "affiliations": ["Federal University of ABC"],
           "orcid": "0000-0002-2741-8736"
         },
         {
           "name": "William G. La Cava",
-          "affiliations": [
-            "Harvard",
-            "Boston Children's Hospital"
-          ],
+          "affiliations": ["Harvard", "Boston Children's Hospital"],
           "orcid": "0000-0002-1332-2960"
         }
       ]
@@ -3148,16 +2486,12 @@
         },
         {
           "name": "Sarah L. Thomson",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0001-6971-7817"
         },
         {
           "name": "Tanja Alderliesten",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0003-4261-7511"
         },
         {
@@ -3178,44 +2512,32 @@
       "authors": [
         {
           "name": "Yingfang Yuan",
-          "affiliations": [
-            "Heriot-Watt University"
-          ],
+          "affiliations": ["Heriot-Watt University"],
           "orcid": "0000-0002-8925-9267"
         },
         {
           "name": "Wenjun Wang",
-          "affiliations": [
-            "Jinan Universtiy"
-          ],
+          "affiliations": ["Jinan Universtiy"],
           "orcid": "0000-0003-3579-1474"
         },
         {
           "name": "Xin Li",
-          "affiliations": [
-            "Beijing Institute of Technology"
-          ],
+          "affiliations": ["Beijing Institute of Technology"],
           "orcid": "0000-0003-4257-4347"
         },
         {
           "name": "Kefan Chen",
-          "affiliations": [
-            "Heriot-Watt University"
-          ],
+          "affiliations": ["Heriot-Watt University"],
           "orcid": "0009-0001-5726-466X"
         },
         {
           "name": "Yonghan Zhang",
-          "affiliations": [
-            "Heriot-Watt University"
-          ],
+          "affiliations": ["Heriot-Watt University"],
           "orcid": "0000-0001-6194-7183"
         },
         {
           "name": "Wei Pang",
-          "affiliations": [
-            "Heriot-Watt University"
-          ],
+          "affiliations": ["Heriot-Watt University"],
           "orcid": "0000-0002-1761-6659"
         }
       ]
@@ -3228,30 +2550,22 @@
       "authors": [
         {
           "name": "Marcin Michal Komarnicki",
-          "affiliations": [
-            "Wroclaw University of Science and Technology"
-          ],
+          "affiliations": ["Wroclaw University of Science and Technology"],
           "orcid": "0000-0002-3008-9320"
         },
         {
           "name": "Michal Witold Przewozniczek",
-          "affiliations": [
-            "Wroclaw University of Science and Technology"
-          ],
+          "affiliations": ["Wroclaw University of Science and Technology"],
           "orcid": "0000-0003-2446-6473"
         },
         {
           "name": "Renato Tinós",
-          "affiliations": [
-            "University of São Paulo"
-          ],
+          "affiliations": ["University of São Paulo"],
           "orcid": "0000-0003-4027-8851"
         },
         {
           "name": "Xiaodong Li",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-0346-1526"
         }
       ]
@@ -3264,39 +2578,27 @@
       "authors": [
         {
           "name": "Muhammad Umair Nasir",
-          "affiliations": [
-            "University of the Witwatersrand",
-            "New York University"
-          ],
+          "affiliations": ["University of the Witwatersrand", "New York University"],
           "orcid": "0000-0002-2458-9599"
         },
         {
           "name": "Sam Earle",
-          "affiliations": [
-            "New York University"
-          ],
+          "affiliations": ["New York University"],
           "orcid": "0000-0003-3783-9486"
         },
         {
           "name": "Julian Togelius",
-          "affiliations": [
-            "New York University"
-          ],
+          "affiliations": ["New York University"],
           "orcid": "0000-0003-3128-4598"
         },
         {
           "name": "Steven James",
-          "affiliations": [
-            "University of the Witwatersrand"
-          ],
+          "affiliations": ["University of the Witwatersrand"],
           "orcid": "0000-0003-4366-4125"
         },
         {
           "name": "Christopher Cleghorn",
-          "affiliations": [
-            "University of the Witwatersrand",
-            "Amazon.com Inc."
-          ],
+          "affiliations": ["University of the Witwatersrand", "Amazon.com Inc."],
           "orcid": "0000-0002-7860-0650"
         }
       ]
@@ -3309,16 +2611,12 @@
       "authors": [
         {
           "name": "Michał Wójcik",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0000-0003-4299-9425"
         },
         {
           "name": "Miłosz Kadziński",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0000-0003-1806-3715"
         }
       ]
@@ -3331,45 +2629,32 @@
       "authors": [
         {
           "name": "Pivithuru Thejan Amarasinghe",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0009-0001-7590-0455"
         },
         {
           "name": "Diem Pham",
-          "affiliations": [
-            "La Trobe University",
-            "Can Tho University"
-          ],
+          "affiliations": ["La Trobe University", "Can Tho University"],
           "orcid": "0000-0003-3273-209X"
         },
         {
           "name": "Binh Tran",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0002-2445-1231"
         },
         {
           "name": "Su Nguyen",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-2365-1087"
         },
         {
           "name": "Yuan Sun",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0003-2911-0070"
         },
         {
           "name": "Damminda Alahakoon",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0003-3291-888X"
         }
       ]
@@ -3382,16 +2667,12 @@
       "authors": [
         {
           "name": "Kokila Perera",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0748-0815"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         }
       ]
@@ -3404,30 +2685,22 @@
       "authors": [
         {
           "name": "Yuanting Zhong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0004-5998-4822"
         },
         {
           "name": "Xincan Wang",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0003-5412-632X"
         },
         {
           "name": "Yuhong Sun",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0003-7548-1363"
         },
         {
           "name": "Yue-Jiao Gong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0002-5648-1160"
         }
       ]
@@ -3440,23 +2713,17 @@
       "authors": [
         {
           "name": "Peijie Xu",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0002-9050-6405"
         },
         {
           "name": "Andy Song",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0002-7579-7048"
         },
         {
           "name": "Ke Wang",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0001-5788-1396"
         }
       ]
@@ -3469,30 +2736,22 @@
       "authors": [
         {
           "name": "Adam Gaier",
-          "affiliations": [
-            "Autodesk"
-          ],
+          "affiliations": ["Autodesk"],
           "orcid": "0000-0002-4632-0929"
         },
         {
           "name": "James Stoddart",
-          "affiliations": [
-            "Autodesk"
-          ],
+          "affiliations": ["Autodesk"],
           "orcid": "0009-0007-7157-7869"
         },
         {
           "name": "Lorenzo Villaggi",
-          "affiliations": [
-            "Autodesk"
-          ],
+          "affiliations": ["Autodesk"],
           "orcid": "0009-0008-6034-0716"
         },
         {
           "name": "Shyam Sudhakaran",
-          "affiliations": [
-            "Autodesk"
-          ],
+          "affiliations": ["Autodesk"],
           "orcid": "0009-0008-4658-903X"
         }
       ]
@@ -3505,16 +2764,12 @@
       "authors": [
         {
           "name": "Alican Mertan",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0000-0002-5947-8397"
         },
         {
           "name": "Nick Cheney",
-          "affiliations": [
-            "University of Vermont"
-          ],
+          "affiliations": ["University of Vermont"],
           "orcid": "0000-0002-7140-2213"
         }
       ]
@@ -3567,23 +2822,17 @@
       "authors": [
         {
           "name": "Rachit Kumar",
-          "affiliations": [
-            "University of Pennsylvania"
-          ],
+          "affiliations": ["University of Pennsylvania"],
           "orcid": "0000-0002-7736-3307"
         },
         {
           "name": "David Zhang",
-          "affiliations": [
-            "University of Pennsylvania"
-          ],
+          "affiliations": ["University of Pennsylvania"],
           "orcid": "0000-0003-1377-9829"
         },
         {
           "name": "Marylyn Ritchie",
-          "affiliations": [
-            "University of Pennsylvania"
-          ],
+          "affiliations": ["University of Pennsylvania"],
           "orcid": "0000-0002-1208-1720"
         }
       ]
@@ -3596,30 +2845,22 @@
       "authors": [
         {
           "name": "Rongguang Ye",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0002-7759-1254"
         },
         {
           "name": "Longcan Chen",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0002-7087-9909"
         },
         {
           "name": "Jinyuan Zhang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-6137-2594"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         }
       ]
@@ -3632,24 +2873,17 @@
       "authors": [
         {
           "name": "Sebastian Gruber",
-          "affiliations": [
-            "Johannes Kepler University Linz"
-          ],
+          "affiliations": ["Johannes Kepler University Linz"],
           "orcid": "0000-0002-5714-1870"
         },
         {
           "name": "Paul Feichtenschlager",
-          "affiliations": [
-            "Johannes Kepler University Linz",
-            "Frequentis AG"
-          ],
+          "affiliations": ["Johannes Kepler University Linz", "Frequentis AG"],
           "orcid": "0009-0007-3490-5560"
         },
         {
           "name": "Christoph Georg Schuetz",
-          "affiliations": [
-            "Johannes Kepler University Linz"
-          ],
+          "affiliations": ["Johannes Kepler University Linz"],
           "orcid": "0000-0002-0955-8647"
         }
       ]
@@ -3662,23 +2896,17 @@
       "authors": [
         {
           "name": "Paul Fischer",
-          "affiliations": [
-            "Technical University of Denmark"
-          ],
+          "affiliations": ["Technical University of Denmark"],
           "orcid": "0000-0003-3296-5301"
         },
         {
           "name": "John Alasdair Warwicker",
-          "affiliations": [
-            "Karlsruhe Institute of Technology"
-          ],
+          "affiliations": ["Karlsruhe Institute of Technology"],
           "orcid": "0000-0002-6274-2638"
         },
         {
           "name": "Carsten Witt",
-          "affiliations": [
-            "Technical University of Denmark"
-          ],
+          "affiliations": ["Technical University of Denmark"],
           "orcid": "0000-0002-6105-7700"
         }
       ]
@@ -3691,16 +2919,12 @@
       "authors": [
         {
           "name": "Brandon Morgan",
-          "affiliations": [
-            "University of Oklahoma"
-          ],
+          "affiliations": ["University of Oklahoma"],
           "orcid": "0009-0008-4874-2149"
         },
         {
           "name": "Dean Hougen",
-          "affiliations": [
-            "University of Oklahoma"
-          ],
+          "affiliations": ["University of Oklahoma"],
           "orcid": "0000-0001-5393-1480"
         }
       ]
@@ -3723,16 +2947,12 @@
         },
         {
           "name": "Edward Keedwell",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0003-3650-6487"
         },
         {
           "name": "Ayah Helal",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0001-7003-9945"
         }
       ]
@@ -3745,16 +2965,12 @@
       "authors": [
         {
           "name": "Joshua Cook",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0003-6974-1165"
         },
         {
           "name": "Kagan Tumer",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0007-3809-7257"
         }
       ]
@@ -3767,37 +2983,27 @@
       "authors": [
         {
           "name": "Hongqiao Lian",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0005-4424-6189"
         },
         {
           "name": "Zeyuan Ma",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0001-6216-9379"
         },
         {
           "name": "Hongshu Guo",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0001-8063-8984"
         },
         {
           "name": "Ting Huang",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-8755-043X"
         },
         {
           "name": "Yue-Jiao Gong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0002-5648-1160"
         }
       ]
@@ -3810,23 +3016,17 @@
       "authors": [
         {
           "name": "Deepanshu Yadav",
-          "affiliations": [
-            "Indian Institute of Technology Madras"
-          ],
+          "affiliations": ["Indian Institute of Technology Madras"],
           "orcid": "0000-0003-1841-8942"
         },
         {
           "name": "Palaniappan Ramu",
-          "affiliations": [
-            "Indian Institute of Technology Madras"
-          ],
+          "affiliations": ["Indian Institute of Technology Madras"],
           "orcid": "0000-0001-9704-2087"
         },
         {
           "name": "Kalyanmoy Deb",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0001-7402-9939"
         }
       ]
@@ -3871,23 +3071,17 @@
       "authors": [
         {
           "name": "Manon Flageat",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0002-4601-2176"
         },
         {
           "name": "Bryan Lim",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0002-2324-1400"
         },
         {
           "name": "Antoine Cully",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0002-3190-7073"
         }
       ]
@@ -3900,23 +3094,17 @@
       "authors": [
         {
           "name": "Mathew Keith Falloon",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0009-0009-2501-8227"
         },
         {
           "name": "Hui Ma",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-6232-4436"
         },
         {
           "name": "Aaron Chen",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-9597-497X"
         }
       ]
@@ -3929,24 +3117,17 @@
       "authors": [
         {
           "name": "Guilherme Seidyo Imai Aldeia",
-          "affiliations": [
-            "Federal University of ABC"
-          ],
+          "affiliations": ["Federal University of ABC"],
           "orcid": "0000-0002-0102-4958"
         },
         {
           "name": "Fabricio Olivetti de França",
-          "affiliations": [
-            "Federal University of ABC"
-          ],
+          "affiliations": ["Federal University of ABC"],
           "orcid": "0000-0002-2741-8736"
         },
         {
           "name": "William G. La Cava",
-          "affiliations": [
-            "Harvard",
-            "Boston Children's Hospital"
-          ],
+          "affiliations": ["Harvard", "Boston Children's Hospital"],
           "orcid": "0000-0002-1332-2960"
         }
       ]
@@ -3959,38 +3140,27 @@
       "authors": [
         {
           "name": "Diederick Vermetten",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-3040-7162"
         },
         {
           "name": "Carola Doerr",
-          "affiliations": [
-            "Sorbonne University",
-            "CNR"
-          ],
+          "affiliations": ["Sorbonne University", "CNR"],
           "orcid": "0000-0002-4981-3227"
         },
         {
           "name": "Hao Wang",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-4933-5181"
         },
         {
           "name": "Anna V. Kononova",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0002-4138-7024"
         },
         {
           "name": "Thomas Bäck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         }
       ]
@@ -4003,30 +3173,22 @@
       "authors": [
         {
           "name": "Yang Nan",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-8396-294X"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         },
         {
           "name": "Tianye Shu",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0002-7673-3943"
         },
         {
           "name": "Ke Shang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0003-2363-9504"
         }
       ]
@@ -4039,9 +3201,7 @@
       "authors": [
         {
           "name": "Everardo Gonzalez",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0000-0003-0175-2207"
         },
         {
@@ -4055,9 +3215,7 @@
         },
         {
           "name": "Kagan Tumer",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0007-3809-7257"
         }
       ]
@@ -4070,37 +3228,27 @@
       "authors": [
         {
           "name": "Ali Ahrari",
-          "affiliations": [
-            "The University of New South Wales"
-          ],
+          "affiliations": ["The University of New South Wales"],
           "orcid": "0000-0001-7232-7967"
         },
         {
           "name": "Jonathan Fieldsend",
-          "affiliations": [
-            "University of Exeter"
-          ],
+          "affiliations": ["University of Exeter"],
           "orcid": "0000-0002-0683-2583"
         },
         {
           "name": "Mike Preuss",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-4681-1346"
         },
         {
           "name": "Xiaodong Li",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-0346-1526"
         },
         {
           "name": "Michael G. Epitropakis",
-          "affiliations": [
-            "Lancaster University"
-          ],
+          "affiliations": ["Lancaster University"],
           "orcid": "0000-0002-9741-5901"
         }
       ]
@@ -4113,30 +3261,22 @@
       "authors": [
         {
           "name": "Ishara Hewa Pathiranage",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-8043-994X"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Denis Antipov",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0001-7906-096X"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         }
       ]
@@ -4149,23 +3289,17 @@
       "authors": [
         {
           "name": "Yanchi Li",
-          "affiliations": [
-            "China University of Geosciences"
-          ],
+          "affiliations": ["China University of Geosciences"],
           "orcid": "0000-0001-5565-6275"
         },
         {
           "name": "Wenyin Gong",
-          "affiliations": [
-            "China University of Geosciences"
-          ],
+          "affiliations": ["China University of Geosciences"],
           "orcid": "0000-0003-1610-6865"
         },
         {
           "name": "Qiong Gu",
-          "affiliations": [
-            "Hubei University of Arts and Science"
-          ],
+          "affiliations": ["Hubei University of Arts and Science"],
           "orcid": "0000-0002-5070-0182"
         }
       ]
@@ -4178,23 +3312,17 @@
       "authors": [
         {
           "name": "Denis Antipov",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0001-7906-096X"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         }
       ]
@@ -4215,30 +3343,22 @@
         },
         {
           "name": "Yang Nan",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-8396-294X"
         },
         {
           "name": "Meng Lie Pang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-7037-1630"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         },
         {
           "name": "Qingfu Zhang",
-          "affiliations": [
-            "City University of Hong Kong"
-          ],
+          "affiliations": ["City University of Hong Kong"],
           "orcid": "0000-0003-0786-0671"
         }
       ]
@@ -4251,30 +3371,22 @@
       "authors": [
         {
           "name": "Jonathan Wurth",
-          "affiliations": [
-            "University of Augsburg"
-          ],
+          "affiliations": ["University of Augsburg"],
           "orcid": "0000-0002-5799-024X"
         },
         {
           "name": "Helena Stegherr",
-          "affiliations": [
-            "University of Augsburg"
-          ],
+          "affiliations": ["University of Augsburg"],
           "orcid": "0000-0001-7871-7309"
         },
         {
           "name": "Michael Heider",
-          "affiliations": [
-            "University of Augsburg"
-          ],
+          "affiliations": ["University of Augsburg"],
           "orcid": "0000-0003-3140-1993"
         },
         {
           "name": "Jörg Hähner",
-          "affiliations": [
-            "University of Augsburg"
-          ],
+          "affiliations": ["University of Augsburg"],
           "orcid": "0000-0003-0107-264X"
         }
       ]
@@ -4287,23 +3399,17 @@
       "authors": [
         {
           "name": "Andrea Ferigo",
-          "affiliations": [
-            "University of Trento"
-          ],
+          "affiliations": ["University of Trento"],
           "orcid": null
         },
         {
           "name": "Elia Cunegatti",
-          "affiliations": [
-            "University of Trento"
-          ],
+          "affiliations": ["University of Trento"],
           "orcid": null
         },
         {
           "name": "Giovanni Iacca",
-          "affiliations": [
-            "University of Trento"
-          ],
+          "affiliations": ["University of Trento"],
           "orcid": "0000-0001-9723-1830"
         }
       ]
@@ -4316,33 +3422,22 @@
       "authors": [
         {
           "name": "Konstantin Dietrich",
-          "affiliations": [
-            "TU Dresden",
-            "ScaDS.AI"
-          ],
+          "affiliations": ["TU Dresden", "ScaDS.AI"],
           "orcid": "0000-0002-5383-7475"
         },
         {
           "name": "Diederick Vermetten",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-3040-7162"
         },
         {
           "name": "Carola Doerr",
-          "affiliations": [
-            "Sorbonne Université",
-            "CNRS"
-          ],
+          "affiliations": ["Sorbonne Université", "CNRS"],
           "orcid": "0000-0002-4981-3227"
         },
         {
           "name": "Pascal Kerschke",
-          "affiliations": [
-            "TU Dresden",
-            "ScaDS.AI"
-          ],
+          "affiliations": ["TU Dresden", "ScaDS.AI"],
           "orcid": "0000-0003-2862-1418"
         }
       ]
@@ -4355,9 +3450,7 @@
       "authors": [
         {
           "name": "Maciej Komosinski",
-          "affiliations": [
-            "Poznan University of Technology"
-          ],
+          "affiliations": ["Poznan University of Technology"],
           "orcid": "0000-0001-8438-5574"
         },
         {
@@ -4379,33 +3472,22 @@
       "authors": [
         {
           "name": "Akinolq Ogunsemi",
-          "affiliations": [
-            "National Subsea Centre - Robert Gordon University"
-          ],
+          "affiliations": ["National Subsea Centre - Robert Gordon University"],
           "orcid": null
         },
         {
           "name": "John McCall",
-          "affiliations": [
-            "National Subsea Centre",
-            "Robert Gordon University"
-          ],
+          "affiliations": ["National Subsea Centre", "Robert Gordon University"],
           "orcid": "0000-0003-1738-7056"
         },
         {
           "name": "Ciprian Zavoianu",
-          "affiliations": [
-            "National Subsea Centre",
-            "Robert Gordon University"
-          ],
+          "affiliations": ["National Subsea Centre", "Robert Gordon University"],
           "orcid": "0000-0003-1003-7504"
         },
         {
           "name": "Lee Ashley Christie",
-          "affiliations": [
-            "National Subsea Centre",
-            "Robert Gordon University"
-          ],
+          "affiliations": ["National Subsea Centre", "Robert Gordon University"],
           "orcid": "0000-0001-8878-0344"
         }
       ]
@@ -4418,44 +3500,32 @@
       "authors": [
         {
           "name": "Xin-Yu Wang",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0004-9097-8797"
         },
         {
           "name": "Qi-Te Yang",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0001-5430-7073"
         },
         {
           "name": "Zhi-Hui Zhan",
-          "affiliations": [
-            "Nankai University"
-          ],
+          "affiliations": ["Nankai University"],
           "orcid": "0000-0003-0862-0514"
         },
         {
           "name": "Jibin Wu",
-          "affiliations": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "affiliations": ["The Hong Kong Polytechnic University"],
           "orcid": null
         },
         {
           "name": "Kay Chen Tan",
-          "affiliations": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "affiliations": ["The Hong Kong Polytechnic University"],
           "orcid": "0000-0002-6802-2463"
         },
         {
           "name": "Jun Zhang",
-          "affiliations": [
-            "Nankai University"
-          ],
+          "affiliations": ["Nankai University"],
           "orcid": "0000-0001-7835-9871"
         }
       ]
@@ -4468,16 +3538,12 @@
       "authors": [
         {
           "name": "Wolfgang Banzhaf",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0002-6382-3245"
         },
         {
           "name": "Illya Bakurov",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0002-6458-942X"
         }
       ]
@@ -4490,30 +3556,22 @@
       "authors": [
         {
           "name": "Hongjie Xu",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0009-0009-6185-5962"
         },
         {
           "name": "Yunzhuang Shen",
-          "affiliations": [
-            "University of Technology Sydney"
-          ],
+          "affiliations": ["University of Technology Sydney"],
           "orcid": "0000-0002-4681-1170"
         },
         {
           "name": "Yuan Sun",
-          "affiliations": [
-            "La Trobe University"
-          ],
+          "affiliations": ["La Trobe University"],
           "orcid": "0000-0003-2911-0070"
         },
         {
           "name": "Xiaodong Li",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-0346-1526"
         }
       ]
@@ -4526,39 +3584,27 @@
       "authors": [
         {
           "name": "Kento Uchida",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4179-6020"
         },
         {
           "name": "Ryoki Hamano",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4425-1683"
         },
         {
           "name": "Masahiro Nomura",
-          "affiliations": [
-            "CyberAgent",
-            "Inc."
-          ],
+          "affiliations": ["CyberAgent", "Inc."],
           "orcid": "0000-0002-4945-5984"
         },
         {
           "name": "Shota Saito",
-          "affiliations": [
-            "Yokohama National University",
-            "SKILLUP NeXt Ltd."
-          ],
+          "affiliations": ["Yokohama National University", "SKILLUP NeXt Ltd."],
           "orcid": "0000-0002-9863-6765"
         },
         {
           "name": "Shinichi Shirakawa",
-          "affiliations": [
-            "Yokohama National University"
-          ],
+          "affiliations": ["Yokohama National University"],
           "orcid": "0000-0002-4659-6108"
         }
       ]
@@ -4571,37 +3617,27 @@
       "authors": [
         {
           "name": "Hengzhe Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-2254-8304"
         },
         {
           "name": "Qi Chen",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0001-9367-4757"
         },
         {
           "name": "Bing Xue",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0002-4865-8026"
         },
         {
           "name": "Wolfgang Banzhaf",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0002-6382-3245"
         },
         {
           "name": "Mengjie Zhang",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-4463-9538"
         }
       ]
@@ -4614,37 +3650,27 @@
       "authors": [
         {
           "name": "Saba Sadeghi Ahouei",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0001-5307-2567"
         },
         {
           "name": "Jacob de Nobel",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0003-1169-1962"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         },
         {
           "name": "Thomas Bäck",
-          "affiliations": [
-            "Leiden University"
-          ],
+          "affiliations": ["Leiden University"],
           "orcid": "0000-0001-6768-1478"
         }
       ]
@@ -4657,37 +3683,27 @@
       "authors": [
         {
           "name": "Zeyuan Ma",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0001-6216-9379"
         },
         {
           "name": "Jiacheng Chen",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0002-7539-6156"
         },
         {
           "name": "Hongshu Guo",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0001-8063-8984"
         },
         {
           "name": "Yining Ma",
-          "affiliations": [
-            "National University of Singapore"
-          ],
+          "affiliations": ["National University of Singapore"],
           "orcid": "0000-0002-6639-8547"
         },
         {
           "name": "Yue-Jiao Gong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0002-5648-1160"
         }
       ]
@@ -4700,30 +3716,22 @@
       "authors": [
         {
           "name": "Jiang Zhu",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0009-0004-7037-382X"
         },
         {
           "name": "Hong Zhao",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-4031-8609"
         },
         {
           "name": "He Yu",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0009-0003-0980-9316"
         },
         {
           "name": "Jing Liu",
-          "affiliations": [
-            "Xidian University"
-          ],
+          "affiliations": ["Xidian University"],
           "orcid": "0000-0002-6834-5350"
         }
       ]
@@ -4736,23 +3744,17 @@
       "authors": [
         {
           "name": "Johannes Lengler",
-          "affiliations": [
-            "ETH Zurich"
-          ],
+          "affiliations": ["ETH Zurich"],
           "orcid": "0000-0003-0004-7629"
         },
         {
           "name": "Leon Schiller",
-          "affiliations": [
-            "ETH Zurich"
-          ],
+          "affiliations": ["ETH Zurich"],
           "orcid": "0000-0001-7315-237X"
         },
         {
           "name": "Oliver Sieberling",
-          "affiliations": [
-            "ETH Zurich"
-          ],
+          "affiliations": ["ETH Zurich"],
           "orcid": "0009-0008-4682-903X"
         }
       ]
@@ -4765,23 +3767,17 @@
       "authors": [
         {
           "name": "Najwa Kouka",
-          "affiliations": [
-            "Università degli Studi di Milano Dipartimento di Informatica"
-          ],
+          "affiliations": ["Università degli Studi di Milano Dipartimento di Informatica"],
           "orcid": "0000-0002-6764-1588"
         },
         {
           "name": "Pierangela Samarati",
-          "affiliations": [
-            "Università degli Studi di Milano Dipartimento di Informatica"
-          ],
+          "affiliations": ["Università degli Studi di Milano Dipartimento di Informatica"],
           "orcid": "0000-0001-7395-4620"
         },
         {
           "name": "Vincenzo Piuri",
-          "affiliations": [
-            "Università degli Studi di Milano Dipartimento di Informatica"
-          ],
+          "affiliations": ["Università degli Studi di Milano Dipartimento di Informatica"],
           "orcid": "0000-0003-3178-8198"
         }
       ]
@@ -4794,30 +3790,22 @@
       "authors": [
         {
           "name": "María Inés Riveros",
-          "affiliations": [
-            "Universidad Técnica Federico Santa María"
-          ],
+          "affiliations": ["Universidad Técnica Federico Santa María"],
           "orcid": "0009-0001-3350-4526"
         },
         {
           "name": "Nicolas Rojas-Morales",
-          "affiliations": [
-            "Universidad Técnica Federico Santa María"
-          ],
+          "affiliations": ["Universidad Técnica Federico Santa María"],
           "orcid": "0000-0001-7662-1397"
         },
         {
           "name": "Elizabeth Montero",
-          "affiliations": [
-            "Universidad Técnica Federico Santa María"
-          ],
+          "affiliations": ["Universidad Técnica Federico Santa María"],
           "orcid": "0000-0002-1690-3875"
         },
         {
           "name": "Gabriela Ochoa",
-          "affiliations": [
-            "University of Stirling"
-          ],
+          "affiliations": ["University of Stirling"],
           "orcid": "0000-0001-7649-5669"
         }
       ]
@@ -4830,23 +3818,17 @@
       "authors": [
         {
           "name": "Johannes Lengler",
-          "affiliations": [
-            "ETH Zurich"
-          ],
+          "affiliations": ["ETH Zurich"],
           "orcid": "0000-0003-0004-7629"
         },
         {
           "name": "Andre Opris",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-7730-7831"
         },
         {
           "name": "Dirk Sudholt",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0001-6020-1646"
         }
       ]
@@ -4885,23 +3867,17 @@
       "authors": [
         {
           "name": "Xiankun Yan",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2309-8034"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         }
       ]
@@ -4914,23 +3890,17 @@
       "authors": [
         {
           "name": "Jiahao Wen",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0006-7680-8876"
         },
         {
           "name": "Junlan Dong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0003-0202-5167"
         },
         {
           "name": "Jinghui Zhong",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0003-0113-3430"
         }
       ]
@@ -4943,44 +3913,32 @@
       "authors": [
         {
           "name": "Angus Kenny",
-          "affiliations": [
-            "The University of New South Wales"
-          ],
+          "affiliations": ["The University of New South Wales"],
           "orcid": "0000-0003-4860-9803"
         },
         {
           "name": "Tapabrata Ray",
-          "affiliations": [
-            "The University of New South Wales"
-          ],
+          "affiliations": ["The University of New South Wales"],
           "orcid": "0000-0003-1950-5917"
         },
         {
           "name": "Steffen Limmer",
-          "affiliations": [
-            "Honda Research Institute Europe GmbH"
-          ],
+          "affiliations": ["Honda Research Institute Europe GmbH"],
           "orcid": "0000-0003-2385-7886"
         },
         {
           "name": "Hemant Kumar Singh",
-          "affiliations": [
-            "The University of New South Wales"
-          ],
+          "affiliations": ["The University of New South Wales"],
           "orcid": "0000-0003-1653-232X"
         },
         {
           "name": "Tobias Rodemann",
-          "affiliations": [
-            "Honda Research Institute Europe GmbH"
-          ],
+          "affiliations": ["Honda Research Institute Europe GmbH"],
           "orcid": "0000-0001-6256-0060"
         },
         {
           "name": "Markus Olhofer",
-          "affiliations": [
-            "Honda Research Institute Europe GmbH"
-          ],
+          "affiliations": ["Honda Research Institute Europe GmbH"],
           "orcid": "0000-0002-3062-3829"
         }
       ]
@@ -4993,9 +3951,7 @@
       "authors": [
         {
           "name": "Tanja Katharina Kaiser",
-          "affiliations": [
-            "University of Technology Nuremberg"
-          ],
+          "affiliations": ["University of Technology Nuremberg"],
           "orcid": "0000-0002-1700-5508"
         }
       ]
@@ -5008,24 +3964,17 @@
       "authors": [
         {
           "name": "Behrooz Ghasemishabankareh",
-          "affiliations": [
-            "RMIT University",
-            "JDR Software"
-          ],
+          "affiliations": ["RMIT University", "JDR Software"],
           "orcid": "0000-0002-1114-470X"
         },
         {
           "name": "Xiaodong Li",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-0346-1526"
         },
         {
           "name": "Melih Ozlen",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0001-5902-1402"
         }
       ]
@@ -5038,16 +3987,12 @@
       "authors": [
         {
           "name": "Shakiba Shahbandegan",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0002-3670-630X"
         },
         {
           "name": "Emily Dolson",
-          "affiliations": [
-            "Michigan State University"
-          ],
+          "affiliations": ["Michigan State University"],
           "orcid": "0000-0001-8616-4898"
         }
       ]
@@ -5060,37 +4005,27 @@
       "authors": [
         {
           "name": "Trinh Van Chien",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0000-0002-5675-8414"
         },
         {
           "name": "Thu Tran Anh Ngo",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0009-0002-3834-5816"
         },
         {
           "name": "Lam Hoang Nguyen",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0009-0009-7286-9825"
         },
         {
           "name": "Nguyen Thi My Binh",
-          "affiliations": [
-            "Hanoi University of Industry"
-          ],
+          "affiliations": ["Hanoi University of Industry"],
           "orcid": "0000-0002-6573-4641"
         },
         {
           "name": "Huynh Thi Thanh Binh",
-          "affiliations": [
-            "Hanoi University of Science and Technology"
-          ],
+          "affiliations": ["Hanoi University of Science and Technology"],
           "orcid": "0000-0003-1976-6113"
         }
       ]
@@ -5103,16 +4038,12 @@
       "authors": [
         {
           "name": "Fan Yu",
-          "affiliations": [
-            "Central South University"
-          ],
+          "affiliations": ["Central South University"],
           "orcid": "0000-0002-6001-2121"
         },
         {
           "name": "Qun Chen",
-          "affiliations": [
-            "中南大学"
-          ],
+          "affiliations": ["中南大学"],
           "orcid": "0000-0001-6379-9479"
         }
       ]
@@ -5125,24 +4056,17 @@
       "authors": [
         {
           "name": "Christian Cintrano",
-          "affiliations": [
-            "University of Malaga"
-          ],
+          "affiliations": ["University of Malaga"],
           "orcid": "0000-0003-2346-2198"
         },
         {
           "name": "Jamal Toutouh",
-          "affiliations": [
-            "University of Malaga",
-            "MIT"
-          ],
+          "affiliations": ["University of Malaga", "MIT"],
           "orcid": "0000-0003-1152-0346"
         },
         {
           "name": "Sergio Nesmachnow",
-          "affiliations": [
-            "Universidad de la República"
-          ],
+          "affiliations": ["Universidad de la República"],
           "orcid": "0000-0002-8146-4012"
         }
       ]
@@ -5155,16 +4079,12 @@
       "authors": [
         {
           "name": "Eliad Shem-Tov",
-          "affiliations": [
-            "Ben-Gurion University"
-          ],
+          "affiliations": ["Ben-Gurion University"],
           "orcid": "0000-0002-1313-0504"
         },
         {
           "name": "Achiya Elyasaf",
-          "affiliations": [
-            "Ben-Gurion University"
-          ],
+          "affiliations": ["Ben-Gurion University"],
           "orcid": "0000-0002-4009-5353"
         }
       ]
@@ -5177,16 +4097,12 @@
       "authors": [
         {
           "name": "Georgios Andreadis",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0002-8955-5939"
         },
         {
           "name": "Tanja Alderliesten",
-          "affiliations": [
-            "Leiden University Medical Center"
-          ],
+          "affiliations": ["Leiden University Medical Center"],
           "orcid": "0000-0003-4261-7511"
         },
         {
@@ -5207,30 +4123,22 @@
       "authors": [
         {
           "name": "Sarah L. Thomson",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0001-6971-7817"
         },
         {
           "name": "Léni K. Le Goff",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0003-1749-9154"
         },
         {
           "name": "Emma Hart",
-          "affiliations": [
-            "Edinburgh Napier University"
-          ],
+          "affiliations": ["Edinburgh Napier University"],
           "orcid": "0000-0002-5405-4413"
         },
         {
           "name": "Edgar Buchanan",
-          "affiliations": [
-            "University of York"
-          ],
+          "affiliations": ["University of York"],
           "orcid": "0000-0001-6587-8808"
         }
       ]
@@ -5243,16 +4151,12 @@
       "authors": [
         {
           "name": "Jakob Bossek",
-          "affiliations": [
-            "University of Paderborn"
-          ],
+          "affiliations": ["University of Paderborn"],
           "orcid": "0000-0002-4121-4668"
         },
         {
           "name": "Christian Grimme",
-          "affiliations": [
-            "University of Münster"
-          ],
+          "affiliations": ["University of Münster"],
           "orcid": "0000-0002-8608-8773"
         }
       ]
@@ -5265,23 +4169,17 @@
       "authors": [
         {
           "name": "Matthias Kergaßner",
-          "affiliations": [
-            "University of Erlangen-Nuremberg"
-          ],
+          "affiliations": ["University of Erlangen-Nuremberg"],
           "orcid": "0000-0003-2830-2679"
         },
         {
           "name": "Oliver Keszocze",
-          "affiliations": [
-            "University of Erlangen-Nuremberg"
-          ],
+          "affiliations": ["University of Erlangen-Nuremberg"],
           "orcid": "0000-0003-2033-6153"
         },
         {
           "name": "Rolf Wanka",
-          "affiliations": [
-            "University of Erlangen-Nuremberg"
-          ],
+          "affiliations": ["University of Erlangen-Nuremberg"],
           "orcid": "0000-0002-5729-3727"
         }
       ]
@@ -5294,23 +4192,17 @@
       "authors": [
         {
           "name": "Maria Bresich",
-          "affiliations": [
-            "Vienna University of Technology"
-          ],
+          "affiliations": ["Vienna University of Technology"],
           "orcid": "0009-0000-8291-6765"
         },
         {
           "name": "Günther Raidl",
-          "affiliations": [
-            "Vienna University of Technology"
-          ],
+          "affiliations": ["Vienna University of Technology"],
           "orcid": "0000-0002-3293-177X"
         },
         {
           "name": "Steffen Limmer",
-          "affiliations": [
-            "Honda Research Institute Europe GmbH"
-          ],
+          "affiliations": ["Honda Research Institute Europe GmbH"],
           "orcid": "0000-0003-2385-7886"
         }
       ]
@@ -5349,25 +4241,17 @@
       "authors": [
         {
           "name": "Benjamin Doerr",
-          "affiliations": [
-            "Ecole Polytechnique",
-            "Laboratoire d'Informatique (LIX)"
-          ],
+          "affiliations": ["Ecole Polytechnique", "Laboratoire d'Informatique (LIX)"],
           "orcid": "0000-0002-9786-220X"
         },
         {
           "name": "Martin S. Krejca",
-          "affiliations": [
-            "École Polytechnique",
-            "Laboratoire d'Informatique (LIX)"
-          ],
+          "affiliations": ["École Polytechnique", "Laboratoire d'Informatique (LIX)"],
           "orcid": "0000-0002-1765-1219"
         },
         {
           "name": "Nguyen Vu",
-          "affiliations": [
-            "École Polytechnique"
-          ],
+          "affiliations": ["École Polytechnique"],
           "orcid": "0000-0001-6829-7136"
         }
       ]
@@ -5380,30 +4264,22 @@
       "authors": [
         {
           "name": "Alexa A. Woodward",
-          "affiliations": [
-            "Optum Life Sciences"
-          ],
+          "affiliations": ["Optum Life Sciences"],
           "orcid": "0000-0003-0475-251X"
         },
         {
           "name": "Harsh Bandhey",
-          "affiliations": [
-            "Cedars-Sinai Medical Center"
-          ],
+          "affiliations": ["Cedars-Sinai Medical Center"],
           "orcid": "0000-0002-4113-0616"
         },
         {
           "name": "Jason H. Moore",
-          "affiliations": [
-            "Cedars-Sinai Medical Center"
-          ],
+          "affiliations": ["Cedars-Sinai Medical Center"],
           "orcid": "0000-0002-5015-1099"
         },
         {
           "name": "Ryan J. Urbanowicz",
-          "affiliations": [
-            "Cedars-SiCnai Medical Center"
-          ],
+          "affiliations": ["Cedars-SiCnai Medical Center"],
           "orcid": "0000-0002-0487-5555"
         }
       ]
@@ -5466,16 +4342,12 @@
       "authors": [
         {
           "name": "Gaurav Dixit",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0000-0003-4553-8405"
         },
         {
           "name": "Kagan Tumer",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0007-3809-7257"
         }
       ]
@@ -5488,30 +4360,22 @@
       "authors": [
         {
           "name": "Yang Nan",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-8396-294X"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         },
         {
           "name": "Tianye Shu",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0002-7673-3943"
         },
         {
           "name": "Ke Shang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0003-2363-9504"
         }
       ]
@@ -5532,23 +4396,17 @@
         },
         {
           "name": "Lie Meng Pang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-7037-1630"
         },
         {
           "name": "Qingfu Zhang",
-          "affiliations": [
-            "City University of Hong Kong"
-          ],
+          "affiliations": ["City University of Hong Kong"],
           "orcid": "0000-0003-0786-0671"
         },
         {
           "name": "Hisao Ishibuchi",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9186-6472"
         }
       ]
@@ -5561,16 +4419,12 @@
       "authors": [
         {
           "name": "Jeremy Porter",
-          "affiliations": [
-            "Dalhousie University"
-          ],
+          "affiliations": ["Dalhousie University"],
           "orcid": "0009-0000-1185-7710"
         },
         {
           "name": "Dirk V. Arnold",
-          "affiliations": [
-            "Dalhousie University"
-          ],
+          "affiliations": ["Dalhousie University"],
           "orcid": "0000-0001-5367-6862"
         }
       ]
@@ -5583,23 +4437,17 @@
       "authors": [
         {
           "name": "Andrew Festa",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0007-3416-0140"
         },
         {
           "name": "Guarav Dixit",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": null
         },
         {
           "name": "Kagan Tumer",
-          "affiliations": [
-            "Oregon State University"
-          ],
+          "affiliations": ["Oregon State University"],
           "orcid": "0009-0007-3809-7257"
         }
       ]
@@ -5612,16 +4460,12 @@
       "authors": [
         {
           "name": "Kazuaki Harada",
-          "affiliations": [
-            "The University of Tokyo"
-          ],
+          "affiliations": ["The University of Tokyo"],
           "orcid": "0009-0008-2558-0642"
         },
         {
           "name": "Hitoshi Iba",
-          "affiliations": [
-            "The University of Tokyo"
-          ],
+          "affiliations": ["The University of Tokyo"],
           "orcid": "0000-0003-1607-1690"
         }
       ]
@@ -5634,51 +4478,37 @@
       "authors": [
         {
           "name": "Steven Jorgensen",
-          "affiliations": [
-            "MIT"
-          ],
+          "affiliations": ["MIT"],
           "orcid": "0000-0002-7782-0969"
         },
         {
           "name": "Giorgia Nadizar",
-          "affiliations": [
-            "University of Trieste"
-          ],
+          "affiliations": ["University of Trieste"],
           "orcid": "0000-0002-3535-9748"
         },
         {
           "name": "Gloria Pietropolli",
-          "affiliations": [
-            "University of Trieste"
-          ],
+          "affiliations": ["University of Trieste"],
           "orcid": "0000-0001-7623-8419"
         },
         {
           "name": "Luca Manzoni",
-          "affiliations": [
-            "University of Trieste"
-          ],
+          "affiliations": ["University of Trieste"],
           "orcid": "0000-0001-6312-7728"
         },
         {
           "name": "Eric Medvet",
-          "affiliations": [
-            "University of Trieste"
-          ],
+          "affiliations": ["University of Trieste"],
           "orcid": "0000-0001-5652-2113"
         },
         {
           "name": "Una-May O'Reilly",
-          "affiliations": [
-            "MIT"
-          ],
+          "affiliations": ["MIT"],
           "orcid": "0000-0001-6923-8445"
         },
         {
           "name": "Erik Hemberg",
-          "affiliations": [
-            "MIT"
-          ],
+          "affiliations": ["MIT"],
           "orcid": "0000-0002-2153-3506"
         }
       ]
@@ -5691,23 +4521,17 @@
       "authors": [
         {
           "name": "Xiao-Cheng Liao",
-          "affiliations": [
-            "Victoria University Wellington"
-          ],
+          "affiliations": ["Victoria University Wellington"],
           "orcid": "0009-0001-6992-8339"
         },
         {
           "name": "Yi Mei",
-          "affiliations": [
-            "Victoria University Wellington"
-          ],
+          "affiliations": ["Victoria University Wellington"],
           "orcid": "0000-0003-0682-1363"
         },
         {
           "name": "Mengjie Zhang",
-          "affiliations": [
-            "Victoria University Wellington"
-          ],
+          "affiliations": ["Victoria University Wellington"],
           "orcid": "0000-0003-4463-9538"
         }
       ]
@@ -5720,37 +4544,27 @@
       "authors": [
         {
           "name": "Lishuang Wang",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0009-2374-8699"
         },
         {
           "name": "Mengfei Zhao",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0002-1653-8553"
         },
         {
           "name": "Enyu Liu",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0008-5645-8578"
         },
         {
           "name": "Kebin Sun",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0009-0008-9213-7835"
         },
         {
           "name": "Ran Cheng",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9410-8263"
         }
       ]
@@ -5763,29 +4577,17 @@
       "authors": [
         {
           "name": "Mathilde Chen",
-          "affiliations": [
-            "UMR 518 MIA-PS",
-            "INRAE",
-            "Université Paris-Saclay"
-          ],
+          "affiliations": ["UMR 518 MIA-PS", "INRAE", "Université Paris-Saclay"],
           "orcid": "0000-0002-5982-2143"
         },
         {
           "name": "David Makowski",
-          "affiliations": [
-            "UMR 518 MIA-PS",
-            "INRAE",
-            "Université Paris-Saclay"
-          ],
+          "affiliations": ["UMR 518 MIA-PS", "INRAE", "Université Paris-Saclay"],
           "orcid": "0000-0001-6385-3703"
         },
         {
           "name": "Alberto Tonda",
-          "affiliations": [
-            "UMR 518 MIA-PS",
-            "INRAE",
-            "Université Paris-Saclay"
-          ],
+          "affiliations": ["UMR 518 MIA-PS", "INRAE", "Université Paris-Saclay"],
           "orcid": "0000-0001-5895-4809"
         }
       ]
@@ -5798,37 +4600,27 @@
       "authors": [
         {
           "name": "Adel Nikfarjam",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-6928-1029"
         },
         {
           "name": "Ty Stanford",
-          "affiliations": [
-            "The University of South Australia"
-          ],
+          "affiliations": ["The University of South Australia"],
           "orcid": "0000-0002-8570-5493"
         },
         {
           "name": "Aneta Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-0036-4782"
         },
         {
           "name": "Dorothea Dumuid",
-          "affiliations": [
-            "The University of South Australia"
-          ],
+          "affiliations": ["The University of South Australia"],
           "orcid": "0000-0003-3057-0963"
         },
         {
           "name": "Frank Neumann",
-          "affiliations": [
-            "The University of Adelaide"
-          ],
+          "affiliations": ["The University of Adelaide"],
           "orcid": "0000-0002-2721-3618"
         }
       ]
@@ -5841,23 +4633,17 @@
       "authors": [
         {
           "name": "Jiyuan Pei",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-9860-5160"
         },
         {
           "name": "Jialin Liu",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-7047-8454"
         },
         {
           "name": "Yi Mei",
-          "affiliations": [
-            "Victoria University of Wellington"
-          ],
+          "affiliations": ["Victoria University of Wellington"],
           "orcid": "0000-0003-0682-1363"
         }
       ]
@@ -5870,23 +4656,17 @@
       "authors": [
         {
           "name": "Jakob Baumann",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-2594-3828"
         },
         {
           "name": "Ignaz Rutter",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-3794-4406"
         },
         {
           "name": "Dirk Sudholt",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0001-6020-1646"
         }
       ]
@@ -5899,23 +4679,17 @@
       "authors": [
         {
           "name": "Duc-Cuong Dang",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-6660-6625"
         },
         {
           "name": "Andre Opris",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0002-7730-7831"
         },
         {
           "name": "Dirk Sudholt",
-          "affiliations": [
-            "University of Passau"
-          ],
+          "affiliations": ["University of Passau"],
           "orcid": "0000-0001-6020-1646"
         }
       ]
@@ -5928,23 +4702,17 @@
       "authors": [
         {
           "name": "Danial Yazdani",
-          "affiliations": [
-            "University of Technology Sydney"
-          ],
+          "affiliations": ["University of Technology Sydney"],
           "orcid": "0000-0002-7799-5013"
         },
         {
           "name": "Juergen Branke",
-          "affiliations": [
-            "University of Warwick"
-          ],
+          "affiliations": ["University of Warwick"],
           "orcid": "0000-0002-4343-5878"
         },
         {
           "name": "Mohammad Sadegh Khorshidi",
-          "affiliations": [
-            "University of Technology Sydney"
-          ],
+          "affiliations": ["University of Technology Sydney"],
           "orcid": "0000-0001-6556-2926"
         },
         {
@@ -5957,9 +4725,7 @@
         },
         {
           "name": "Xiaodong Li",
-          "affiliations": [
-            "RMIT University"
-          ],
+          "affiliations": ["RMIT University"],
           "orcid": "0000-0003-0346-1526"
         },
         {
@@ -5972,9 +4738,7 @@
         },
         {
           "name": "Xin Yao",
-          "affiliations": [
-            "Southern University of Science and Technology"
-          ],
+          "affiliations": ["Southern University of Science and Technology"],
           "orcid": "0000-0001-8837-4442"
         }
       ]
@@ -5987,51 +4751,37 @@
       "authors": [
         {
           "name": "Yong Zhang",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0009-0004-8659-3667"
         },
         {
           "name": "Ke-Jing Du",
-          "affiliations": [
-            "Victoria University"
-          ],
+          "affiliations": ["Victoria University"],
           "orcid": "0009-0007-4909-7455"
         },
         {
           "name": "Yi Jiang",
-          "affiliations": [
-            "South China University of Technology"
-          ],
+          "affiliations": ["South China University of Technology"],
           "orcid": "0000-0003-1965-0372"
         },
         {
           "name": "Jibin Wu",
-          "affiliations": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "affiliations": ["The Hong Kong Polytechnic University"],
           "orcid": null
         },
         {
           "name": "Kay Chen Tan",
-          "affiliations": [
-            "The Hong Kong Polytechnic University"
-          ],
+          "affiliations": ["The Hong Kong Polytechnic University"],
           "orcid": "0000-0002-6802-2463"
         },
         {
           "name": "Hua Wang",
-          "affiliations": [
-            "Victoria University"
-          ],
+          "affiliations": ["Victoria University"],
           "orcid": "0000-0002-8465-0996"
         },
         {
           "name": "Zhi-Hui Zhan",
-          "affiliations": [
-            "Nankai University"
-          ],
+          "affiliations": ["Nankai University"],
           "orcid": "0000-0003-0862-0514"
         }
       ]
@@ -6044,40 +4794,27 @@
       "authors": [
         {
           "name": "Paul Templier",
-          "affiliations": [
-            "University of Toulouse",
-            "ISAE-SUPAERO"
-          ],
+          "affiliations": ["University of Toulouse", "ISAE-SUPAERO"],
           "orcid": "0000-0001-8919-8639"
         },
         {
           "name": "Luca Grillotti",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0003-4539-8211"
         },
         {
           "name": "Emmanuel Rachelson",
-          "affiliations": [
-            "University of Toulouse",
-            "ISAE-SUPAERO"
-          ],
+          "affiliations": ["University of Toulouse", "ISAE-SUPAERO"],
           "orcid": "0000-0002-8559-1617"
         },
         {
           "name": "Dennis George Wilson",
-          "affiliations": [
-            "University of Toulouse",
-            "ISAE-SUPAERO"
-          ],
+          "affiliations": ["University of Toulouse", "ISAE-SUPAERO"],
           "orcid": "0000-0003-2414-0051"
         },
         {
           "name": "Antoine Cully",
-          "affiliations": [
-            "Imperial College London"
-          ],
+          "affiliations": ["Imperial College London"],
           "orcid": "0000-0002-3190-7073"
         }
       ]
