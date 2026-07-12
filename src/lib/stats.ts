@@ -49,6 +49,28 @@ export function topInstitutions(papers: Paper[], limit: number): RankedItem[] {
   return rank(counts).slice(0, limit)
 }
 
+/** Canonical institution -> sorted, de-duplicated names of its affiliated authors. */
+export function institutionMembers(papers: Paper[]): Map<string, string[]> {
+  const members = new Map<string, Set<string>>()
+  for (const paper of papers) {
+    for (const author of paper.authors) {
+      for (const affiliation of author.affiliations) {
+        const institution = canonicalInstitution(affiliation)
+        if (institution === null) continue
+        const names = members.get(institution) ?? new Set<string>()
+        names.add(author.name)
+        members.set(institution, names)
+      }
+    }
+  }
+  return new Map(
+    [...members.entries()].map(([institution, names]) => [
+      institution,
+      [...names].sort((a, b) => a.localeCompare(b)),
+    ]),
+  )
+}
+
 export function teamSizeDistribution(papers: Paper[]): RankedItem[] {
   const counts = new Map<number, number>()
   for (const paper of papers) {

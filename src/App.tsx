@@ -7,6 +7,7 @@ import { YearSummary } from './components/YearSummary'
 import { DEFAULT_YEAR, YEARS, datasets, isYear } from './lib/data'
 import type { Year } from './lib/data'
 import {
+  institutionMembers,
   papersByTrack,
   teamSizeDistribution,
   topAuthors,
@@ -58,6 +59,8 @@ export default function App() {
     }),
     [papers, year],
   )
+
+  const membersByInstitution = useMemo(() => institutionMembers(papers), [papers])
 
   const orcidByAuthor = useMemo(() => {
     const map = new Map<string, string>()
@@ -136,7 +139,7 @@ export default function App() {
           <div className="card">
             <h2 className="card-title">Most prolific authors</h2>
             <p className="card-subtitle">
-              Papers co-authored, top {TOP_N}; names link to their ORCID record
+              Papers co-authored, top {TOP_N}
             </p>
             <BarList
               items={stats.authors}
@@ -146,9 +149,13 @@ export default function App() {
           <div className="card">
             <h2 className="card-title">Leading institutions</h2>
             <p className="card-subtitle">
-              Papers with at least one author from the institution, top {TOP_N}
+              Papers with at least one author from the institution, top {TOP_N}; hover for its
+              authors
             </p>
-            <BarList items={stats.institutions} />
+            <BarList
+              items={stats.institutions}
+              labelTitle={(name) => membersByInstitution.get(name)?.join(', ')}
+            />
           </div>
           <div className="card">
             <h2 className="card-title">Leading countries</h2>
