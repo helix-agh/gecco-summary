@@ -11,6 +11,7 @@ import {
   uniqueAuthorCount,
   uniqueInstitutionCount,
 } from './lib/stats'
+import { scholarUrl } from './lib/scholar'
 import { trackName } from './lib/tracks'
 
 const TOP_N = 10
@@ -42,7 +43,13 @@ export default function App() {
               searchable by track, author, and institution, with links to the ACM proceedings.
             </p>
           </div>
-          <img className="site-logo" src="/logo.png" alt="GECCO 2026 logo" width="500" height="468" />
+          <img
+            className="site-logo"
+            src="/logo.png"
+            alt="GECCO 2026 logo"
+            width="500"
+            height="468"
+          />
         </div>
       </header>
 
@@ -72,8 +79,10 @@ export default function App() {
           </div>
           <div className="card">
             <h2 className="card-title">Most prolific authors</h2>
-            <p className="card-subtitle">Papers co-authored, top {TOP_N}</p>
-            <BarList items={stats.authors} />
+            <p className="card-subtitle">
+              Papers co-authored, top {TOP_N}; names link to Google Scholar
+            </p>
+            <BarList items={stats.authors} labelHref={scholarUrl} />
           </div>
           <div className="card">
             <h2 className="card-title">Leading institutions</h2>
@@ -88,7 +97,7 @@ export default function App() {
           <h2 className="card-title">All papers</h2>
           <p className="card-subtitle">
             Titles link to the ACM Digital Library ({meta.doiMatched} of {meta.paperCount}{' '}
-            matched); hover an author for their affiliation
+            matched); author names link to Google Scholar, hover one for their affiliation
           </p>
           <PapersTable papers={papers} />
         </section>

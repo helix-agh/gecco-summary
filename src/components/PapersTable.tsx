@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { scholarUrl } from '../lib/scholar'
 import { trackName } from '../lib/tracks'
 import type { Paper } from '../types'
 
@@ -105,9 +106,15 @@ export function PapersTable({ papers }: PapersTableProps) {
                   {paper.authors.map((author, index) => (
                     <span key={author.name}>
                       {index > 0 && ', '}
-                      <span className="author-name" title={author.affiliations.join(', ')}>
+                      <a
+                        className="author-name"
+                        href={scholarUrl(author.name)}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={author.affiliations.join(', ')}
+                      >
                         {author.name}
-                      </span>
+                      </a>
                     </span>
                   ))}
                 </td>
