@@ -1,4 +1,8 @@
 dist/
 node_modules/
-src/data/papers.json
 package-lock.json
+
+# Generated data files
+src/data/papers.json
+src/data/countries*.json
+scripts/countries-*.json

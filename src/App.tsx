@@ -138,9 +138,7 @@ export default function App() {
           </div>
           <div className="card">
             <h2 className="card-title">Most prolific authors</h2>
-            <p className="card-subtitle">
-              Papers co-authored, top {TOP_N}
-            </p>
+            <p className="card-subtitle">Papers co-authored, top {TOP_N}</p>
             <BarList
               items={stats.authors}
               labelHref={(name) => authorUrl(name, orcidByAuthor.get(name))}
@@ -166,9 +164,7 @@ export default function App() {
           </div>
           <div className="card">
             <h2 className="card-title">By continent</h2>
-            <p className="card-subtitle">
-              Papers with at least one author from the continent
-            </p>
+            <p className="card-subtitle">Papers with at least one author from the continent</p>
             <BarList items={stats.continents} />
           </div>
         </section>
