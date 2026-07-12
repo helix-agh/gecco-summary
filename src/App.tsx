@@ -13,6 +13,7 @@ import {
   uniqueAuthorCount,
   uniqueInstitutionCount,
 } from './lib/stats'
+import { papersByContinent, papersByCountry, uniqueCountryCount } from './lib/countries'
 import { authorUrl } from './lib/scholar'
 import { trackName } from './lib/tracks'
 
@@ -50,8 +51,11 @@ export default function App() {
       teamSizes: teamSizeDistribution(papers),
       authorCount: uniqueAuthorCount(papers),
       institutionCount: uniqueInstitutionCount(papers),
+      countries: papersByCountry(papers, year, TOP_N),
+      continents: papersByContinent(papers, year),
+      countryCount: uniqueCountryCount(papers, year),
     }),
-    [papers],
+    [papers, year],
   )
 
   const orcidByAuthor = useMemo(() => {
@@ -106,6 +110,7 @@ export default function App() {
           <StatTile label="Accepted papers" value={papers.length} />
           <StatTile label="Authors" value={stats.authorCount} />
           <StatTile label="Institutions" value={stats.institutionCount} />
+          <StatTile label="Countries" value={stats.countryCount} />
           <StatTile label="Tracks" value={stats.tracks.length} />
         </section>
 
@@ -141,6 +146,20 @@ export default function App() {
               Papers with at least one author from the institution, top {TOP_N}
             </p>
             <BarList items={stats.institutions} />
+          </div>
+          <div className="card">
+            <h2 className="card-title">Leading countries</h2>
+            <p className="card-subtitle">
+              Papers with at least one author from the country, top {TOP_N}
+            </p>
+            <BarList items={stats.countries} />
+          </div>
+          <div className="card">
+            <h2 className="card-title">By continent</h2>
+            <p className="card-subtitle">
+              Papers with at least one author from the continent
+            </p>
+            <BarList items={stats.continents} />
           </div>
         </section>
 
