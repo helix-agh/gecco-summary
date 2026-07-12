@@ -147,8 +147,9 @@ export function TopicMap({ year, papers }: TopicMapProps) {
                 cy={py(point.y)}
                 r={hovered === index || neighborSet.has(index) ? DOT_RADIUS + 2 : DOT_RADIUS}
                 fill={pointColor(point)}
-                className={`topic-map-dot${isDimmed(point) ? ' is-dimmed' : ''}${neighborSet.has(index) ? ' is-neighbor' : ''
-                  }`}
+                className={`topic-map-dot${isDimmed(point) ? ' is-dimmed' : ''}${
+                  neighborSet.has(index) ? ' is-neighbor' : ''
+                }`}
                 onMouseEnter={() => {
                   setHovered(index)
                 }}
@@ -171,8 +172,9 @@ export function TopicMap({ year, papers }: TopicMapProps) {
             style={{
               left: `${((px(hoveredPoint.x) / WIDTH) * 100).toFixed(2)}%`,
               top: `${((py(hoveredPoint.y) / HEIGHT) * 100).toFixed(2)}%`,
-              transform: `translate(${px(hoveredPoint.x) > WIDTH / 2 ? '-100%' : '12px'}, ${py(hoveredPoint.y) > HEIGHT / 2 ? 'calc(-100% - 12px)' : '12px'
-                })`,
+              transform: `translate(${px(hoveredPoint.x) > WIDTH / 2 ? '-100%' : '12px'}, ${
+                py(hoveredPoint.y) > HEIGHT / 2 ? 'calc(-100% - 12px)' : '12px'
+              })`,
             }}
           >
             <p className="topic-map-tip-title">{hoveredPoint.title}</p>
@@ -204,8 +206,9 @@ export function TopicMap({ year, papers }: TopicMapProps) {
           <button
             key={entry.key}
             type="button"
-            className={`legend-chip${focused === entry.key ? ' is-active' : ''}${focused !== null && focused !== entry.key ? ' is-muted' : ''
-              }`}
+            className={`legend-chip${focused === entry.key ? ' is-active' : ''}${
+              focused !== null && focused !== entry.key ? ' is-muted' : ''
+            }`}
             onClick={() => {
               setFocused(focused === entry.key ? null : entry.key)
             }}

@@ -119,7 +119,9 @@ export default function App() {
         <section className="card-grid">
           <div className="card">
             <h2 className="card-title">Papers by track</h2>
-            <p className="card-subtitle">Top {TOP_N}; hover a track acronym for its full name</p>
+            <p className="card-subtitle">
+              Top {TOP_N}; hover a track acronym for its full name
+            </p>
             <BarList items={stats.tracks.slice(0, TOP_N)} labelTitle={trackName} />
           </div>
           <div className="card">

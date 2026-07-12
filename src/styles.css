@@ -17,8 +17,7 @@
   --panel-line: rgba(25, 23, 19, 0.12);
   --focus: rgba(181, 72, 42, 0.4);
   --shadow: none;
-  --font-display:
-    'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
 }
 
 * {
