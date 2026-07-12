@@ -79,10 +79,6 @@ export default function App() {
           <div>
             <p className="site-kicker">{meta.conference}</p>
             <h1 className="site-title">Accepted Papers Explorer</h1>
-            <p className="site-subtitle">
-              Every full paper accepted at the Genetic and Evolutionary Computation Conference —
-              searchable by track, author, and institution, with links to the ACM proceedings.
-            </p>
             <div className="year-switch" role="group" aria-label="Conference year">
               {YEARS.map((option) => (
                 <button
@@ -123,8 +119,8 @@ export default function App() {
         <section className="card-grid">
           <div className="card">
             <h2 className="card-title">Papers by track</h2>
-            <p className="card-subtitle">Hover a track acronym for its full name</p>
-            <BarList items={stats.tracks} labelTitle={trackName} />
+            <p className="card-subtitle">Top {TOP_N}; hover a track acronym for its full name</p>
+            <BarList items={stats.tracks.slice(0, TOP_N)} labelTitle={trackName} />
           </div>
           <div className="card">
             <h2 className="card-title">Team size</h2>
@@ -171,11 +167,6 @@ export default function App() {
 
         <section className="card" style={{ marginBottom: 16 }}>
           <h2 className="card-title">Topic map</h2>
-          <p className="card-subtitle">
-            Every paper embedded from its title and abstract, laid out so similar work sits
-            together — topics emerge from the text, not the submission tracks. Hover a point for
-            details, click it to open the paper, click a legend chip to isolate a group.
-          </p>
           <TopicMap key={year} year={year} papers={papers} />
         </section>
 

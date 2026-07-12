@@ -10,25 +10,27 @@ export const topicsByYear: Record<Year, Topics> = {
   2026: topics2026,
 }
 
-/** Categorical palette validated for CVD separation and chroma on the white
- *  card surface (dataviz six-checks validator; three slots are sub-3:1 on
- *  white, which the always-visible hull labels and papers table relieve).
- *  Slot order is the colorblind-safety mechanism — never reorder or cycle. */
+/** Warm, editorial categorical palette tuned to the site's clay/ivory system —
+ *  it opens on terracotta to echo the brand accent. Validated by the dataviz
+ *  six-checks (light, white card surface): passes chroma floor, contrast ≥ 3:1
+ *  on every slot, and adjacent CVD separation; the legend chips supply the
+ *  labels that back the categorical encoding. Hue order alternates warm/cool so
+ *  neighbouring cluster ids stay distinct — never reorder or cycle. */
 export const CLUSTER_COLORS = [
-  '#2a78d6',
-  '#1baf7a',
-  '#eda100',
-  '#008300',
-  '#4a3aa7',
-  '#e34948',
-  '#e87ba4',
-  '#eb6834',
-  '#0089a3',
-  '#a3571f',
+  '#bd5a3c',
+  '#0097ac',
+  '#b07d12',
+  '#3f66ac',
+  '#6f8a2e',
+  '#a8407a',
+  '#2f8a5f',
+  '#9a5518',
+  '#6b4aa8',
+  '#c23b34',
 ]
 
-/** Entities beyond the palette fold into a neutral "other" gray. */
-export const FOLD_COLOR = '#8a8f98'
+/** Entities beyond the palette fold into a neutral warm "other" gray. */
+export const FOLD_COLOR = '#9a938a'
 
 export function clusterColor(cluster: number): string {
   return CLUSTER_COLORS[cluster] ?? FOLD_COLOR

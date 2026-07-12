@@ -3,6 +3,8 @@ import type { Year } from './data'
 export interface YearSummary {
   /** Host city and country, as shown in the location badge. */
   location: string
+  /** Flag emoji of the host country, shown before the location. */
+  flag: string
   /** Attendance format, e.g. "Hybrid" or "In person". */
   format: string
   /** One-line framing of the edition's overall character. */
@@ -21,6 +23,7 @@ export interface YearSummary {
 export const SUMMARIES: Record<Year, YearSummary> = {
   2024: {
     location: 'Melbourne, Australia',
+    flag: '🇦🇺',
     format: 'Hybrid',
     headline: 'GECCO reaches the Southern Hemisphere for the first time.',
     overview:
@@ -37,6 +40,7 @@ export const SUMMARIES: Record<Year, YearSummary> = {
   },
   2025: {
     location: 'Málaga, Spain',
+    flag: '🇪🇸',
     format: 'Hybrid',
     headline: 'Learning-driven search consolidates across every track.',
     overview:
@@ -52,6 +56,7 @@ export const SUMMARIES: Record<Year, YearSummary> = {
   },
   2026: {
     location: 'San José, Costa Rica',
+    flag: '🇨🇷',
     format: 'In person',
     headline: 'Large language models become a first-class evolutionary tool.',
     overview:

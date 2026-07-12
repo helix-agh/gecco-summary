@@ -1,11 +1,5 @@
 import { useMemo, useState } from 'react'
-import {
-  FOLD_COLOR,
-  clusterColor,
-  joinTopicPapers,
-  topicsByYear,
-  trackColors,
-} from '../lib/topics'
+import { clusterColor, joinTopicPapers, topicsByYear } from '../lib/topics'
 import { trackName } from '../lib/tracks'
 import type { MapPoint } from '../lib/topics'
 import type { Year } from '../lib/data'
@@ -15,8 +9,6 @@ const WIDTH = 1000
 const HEIGHT = 620
 const PAD = 52
 const DOT_RADIUS = 7
-
-type ColorBy = 'topic' | 'track'
 
 interface TopicMapProps {
   year: Year
@@ -67,13 +59,11 @@ function clusterLabel(topics: Topics, id: number): string {
 }
 
 export function TopicMap({ year, papers }: TopicMapProps) {
-  const [colorBy, setColorBy] = useState<ColorBy>('topic')
   const [hovered, setHovered] = useState<number | null>(null)
   const [focused, setFocused] = useState<string | null>(null)
 
   const topics = topicsByYear[year]
   const points = useMemo(() => joinTopicPapers(topics, papers), [topics, papers])
-  const trackColor = useMemo(() => trackColors(papers), [papers])
 
   const clusters = useMemo(() => {
     const members = new Map<number, MapPoint[]>()
@@ -91,41 +81,23 @@ export function TopicMap({ year, papers }: TopicMapProps) {
           label: clusterLabel(topics, id),
           count: list.length,
           path: hullPath(pixels),
-          cx: pixels.reduce((sum, [x]) => sum + x, 0) / pixels.length,
-          cy: pixels.reduce((sum, [, y]) => sum + y, 0) / pixels.length,
         }
       })
   }, [topics, points])
 
-  const legend: { key: string; label: string; color: string; count: number }[] = useMemo(() => {
-    if (colorBy === 'topic') {
-      return clusters.map((cluster) => ({
+  const legend = useMemo(
+    () =>
+      clusters.map((cluster) => ({
         key: `topic:${String(cluster.id)}`,
         label: cluster.label,
         color: clusterColor(cluster.id),
         count: cluster.count,
-      }))
-    }
-    const counts = new Map<string, number>()
-    for (const point of points) {
-      counts.set(point.paper.track, (counts.get(point.paper.track) ?? 0) + 1)
-    }
-    return [...counts.entries()]
-      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-      .map(([track, count]) => ({
-        key: `track:${track}`,
-        label: track,
-        color: trackColor.get(track) ?? FOLD_COLOR,
-        count,
-      }))
-  }, [clusters, points, trackColor, colorBy])
+      })),
+    [clusters],
+  )
 
-  const pointKey = (point: MapPoint) =>
-    colorBy === 'topic' ? `topic:${String(point.cluster)}` : `track:${point.paper.track}`
-  const pointColor = (point: MapPoint) =>
-    colorBy === 'topic'
-      ? clusterColor(point.cluster)
-      : (trackColor.get(point.paper.track) ?? FOLD_COLOR)
+  const pointKey = (point: MapPoint) => `topic:${String(point.cluster)}`
+  const pointColor = (point: MapPoint) => clusterColor(point.cluster)
   const isDimmed = (point: MapPoint) => focused !== null && pointKey(point) !== focused
 
   const hoveredPoint = hovered === null ? null : points[hovered]
@@ -133,28 +105,6 @@ export function TopicMap({ year, papers }: TopicMapProps) {
 
   return (
     <div className="topic-map">
-      <div className="table-controls">
-        <div className="segmented" role="group" aria-label="Color points by">
-          {(['topic', 'track'] as const).map((mode) => (
-            <button
-              key={mode}
-              type="button"
-              className={`segmented-option${colorBy === mode ? ' is-active' : ''}`}
-              aria-pressed={colorBy === mode}
-              onClick={() => {
-                setColorBy(mode)
-                setFocused(null)
-              }}
-            >
-              Color by {mode}
-            </button>
-          ))}
-        </div>
-        <span className="table-count">
-          {topics.meta.clusterCount} topics · {points.length} papers
-        </span>
-      </div>
-
       <div className="topic-map-canvas">
         <svg
           viewBox={`0 0 ${String(WIDTH)} ${String(HEIGHT)}`}
@@ -166,9 +116,9 @@ export function TopicMap({ year, papers }: TopicMapProps) {
               <path
                 key={cluster.id}
                 d={cluster.path}
-                fill={colorBy === 'topic' ? clusterColor(cluster.id) : FOLD_COLOR}
-                stroke={colorBy === 'topic' ? clusterColor(cluster.id) : FOLD_COLOR}
-                opacity={colorBy === 'topic' ? 0.08 : 0.05}
+                fill={clusterColor(cluster.id)}
+                stroke={clusterColor(cluster.id)}
+                opacity={0.08}
                 strokeWidth={40}
                 strokeLinejoin="round"
               />
@@ -197,9 +147,8 @@ export function TopicMap({ year, papers }: TopicMapProps) {
                 cy={py(point.y)}
                 r={hovered === index || neighborSet.has(index) ? DOT_RADIUS + 2 : DOT_RADIUS}
                 fill={pointColor(point)}
-                className={`topic-map-dot${isDimmed(point) ? ' is-dimmed' : ''}${
-                  neighborSet.has(index) ? ' is-neighbor' : ''
-                }`}
+                className={`topic-map-dot${isDimmed(point) ? ' is-dimmed' : ''}${neighborSet.has(index) ? ' is-neighbor' : ''
+                  }`}
                 onMouseEnter={() => {
                   setHovered(index)
                 }}
@@ -214,14 +163,6 @@ export function TopicMap({ year, papers }: TopicMapProps) {
               />
             ))}
           </g>
-
-          <g className="topic-map-labels" aria-hidden="true">
-            {clusters.map((cluster) => (
-              <text key={cluster.id} x={cluster.cx} y={cluster.cy}>
-                {cluster.label}
-              </text>
-            ))}
-          </g>
         </svg>
 
         {hoveredPoint && (
@@ -230,9 +171,8 @@ export function TopicMap({ year, papers }: TopicMapProps) {
             style={{
               left: `${((px(hoveredPoint.x) / WIDTH) * 100).toFixed(2)}%`,
               top: `${((py(hoveredPoint.y) / HEIGHT) * 100).toFixed(2)}%`,
-              transform: `translate(${px(hoveredPoint.x) > WIDTH / 2 ? '-100%' : '12px'}, ${
-                py(hoveredPoint.y) > HEIGHT / 2 ? 'calc(-100% - 12px)' : '12px'
-              })`,
+              transform: `translate(${px(hoveredPoint.x) > WIDTH / 2 ? '-100%' : '12px'}, ${py(hoveredPoint.y) > HEIGHT / 2 ? 'calc(-100% - 12px)' : '12px'
+                })`,
             }}
           >
             <p className="topic-map-tip-title">{hoveredPoint.title}</p>
@@ -264,13 +204,11 @@ export function TopicMap({ year, papers }: TopicMapProps) {
           <button
             key={entry.key}
             type="button"
-            className={`legend-chip${focused === entry.key ? ' is-active' : ''}${
-              focused !== null && focused !== entry.key ? ' is-muted' : ''
-            }`}
+            className={`legend-chip${focused === entry.key ? ' is-active' : ''}${focused !== null && focused !== entry.key ? ' is-muted' : ''
+              }`}
             onClick={() => {
               setFocused(focused === entry.key ? null : entry.key)
             }}
-            title={colorBy === 'track' ? trackName(entry.label) : undefined}
           >
             <span
               className="legend-dot"

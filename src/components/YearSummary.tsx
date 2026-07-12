@@ -7,17 +7,27 @@ export function YearSummary({ year }: { year: Year }) {
   return (
     <section className="summary-card" aria-label={`GECCO ${String(year)} summary`}>
       <div className="summary-head">
-        <span className="summary-badge">AI Summary</span>
+        <p className="summary-eyebrow">GECCO {year} · The year in review</p>
         <div className="summary-meta">
-          <span className="summary-location">📍 {summary.location}</span>
-          <span className="summary-format">{summary.format}</span>
+          <span className="summary-location">
+            <span className="summary-flag" aria-hidden="true">
+              {summary.flag}
+            </span>
+            {summary.location}
+          </span>
         </div>
       </div>
       <p className="summary-headline">{summary.headline}</p>
       <p className="summary-overview">{summary.overview}</p>
-      <p className="summary-key">
+      <div className="summary-key">
         <span className="summary-key-label">Most important change</span>
-        {summary.keyChange}
+        <p className="summary-key-text">{summary.keyChange}</p>
+      </div>
+      <p className="summary-attribution">
+        <span className="summary-attribution-mark" aria-hidden="true">
+          ✦
+        </span>
+        AI-written from the accepted titles and abstracts
       </p>
     </section>
   )

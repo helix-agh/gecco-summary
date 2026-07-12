@@ -8,7 +8,7 @@ interface BarListProps {
   labelHref?: (label: string) => string | undefined
 }
 
-/** Horizontal ranked bar chart: one series, direct value labels at the bar tips. */
+/** Horizontal ranked bar chart: one series, bars on a shared rail, values aligned right. */
 export function BarList({ items, labelTitle, labelHref }: BarListProps) {
   const max = Math.max(...items.map((item) => item.count), 1)
   return (
@@ -37,8 +37,8 @@ export function BarList({ items, labelTitle, labelHref }: BarListProps) {
                 className="bar-list-bar"
                 style={{ width: `${String((item.count / max) * 100)}%` }}
               />
-              <span className="bar-list-value">{item.count}</span>
             </span>
+            <span className="bar-list-value">{item.count}</span>
           </div>
         )
       })}
