@@ -172,12 +172,8 @@ export default function App() {
           <TopicMap key={year} year={year} papers={papers} />
         </section>
 
-        <section className="card">
+        <section className="card-plain">
           <h2 className="card-title">All papers</h2>
-          <p className="card-subtitle">
-            Titles link to the ACM Digital Library ({meta.doiMatched} of {meta.paperCount}{' '}
-            matched); author names link to their ORCID record, hover one for their affiliation
-          </p>
           <PapersTable key={year} papers={papers} />
         </section>
       </main>

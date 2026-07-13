@@ -7,7 +7,7 @@ export function YearSummary({ year }: { year: Year }) {
   return (
     <section className="summary-card" aria-label={`GECCO ${String(year)} summary`}>
       <div className="summary-head">
-        <p className="summary-eyebrow">GECCO {year} · The year in review</p>
+        <p className="summary-eyebrow">GECCO {year} · AI summary</p>
         <div className="summary-meta">
           <span className="summary-location">
             <span className="summary-flag" aria-hidden="true">
@@ -23,12 +23,6 @@ export function YearSummary({ year }: { year: Year }) {
         <span className="summary-key-label">Most important change</span>
         <p className="summary-key-text">{summary.keyChange}</p>
       </div>
-      <p className="summary-attribution">
-        <span className="summary-attribution-mark" aria-hidden="true">
-          ✦
-        </span>
-        AI-written from the accepted titles and abstracts
-      </p>
     </section>
   )
 }
