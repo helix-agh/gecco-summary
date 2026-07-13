@@ -21,6 +21,60 @@ export interface YearSummary {
  * clusters in data/topics-*.json and the track distributions in data/papers-*.json).
  */
 export const SUMMARIES: Record<Year, YearSummary> = {
+  2021: {
+    location: 'Lille, France',
+    flag: '🇫🇷',
+    format: 'Online',
+    headline: 'A fully virtual GECCO with the classical core intact.',
+    overview:
+      'GECCO 2021 accepted 134 full papers and, in the middle of the pandemic, ran entirely ' +
+      'online from Lille. The program was anchored in the classical strands: multi-objective ' +
+      'optimization and landscape analysis formed the largest topic cluster, followed by a ' +
+      'strong routing, scheduling, and logistics block. Novelty search and MAP-Elites-style ' +
+      'quality-diversity methods were already a visible, coherent theme, and evolved robots ' +
+      'and swarms carried the Complex Systems track. Neural architecture search and ' +
+      'generative-model evolution hinted at the learning-driven turn the following editions ' +
+      'would take.',
+    keyChange:
+      'The conference went fully virtual — the only edition in this range with no physical ' +
+      'venue — while quality-diversity methods consolidated from scattered papers into a ' +
+      'distinct research theme.',
+  },
+  2022: {
+    location: 'Boston, USA',
+    flag: '🇺🇸',
+    format: 'Hybrid',
+    headline: 'GECCO returns to a physical venue after two virtual years.',
+    overview:
+      'GECCO 2022 accepted 158 full papers and brought the community back together in Boston, ' +
+      'in hybrid form, after the fully virtual 2020 and 2021 editions. Routing, scheduling, ' +
+      'and gray-box combinatorial optimization formed the largest topic cluster, with fitness ' +
+      'landscapes, surrogates, and algorithm configuration close behind. Quality-diversity ' +
+      'methods fused with reinforcement learning and swarm robotics into a single fast-growing ' +
+      'theme, and a first comparison of GitHub Copilot against genetic programming foreshadowed ' +
+      'the LLM wave to come.',
+    keyChange:
+      'The return to an in-person venue — the first since 2019 — and the merging of ' +
+      'quality-diversity with reinforcement learning into one research thread mark this ' +
+      'edition.',
+  },
+  2023: {
+    location: 'Lisbon, Portugal',
+    flag: '🇵🇹',
+    format: 'Hybrid',
+    headline: 'The biggest program yet, with an unusually theoretical core.',
+    overview:
+      'GECCO 2023 grew sharply to 180 accepted full papers, the largest edition up to that ' +
+      'point. Theory and runtime analysis formed the single biggest topic cluster — an ' +
+      'unusually theoretical program — alongside strong quality-diversity, evolutionary ' +
+      'machine learning, and multi-objective/CMA-ES blocks. Evolutionary reinforcement ' +
+      'learning and robot-swarm morphology evolution stood as distinct themes, and a pair of ' +
+      'genetic programming papers applied LLMs to autonomous programming and interactive game ' +
+      'design.',
+    keyChange:
+      'The program expanded by nearly 15% over Boston, with theory and runtime analysis — ' +
+      'unusually — its single largest topic cluster.',
+  },
   2024: {
     location: 'Melbourne, Australia',
     flag: '🇦🇺',
@@ -44,7 +98,7 @@ export const SUMMARIES: Record<Year, YearSummary> = {
     format: 'Hybrid',
     headline: 'Learning-driven search consolidates across every track.',
     overview:
-      'GECCO 2025 was the largest of the three editions with 181 accepted full papers. ' +
+      'GECCO 2025 was the largest edition in this range with 181 accepted full papers. ' +
       'Neuroevolution, reinforcement learning, and swarm robotics merged into the dominant ' +
       'theme, and quality-diversity methods reached their peak presence. Combinatorial ' +
       'optimization and metaheuristics (ECOM) surged to become the second-largest track, while ' +
@@ -58,16 +112,18 @@ export const SUMMARIES: Record<Year, YearSummary> = {
     location: 'San José, Costa Rica',
     flag: '🇨🇷',
     format: 'In person',
-    headline: 'Large language models become a first-class evolutionary tool.',
+    headline: 'LLM-driven evolution emerges as a distinct research theme.',
     overview:
-      'GECCO 2026 accepted 149 full papers and marks the arrival of LLMs at the centre of the ' +
-      'field. A dedicated topic cluster on LLM-driven algorithm and code evolution emerged, and ' +
-      'LLM-related papers more than doubled compared with 2024 — LLMs now serve as genetic ' +
-      'operators, automatic algorithm generators, and co-evolving policy and environment ' +
-      'designers. Real-World Applications remained the largest track, and evolutionary machine ' +
-      'learning and multi-objective optimization stayed strong alongside the new wave.',
+      'GECCO 2026 accepted 149 full papers, a smaller program than Málaga but with a clear new ' +
+      'arrival: LLM-driven algorithm and code evolution formed its own topic cluster for the ' +
+      'first time, and LLM-related papers more than doubled compared with 2024 — used as ' +
+      'genetic operators, automatic algorithm generators, and co-evolving policy and ' +
+      'environment designers. The classical core still set the tone, though: benchmarking, ' +
+      'neuroevolution, and symbolic regression remained the largest clusters, and Real-World ' +
+      'Applications was again the biggest track.',
     keyChange:
-      'LLM-driven algorithm and code evolution graduated from a scattering of papers into a ' +
-      'coherent, dominant research theme — the defining shift of the 2026 program.',
+      'LLM-driven algorithm and code evolution consolidated from a scattering of papers into ' +
+      'a coherent topic cluster of its own — still around a tenth of the program, but the ' +
+      'clearest new theme of 2026.',
   },
 }

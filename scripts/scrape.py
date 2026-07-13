@@ -35,6 +35,26 @@ CROSSREF_API = "https://api.crossref.org/works"
 # and a Crossref created-date window that covers the volume's registration
 # date while keeping the paging through ACM proceedings articles bounded.
 CONFERENCES: dict[int, dict[str, str | None]] = {
+    2021: {
+        "url": "https://gecco-2021.sigevo.org/Accepted-Papers.html",
+        "doi_prefix": "10.1145/3449639",
+        "from_date": "2021-06-01",
+        "until_date": "2021-12-31",
+    },
+    2022: {
+        "url": "https://gecco-2022.sigevo.org/Accepted-Papers.html",
+        "doi_prefix": "10.1145/3512290",
+        "from_date": "2022-06-01",
+        "until_date": "2023-06-30",
+    },
+    2023: {
+        "url": "https://gecco-2023.sigevo.org/Accepted-Papers.html",
+        "doi_prefix": "10.1145/3583131",
+        # ACM re-registered part of the 2023 volume on 2024-02-18, so the
+        # window reaches into 2024.
+        "from_date": "2023-06-01",
+        "until_date": "2024-06-30",
+    },
     2024: {
         "url": "https://gecco-2024.sigevo.org/Accepted-Papers.html",
         "doi_prefix": "10.1145/3638529",
@@ -142,10 +162,22 @@ def parse_authors(cell: str) -> list[dict[str, object]]:
     Affiliations are comma-separated inside the parentheses. The split is a
     heuristic: a comma can also occur inside a single institution name
     (e.g. "University of California, Irvine"), which we accept for now.
+
+    Older sites (2021) group authors by affiliation with "and" separators:
+    'A and B (Aff), and C, D, and E (Other Aff)' — names before a
+    parenthesised entry share its affiliations, so they are back-filled.
     """
+    entries: list[str] = []
+    for part in split_top_level(cell):
+        part = " ".join(part.split())
+        for sub in split_top_level(part, " and "):
+            sub = sub.strip().removeprefix("and ").strip()
+            if sub:
+                entries.append(sub)
+
     authors: list[dict[str, object]] = []
-    for entry in split_top_level(cell):
-        entry = " ".join(entry.split())
+    pending: list[int] = []  # authors awaiting their group's affiliation
+    for entry in entries:
         match = re.match(r"^(?P<name>.*?)\s*\((?P<affiliation>.*)\)$", entry, re.S)
         if match:
             name = match.group("name").strip()
@@ -157,8 +189,15 @@ def parse_authors(cell: str) -> list[dict[str, object]]:
         else:
             name = entry
             affiliations = []
-        if name:
-            authors.append({"name": name, "affiliations": affiliations, "orcid": None})
+        if not name:
+            continue
+        authors.append({"name": name, "affiliations": affiliations, "orcid": None})
+        if affiliations:
+            for index in pending:
+                authors[index]["affiliations"] = list(affiliations)
+            pending = []
+        else:
+            pending.append(len(authors) - 1)
     return authors
 
 
@@ -210,7 +249,7 @@ def fetch_crossref_works(conference: dict[str, str | None]) -> dict[str, dict[st
         query = urllib.parse.urlencode(
             {
                 "filter": ",".join(filters),
-                "select": "DOI,title,author",
+                "select": "DOI,title,subtitle,author",
                 "rows": "1000",
                 "cursor": cursor,
             }
@@ -223,6 +262,10 @@ def fetch_crossref_works(conference: dict[str, str | None]) -> dict[str, dict[st
             titles = item.get("title") or []
             if doi.startswith(f"{conference['doi_prefix']}.") and titles:
                 works[normalize_title(titles[0])] = item
+                # Older ACM records split "Title: Subtitle" into separate
+                # fields; index the joined form too so site titles match.
+                for subtitle in item.get("subtitle") or []:
+                    works[normalize_title(f"{titles[0]}: {subtitle}")] = item
         if not items:
             break
         cursor = message.get("next-cursor") or ""

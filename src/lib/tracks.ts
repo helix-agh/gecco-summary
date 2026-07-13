@@ -1,5 +1,6 @@
 /** Full names of the GECCO paper tracks, keyed by the acronyms used on the site. */
 export const TRACK_NAMES: Record<string, string> = {
+  'ACO-SI': 'Ant Colony Optimization and Swarm Intelligence',
   BBSR: 'Benchmarking, Benchmarks, Software, and Reproducibility',
   CS: 'Complex Systems',
   ECOM: 'Evolutionary Combinatorial Optimization and Metaheuristics',
@@ -12,6 +13,7 @@ export const TRACK_NAMES: Record<string, string> = {
   L4EC: 'Learning for Evolutionary Computation',
   NE: 'Neuroevolution',
   RWA: 'Real World Applications',
+  SBSE: 'Search-Based Software Engineering',
   SI: 'Swarm Intelligence',
   THEORY: 'Theory',
 }

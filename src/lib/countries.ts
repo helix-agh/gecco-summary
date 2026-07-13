@@ -1,3 +1,6 @@
+import countries2021 from '../data/countries-2021.json'
+import countries2022 from '../data/countries-2022.json'
+import countries2023 from '../data/countries-2023.json'
 import countries2024 from '../data/countries-2024.json'
 import countries2025 from '../data/countries-2025.json'
 import countries2026 from '../data/countries.json'
@@ -12,6 +15,9 @@ interface CountryData {
 }
 
 const rawByYear: Record<Year, CountryData> = {
+  2021: countries2021,
+  2022: countries2022,
+  2023: countries2023,
   2024: countries2024,
   2025: countries2025,
   2026: countries2026,
@@ -19,6 +25,9 @@ const rawByYear: Record<Year, CountryData> = {
 
 /** title → country codes, as Maps so a missing title reads as undefined. */
 const codesByYear: Record<Year, Map<string, string[]>> = {
+  2021: new Map(Object.entries(rawByYear[2021].byTitle)),
+  2022: new Map(Object.entries(rawByYear[2022].byTitle)),
+  2023: new Map(Object.entries(rawByYear[2023].byTitle)),
   2024: new Map(Object.entries(rawByYear[2024].byTitle)),
   2025: new Map(Object.entries(rawByYear[2025].byTitle)),
   2026: new Map(Object.entries(rawByYear[2026].byTitle)),
@@ -29,10 +38,12 @@ interface CountryInfo {
   continent: string
 }
 
-/** Every code emitted by scripts/countries.py across all three years, mapped
+/** Every code emitted by scripts/countries.py across all years, mapped
  *  to a display name and continent. Hong Kong, Macao, and Taiwan are listed as
  *  distinct territories under Asia. Russia and Turkey are grouped with Europe. */
 const COUNTRIES: Record<string, CountryInfo> = {
+  AE: { name: 'United Arab Emirates', continent: 'Asia' },
+  AR: { name: 'Argentina', continent: 'South America' },
   AT: { name: 'Austria', continent: 'Europe' },
   AU: { name: 'Australia', continent: 'Oceania' },
   BE: { name: 'Belgium', continent: 'Europe' },
@@ -47,6 +58,7 @@ const COUNTRIES: Record<string, CountryInfo> = {
   DE: { name: 'Germany', continent: 'Europe' },
   DK: { name: 'Denmark', continent: 'Europe' },
   DZ: { name: 'Algeria', continent: 'Africa' },
+  EC: { name: 'Ecuador', continent: 'South America' },
   EG: { name: 'Egypt', continent: 'Africa' },
   ES: { name: 'Spain', continent: 'Europe' },
   FI: { name: 'Finland', continent: 'Europe' },
@@ -60,16 +72,22 @@ const COUNTRIES: Record<string, CountryInfo> = {
   IL: { name: 'Israel', continent: 'Asia' },
   IN: { name: 'India', continent: 'Asia' },
   IQ: { name: 'Iraq', continent: 'Asia' },
+  IR: { name: 'Iran', continent: 'Asia' },
   IT: { name: 'Italy', continent: 'Europe' },
   JP: { name: 'Japan', continent: 'Asia' },
   KR: { name: 'South Korea', continent: 'Asia' },
+  LU: { name: 'Luxembourg', continent: 'Europe' },
+  MA: { name: 'Morocco', continent: 'Africa' },
+  MM: { name: 'Myanmar', continent: 'Asia' },
   MO: { name: 'Macao', continent: 'Asia' },
   MT: { name: 'Malta', continent: 'Europe' },
   MX: { name: 'Mexico', continent: 'North America' },
   NL: { name: 'Netherlands', continent: 'Europe' },
   NO: { name: 'Norway', continent: 'Europe' },
   NZ: { name: 'New Zealand', continent: 'Oceania' },
+  PE: { name: 'Peru', continent: 'South America' },
   PL: { name: 'Poland', continent: 'Europe' },
+  PR: { name: 'Puerto Rico', continent: 'North America' },
   PT: { name: 'Portugal', continent: 'Europe' },
   RO: { name: 'Romania', continent: 'Europe' },
   RU: { name: 'Russia', continent: 'Europe' },

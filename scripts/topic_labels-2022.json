@@ -1,0 +1,9 @@
+{
+  "0": "Routing, scheduling & gray-box optimization",
+  "1": "Landscapes, surrogates & algorithm configuration",
+  "2": "Quality-diversity, RL & swarm robotics",
+  "3": "Parameter control & evolutionary theory",
+  "4": "Symbolic regression & GP representations",
+  "5": "Neural architecture search & neuroevolution",
+  "6": "Benchmarking & expensive multi-objective optimization"
+}

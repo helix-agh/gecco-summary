@@ -1,0 +1,1665 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-13T01:05:10+00:00",
+    "model": "allenai-specter",
+    "abstractCount": 133,
+    "clusterCount": 9
+  },
+  "clusters": [
+    {
+      "id": 0,
+      "label": "Multi-objective optimization & landscapes",
+      "size": 27
+    },
+    {
+      "id": 1,
+      "label": "Routing, scheduling & logistics",
+      "size": 21
+    },
+    {
+      "id": 2,
+      "label": "Evolved robots, swarms & communication",
+      "size": 15
+    },
+    {
+      "id": 3,
+      "label": "Theory & runtime analysis",
+      "size": 14
+    },
+    {
+      "id": 4,
+      "label": "Symbolic regression & classifiers",
+      "size": 13
+    },
+    {
+      "id": 5,
+      "label": "Neural architecture & generative evolution",
+      "size": 13
+    },
+    {
+      "id": 6,
+      "label": "Program synthesis & representations",
+      "size": 13
+    },
+    {
+      "id": 7,
+      "label": "Novelty search & quality-diversity",
+      "size": 10
+    },
+    {
+      "id": 8,
+      "label": "Evolution strategies & surrogate models",
+      "size": 8
+    }
+  ],
+  "papers": [
+    {
+      "title": "Measuring Feature Importance of Symbolic Regression Models Using Partial Effects",
+      "x": 0.0623,
+      "y": 0.6259,
+      "cluster": 4,
+      "neighbors": [
+        46,
+        87,
+        76
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Using Multiple Generative Adversarial Networks to Build Better-Connected Levels for Mega Man",
+      "x": 0.007,
+      "y": 0.3035,
+      "cluster": 5,
+      "neighbors": [
+        129,
+        119,
+        68
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Adaptive Scenario Subset Selection for Minimax Black-Box Continuous Optimization",
+      "x": 0.5919,
+      "y": 1.0,
+      "cluster": 8,
+      "neighbors": [
+        67,
+        128,
+        71
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Genetic Programming for Borderline Instance Detection in High-dimensional Unbalanced Classification",
+      "x": 0.1194,
+      "y": 0.8487,
+      "cluster": 4,
+      "neighbors": [
+        94,
+        34,
+        122
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "More Precise Runtime Analyses of Non-elitist EAs in Uncertain Environments",
+      "x": 0.6542,
+      "y": 0.6223,
+      "cluster": 8,
+      "neighbors": [
+        104,
+        49,
+        113
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "BR-NS: an Archive-less Approach to Novelty Search",
+      "x": 0.2408,
+      "y": 0.593,
+      "cluster": 7,
+      "neighbors": [
+        121,
+        98,
+        71
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Biodiversity in Evolved Voxel-based Soft Robots",
+      "x": 0.1707,
+      "y": 0.0454,
+      "cluster": 2,
+      "neighbors": [
+        59,
+        83,
+        112
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization",
+      "x": 0.7923,
+      "y": 0.28,
+      "cluster": 1,
+      "neighbors": [
+        35,
+        108,
+        50
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A simple evolutionary algorithm guided by local mutations for an efficient RNA design.",
+      "x": 0.6838,
+      "y": 0.3471,
+      "cluster": 6,
+      "neighbors": [
+        86,
+        51,
+        19
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A hybrid ant colony optimization algorithm for the knapsack problem with a single continuous variable",
+      "x": 0.5098,
+      "y": 0.9081,
+      "cluster": 0,
+      "neighbors": [
+        69,
+        128,
+        42
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Stasis type particle stability in a stochastic model of particle swarm optimization",
+      "x": 0.4548,
+      "y": 0.446,
+      "cluster": 3,
+      "neighbors": [
+        123,
+        26,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Geometric Encoding for Neural Network Evolution",
+      "x": 0.1906,
+      "y": 0.247,
+      "cluster": 5,
+      "neighbors": [
+        133,
+        78,
+        96
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Multi-Emitter MAP-Elites: Improving quality, diversity and data efficiency with heterogeneous sets of emitters",
+      "x": 0.2872,
+      "y": 0.5342,
+      "cluster": 7,
+      "neighbors": [
+        121,
+        71,
+        110
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "MA-ABC: A Memetic Algorithm Optimizing Attractiveness, Balance, and Cost for Capacitated Arc Routing Problems",
+      "x": 0.9719,
+      "y": 0.6683,
+      "cluster": 1,
+      "neighbors": [
+        74,
+        108,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Direct linkage discovery with empirical linkage learning",
+      "x": 0.6086,
+      "y": 0.6953,
+      "cluster": 0,
+      "neighbors": [
+        49,
+        111,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Genetic Algorithm For AC Optimal Transmission Switching",
+      "x": 0.8975,
+      "y": 0.6228,
+      "cluster": 1,
+      "neighbors": [
+        74,
+        108,
+        70
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A hybrid CP/MOLS Approach for Multi-Objective Imbalanced Classification",
+      "x": 0.187,
+      "y": 0.8954,
+      "cluster": 4,
+      "neighbors": [
+        94,
+        131,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Realistic Utility Functions Prove Difficult for State-of-the-Art Interactive Multiobjective Optimization Algorithms",
+      "x": 0.45,
+      "y": 0.6934,
+      "cluster": 0,
+      "neighbors": [
+        69,
+        42,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Heuristic Strategies for Solving Complex Interacting Stockpile Blending Problem with Chance Constraints",
+      "x": 0.7276,
+      "y": 0.7724,
+      "cluster": 0,
+      "neighbors": [
+        80,
+        93,
+        42
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Analysis of Evolutionary Diversity Optimisation for Permutation Problems",
+      "x": 0.7649,
+      "y": 0.4343,
+      "cluster": 1,
+      "neighbors": [
+        64,
+        89,
+        132
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Local Search Pivoting Rules and the Landscape Global Structure",
+      "x": 0.66,
+      "y": 0.7509,
+      "cluster": 0,
+      "neighbors": [
+        93,
+        37,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "On the Design and Anytime Performance of Indicator-based Branch and Bound for Multi-objective Combinatorial Optimization",
+      "x": 0.7944,
+      "y": 0.7437,
+      "cluster": 0,
+      "neighbors": [
+        73,
+        20,
+        113
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Interaction between Model and Its Evolution Control in Surrogate-Assisted CMA Evolution Strategy",
+      "x": 0.598,
+      "y": 0.8064,
+      "cluster": 8,
+      "neighbors": [
+        67,
+        131,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Quadratization of Gray Coded Representations, Long Path Problems and Needle Functions",
+      "x": 0.5057,
+      "y": 0.22,
+      "cluster": 6,
+      "neighbors": [
+        50,
+        51,
+        92
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "An Efficient Computational Approach for Automatic Itinerary Planning on Web Servers",
+      "x": 0.9591,
+      "y": 0.5146,
+      "cluster": 1,
+      "neighbors": [
+        74,
+        49,
+        58
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Environmental Selection Using a Fuzzy Classifier for Multiobjective Evolutionary Algorithms",
+      "x": 0.4604,
+      "y": 0.8983,
+      "cluster": 0,
+      "neighbors": [
+        69,
+        93,
+        42
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Lazy Parameter Tuning and Control: Choosing All Parameters Randomly From a Power-Law Distribution",
+      "x": 0.4026,
+      "y": 0.5281,
+      "cluster": 3,
+      "neighbors": [
+        41,
+        104,
+        17
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "The Paradox of Choice in Evolving Swarms: Information Overload Leads to Limited Sensing",
+      "x": 0.3875,
+      "y": 0.3376,
+      "cluster": 2,
+      "neighbors": [
+        88,
+        123,
+        65
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "An Evolutionary Multi-Objective Feature Selection Approach for Detecting Music Segment Boundaries of Specific Types",
+      "x": 0.3667,
+      "y": 0.7916,
+      "cluster": 7,
+      "neighbors": [
+        93,
+        63,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Solving the Paintshop Scheduling Problem with Memetic Algorithms",
+      "x": 0.9209,
+      "y": 0.7548,
+      "cluster": 1,
+      "neighbors": [
+        66,
+        103,
+        13
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Personalizing Performance Regression Models to Black-Box Optimization Problems",
+      "x": 0.3531,
+      "y": 0.7942,
+      "cluster": 0,
+      "neighbors": [
+        116,
+        131,
+        67
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Augmented Lagrangian, penalty techniques and surrogate modeling for constrained optimization with CMA-ES",
+      "x": 0.6583,
+      "y": 0.9657,
+      "cluster": 8,
+      "neighbors": [
+        67,
+        84,
+        22
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Training Spiking Neural Networks with a Multi-Agent Evolutionary Robotics Framework",
+      "x": 0.2239,
+      "y": 0.177,
+      "cluster": 2,
+      "neighbors": [
+        133,
+        112,
+        59
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Metric for Evaluating Normalization Methods in Multiobjective Optimization",
+      "x": 0.5752,
+      "y": 0.8079,
+      "cluster": 0,
+      "neighbors": [
+        128,
+        55,
+        61
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Accelerated Evolutionary Induction of Heterogeneous Decision Trees for Gene Expression-Based Classification",
+      "x": 0.09,
+      "y": 0.748,
+      "cluster": 4,
+      "neighbors": [
+        46,
+        127,
+        131
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Genetic Algorithm Approach to Virtual Topology Design for Multi-Layer Communication Networks",
+      "x": 0.8306,
+      "y": 0.2994,
+      "cluster": 1,
+      "neighbors": [
+        7,
+        108,
+        106
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Policy Manifold Search: Exploring the Manifold Hypothesis for Diversity-based Neuroevolution",
+      "x": 0.2359,
+      "y": 0.4332,
+      "cluster": 7,
+      "neighbors": [
+        110,
+        71,
+        121
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Monte Carlo Elites: Quality-Diversity Selection as a Multi-Armed Bandit Problem",
+      "x": 0.5692,
+      "y": 0.5367,
+      "cluster": 6,
+      "neighbors": [
+        55,
+        132,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "CoInGP: Convolutional Inpainting with Genetic Programming",
+      "x": 0.036,
+      "y": 0.3473,
+      "cluster": 5,
+      "neighbors": [
+        96,
+        78,
+        81
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Optimal Static Mutation Strength Distributions for the (1+&#955;) Evolutionary Algorithm on OneMax",
+      "x": 0.5579,
+      "y": 0.4824,
+      "cluster": 3,
+      "neighbors": [
+        124,
+        41,
+        132
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "An Efficient Implementation of Iterative Partial Transcription for the Traveling Salesman Problem",
+      "x": 0.8531,
+      "y": 0.5062,
+      "cluster": 1,
+      "neighbors": [
+        56,
+        19,
+        103
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Self-Adjusting Population Sizes for Non-Elitist Evolutionary Algorithms: Why Success Rates Matter",
+      "x": 0.4477,
+      "y": 0.4667,
+      "cluster": 3,
+      "neighbors": [
+        37,
+        104,
+        26
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Bayesian Preference Learning for Interactive Multi-objective Optimisation",
+      "x": 0.4706,
+      "y": 0.8606,
+      "cluster": 0,
+      "neighbors": [
+        69,
+        17,
+        67
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Generalized Jump Functions",
+      "x": 0.4931,
+      "y": 0.5196,
+      "cluster": 3,
+      "neighbors": [
+        91,
+        104,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A survey of cluster validity indices for automatic data clustering using differential evolution",
+      "x": 0.4117,
+      "y": 0.8765,
+      "cluster": 0,
+      "neighbors": [
+        128,
+        55,
+        131
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Saddle Point Optimization with Approximate Minimization Oracle",
+      "x": 0.6669,
+      "y": 0.9533,
+      "cluster": 5,
+      "neighbors": [
+        31,
+        84,
+        36
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Zoetrope Genetic Programming for regression",
+      "x": 0.0688,
+      "y": 0.6984,
+      "cluster": 4,
+      "neighbors": [
+        0,
+        34,
+        87
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Systematic Comparison Study on Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction",
+      "x": 0.3914,
+      "y": 0.1855,
+      "cluster": 6,
+      "neighbors": [
+        106,
+        96,
+        78
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Matrix Adaptation Evolution Strategy for Optimization on General Quadratic Manifolds",
+      "x": 0.6495,
+      "y": 0.8547,
+      "cluster": 8,
+      "neighbors": [
+        84,
+        31,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "When Non-Elitism Meets Time-Linkage Problems",
+      "x": 0.7111,
+      "y": 0.6211,
+      "cluster": 1,
+      "neighbors": [
+        104,
+        4,
+        14
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Speed Benchmarking of Genetic Programming Frameworks",
+      "x": 0.5504,
+      "y": 0.2629,
+      "cluster": 6,
+      "neighbors": [
+        104,
+        51,
+        23
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Directing Evolution: The Automated Design of Evolutionary Pathways Using Directed Graphs",
+      "x": 0.559,
+      "y": 0.3286,
+      "cluster": 6,
+      "neighbors": [
+        104,
+        37,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Zeroth-Order Optimizer Benchmarking for 3D Performance Capture",
+      "x": 0.1843,
+      "y": 0.4806,
+      "cluster": 7,
+      "neighbors": [
+        121,
+        85,
+        71
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Diversifying Greedy Sampling and Evolutionary Diversity Optimisation for Constrained Monotone Submodular Functions",
+      "x": 0.7493,
+      "y": 0.4986,
+      "cluster": 0,
+      "neighbors": [
+        132,
+        19,
+        64
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Signal-Centric Perspective on the Evolution of Symbolic Communication",
+      "x": 0.1506,
+      "y": 0.2483,
+      "cluster": 2,
+      "neighbors": [
+        11,
+        133,
+        32
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Self-Referential Quality Diversity Through Differential Map-Elites",
+      "x": 0.5268,
+      "y": 0.6294,
+      "cluster": 0,
+      "neighbors": [
+        37,
+        132,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Parallel Ensemble Genetic Algorithm for the Traveling Salesman Problem",
+      "x": 0.8275,
+      "y": 0.5144,
+      "cluster": 1,
+      "neighbors": [
+        64,
+        19,
+        70
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "An Effective Action Covering for Multi-label Learning Classifier Systems: A Graph-Theoretic Approach",
+      "x": 0.1294,
+      "y": 0.8186,
+      "cluster": 4,
+      "neighbors": [
+        122,
+        16,
+        5
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Novel Multi-Task Genetic Programming Approach to Uncertain Capacitated Arc Routing Problem",
+      "x": 0.9836,
+      "y": 0.6002,
+      "cluster": 1,
+      "neighbors": [
+        74,
+        49,
+        56
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Seeking Quality Diversity in Evolutionary Co-design of Morphology and Control of Soft Tensegrity Modular Robots",
+      "x": 0.1426,
+      "y": 0.079,
+      "cluster": 2,
+      "neighbors": [
+        110,
+        112,
+        83
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Coevolution of Remaining Useful Lifetime Estimation Pipelines for Automated Predictive Maintenance",
+      "x": 0.2786,
+      "y": 0.6767,
+      "cluster": 7,
+      "neighbors": [
+        121,
+        63,
+        12
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Pareto Compliance from a Practical Point of View",
+      "x": 0.5621,
+      "y": 0.7318,
+      "cluster": 0,
+      "neighbors": [
+        104,
+        37,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Parallel Differential Evolution Applied to Interleaving Generation with Precedence Evaluation of Tentative Solutions",
+      "x": 0.6106,
+      "y": 0.4157,
+      "cluster": 1,
+      "neighbors": [
+        51,
+        4,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Explorative Data Analysis of Time Series based Algorithm Features of CMA-ES Variants",
+      "x": 0.344,
+      "y": 0.7131,
+      "cluster": 7,
+      "neighbors": [
+        93,
+        104,
+        22
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Entropy-Based Evolutionary Diversity Optimisation for the Traveling Salesperson Problem",
+      "x": 0.7381,
+      "y": 0.4789,
+      "cluster": 1,
+      "neighbors": [
+        132,
+        19,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Resource Availability and The Evolution of Cooperation in a 3D Agent-Based Simulation",
+      "x": 0.3557,
+      "y": 0.3565,
+      "cluster": 2,
+      "neighbors": [
+        27,
+        123,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan",
+      "x": 0.9156,
+      "y": 0.7276,
+      "cluster": 1,
+      "neighbors": [
+        108,
+        103,
+        13
+      ],
+      "hasAbstract": false
+    },
+    {
+      "title": "PSAF: A Probabilistic Surrogate-Assisted Framework for Single-Objective Optimization",
+      "x": 0.6078,
+      "y": 0.9251,
+      "cluster": 0,
+      "neighbors": [
+        31,
+        22,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "On the Impact of Tangled Program Graph Marking Schemes under the Atari Reinforcement Learning Benchmark",
+      "x": 0.3165,
+      "y": 0.2561,
+      "cluster": 6,
+      "neighbors": [
+        130,
+        110,
+        92
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holistic acceptabilities",
+      "x": 0.5001,
+      "y": 0.8112,
+      "cluster": 0,
+      "neighbors": [
+        42,
+        17,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Generating Hard Inventory Routing Problem Instances using Evolutionary Algorithms",
+      "x": 0.9053,
+      "y": 0.4851,
+      "cluster": 1,
+      "neighbors": [
+        56,
+        74,
+        19
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Sparse Reward Exploration via Novelty Search and Emitters",
+      "x": 0.2399,
+      "y": 0.4886,
+      "cluster": 7,
+      "neighbors": [
+        12,
+        110,
+        121
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Genetic Algorithm Approach for the Euclidean Steiner Tree Problem with Soft Obstacles",
+      "x": 0.8233,
+      "y": 0.6159,
+      "cluster": 1,
+      "neighbors": [
+        90,
+        128,
+        56
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Graph Coloring based Parallel Hill Climber for Large-scale NK-landscapes",
+      "x": 0.825,
+      "y": 0.7029,
+      "cluster": 6,
+      "neighbors": [
+        20,
+        56,
+        90
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Two-Stage Multi-Objective Genetic Programming with Archive for Uncertain Capacitated Arc Routing Problem",
+      "x": 0.9746,
+      "y": 0.5821,
+      "cluster": 1,
+      "neighbors": [
+        58,
+        49,
+        70
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Concurrent Model Synchronisation with Multiple Objectives",
+      "x": 0.7014,
+      "y": 0.7185,
+      "cluster": 8,
+      "neighbors": [
+        80,
+        4,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Genetic Adversarial Training of Decision Trees",
+      "x": 0.0276,
+      "y": 0.6589,
+      "cluster": 4,
+      "neighbors": [
+        34,
+        46,
+        0
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Coevolutionary Modeling of Cyber Attack Patterns and Mitigations Using Public Datasets",
+      "x": 0.531,
+      "y": 0.4404,
+      "cluster": 3,
+      "neighbors": [
+        51,
+        41,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Regularized Evolutionary Population-Based Training",
+      "x": 0.0898,
+      "y": 0.3729,
+      "cluster": 5,
+      "neighbors": [
+        96,
+        11,
+        127
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Generalizability Measure for Program Synthesis with Genetic Programming",
+      "x": 0.6568,
+      "y": 0.2359,
+      "cluster": 6,
+      "neighbors": [
+        92,
+        51,
+        86
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Multi-objective Optimization Across Multiple Concepts: A Case Study on Lattice Structure Design",
+      "x": 0.7484,
+      "y": 0.8181,
+      "cluster": 8,
+      "neighbors": [
+        104,
+        93,
+        4
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolving Neural Architecture Using One Shot Model",
+      "x": 0.082,
+      "y": 0.281,
+      "cluster": 5,
+      "neighbors": [
+        78,
+        96,
+        106
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolutionary Meta Reinforcement Learning for Portfolio Optimization",
+      "x": 0.1327,
+      "y": 0.4231,
+      "cluster": 5,
+      "neighbors": [
+        78,
+        110,
+        130
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "The Environment and Body-Brain Complexity",
+      "x": 0.1573,
+      "y": 0.0923,
+      "cluster": 2,
+      "neighbors": [
+        59,
+        112,
+        32
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Convergence Rate of the (1+1)-Evolution Strategy with Success-Based Step-Size Adaptation on Convex Quadratic Function",
+      "x": 0.7039,
+      "y": 0.9078,
+      "cluster": 3,
+      "neighbors": [
+        48,
+        31,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evaluating Medical Aesthetics Treatments through Evolved Age-Estimation Models",
+      "x": 0.1232,
+      "y": 0.3818,
+      "cluster": 5,
+      "neighbors": [
+        78,
+        11,
+        38
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Expressivity of Parameterized and Data-driven Representations in Quality Diversity Search",
+      "x": 0.6344,
+      "y": 0.3742,
+      "cluster": 6,
+      "neighbors": [
+        37,
+        132,
+        55
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Simulated Annealing for Symbolic Regression",
+      "x": 0.0323,
+      "y": 0.5754,
+      "cluster": 4,
+      "neighbors": [
+        46,
+        0,
+        54
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Bio-Inspired Spatial Defence Strategy for Collective Decision Making in Self-Organized Swarms",
+      "x": 0.3847,
+      "y": 0.3979,
+      "cluster": 2,
+      "neighbors": [
+        27,
+        123,
+        10
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Breeding Diverse Packings for the Knapsack Problem by Means of Diversity-Tailored Evolutionary Algorithms",
+      "x": 0.7538,
+      "y": 0.4689,
+      "cluster": 1,
+      "neighbors": [
+        19,
+        64,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Real-like MAX-SAT Instances and the Landscape Structure Across the Phase Transition",
+      "x": 0.7669,
+      "y": 0.6249,
+      "cluster": 6,
+      "neighbors": [
+        73,
+        20,
+        53
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Rigorous Runtime Analysis of the 2-MMAS on Jump Functions: Ant Colony Optimizer Can Cope Well With Local Optima",
+      "x": 0.5025,
+      "y": 0.5582,
+      "cluster": 3,
+      "neighbors": [
+        43,
+        104,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "PSB2: The Second Program Synthesis Benchmark Suite",
+      "x": 0.5928,
+      "y": 0.1918,
+      "cluster": 6,
+      "neighbors": [
+        79,
+        50,
+        51
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Landscape Features and Automated Algorithm Selection for Multi-objective Interpolated Continuous Optimisation Problems",
+      "x": 0.4259,
+      "y": 0.8064,
+      "cluster": 0,
+      "neighbors": [
+        20,
+        116,
+        104
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Cooperative Coevolutionary Multiobjective Genetic Programming for Microarray Data Classification",
+      "x": 0.1445,
+      "y": 0.8945,
+      "cluster": 4,
+      "neighbors": [
+        16,
+        3,
+        131
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolvability and Complexity Properties of the Digital Circuit Genotype-Phenotype Map",
+      "x": 0.4917,
+      "y": 0.2175,
+      "cluster": 3,
+      "neighbors": [
+        23,
+        104,
+        133
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Optimizing Loss Functions Through Multi-Variate Taylor Polynomial Parameterization",
+      "x": 0.1386,
+      "y": 0.3219,
+      "cluster": 5,
+      "neighbors": [
+        78,
+        11,
+        46
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms",
+      "x": 0.7125,
+      "y": 0.3792,
+      "cluster": 1,
+      "neighbors": [
+        8,
+        132,
+        64
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Using Novelty Search to Explicitly Create Diversity in Ensembles of Classifiers",
+      "x": 0.1793,
+      "y": 0.6223,
+      "cluster": 7,
+      "neighbors": [
+        121,
+        5,
+        127
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Analyzing the Impact of Product Configuration Variations on Advanced Driver Assistance Systems with Search",
+      "x": 0.8587,
+      "y": 0.8321,
+      "cluster": 8,
+      "neighbors": [
+        80,
+        108,
+        2
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolving Gaits for Damage Control in a Hexapod Robot",
+      "x": 0.1729,
+      "y": 0.0,
+      "cluster": 2,
+      "neighbors": [
+        112,
+        59,
+        83
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolving Soft Robotic Jamming Grippers",
+      "x": 0.2243,
+      "y": 0.0582,
+      "cluster": 2,
+      "neighbors": [
+        59,
+        112,
+        6
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Multi-Objective Optimization of Item Selection in Computerized Adaptive Testing",
+      "x": 0.4606,
+      "y": 0.7001,
+      "cluster": 0,
+      "neighbors": [
+        69,
+        116,
+        17
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Ants can solve the parallel drone scheduling traveling salesman problem",
+      "x": 1.0,
+      "y": 0.7652,
+      "cluster": 1,
+      "neighbors": [
+        108,
+        9,
+        66
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Non-elitist Evolutionary Algorithms excel in Fitness Landscapes with Sparse Deceptive Regions and Dense Valleys",
+      "x": 0.5683,
+      "y": 0.5646,
+      "cluster": 3,
+      "neighbors": [
+        4,
+        41,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Encoding the Certainty of Boolean Variables to Improve the Guidance for Search-Based Test Generation",
+      "x": 0.6198,
+      "y": 0.2623,
+      "cluster": 6,
+      "neighbors": [
+        124,
+        79,
+        51
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Fitness Landscape Analysis of Graph Neural Network Architecture Search Spaces",
+      "x": 0.4276,
+      "y": 0.1644,
+      "cluster": 5,
+      "neighbors": [
+        51,
+        11,
+        23
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Greedy Approximated Hypervolume Subset Selection for Many-objective Optimization",
+      "x": 0.7581,
+      "y": 0.9923,
+      "cluster": 0,
+      "neighbors": [
+        118,
+        128,
+        114
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolutionary Minimization of Traffic Congestion",
+      "x": 0.9895,
+      "y": 0.7135,
+      "cluster": 1,
+      "neighbors": [
+        64,
+        13,
+        66
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Stagnation Detection in Highly Multimodal Fitness Landscapes",
+      "x": 0.5978,
+      "y": 0.6216,
+      "cluster": 0,
+      "neighbors": [
+        20,
+        104,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Policy Gradient Assisted MAP-Elites",
+      "x": 0.2328,
+      "y": 0.3258,
+      "cluster": 2,
+      "neighbors": [
+        59,
+        12,
+        36
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Partition Crossover for Continuous Optimization: ePX",
+      "x": 0.5712,
+      "y": 0.6706,
+      "cluster": 0,
+      "neighbors": [
+        55,
+        14,
+        128
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolving and Merging Hebbian Learning Rules: Increasing Generalization by Decreasing the Number of Rules",
+      "x": 0.1215,
+      "y": 0.1377,
+      "cluster": 2,
+      "neighbors": [
+        59,
+        32,
+        110
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Runtime Analysis of RLS and the (1+1) EA for the Chance-constrained Knapsack Problem with Correlated Uniform Weights",
+      "x": 0.6969,
+      "y": 0.5854,
+      "cluster": 3,
+      "neighbors": [
+        4,
+        49,
+        124
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Hypervolume in Biobjective Optimization Cannot Converge Faster Than $Omega(1/p)$",
+      "x": 0.7769,
+      "y": 0.9976,
+      "cluster": 0,
+      "neighbors": [
+        118,
+        107,
+        84
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Towards Exploratory Landscape Analysis for Large-scale Optimization: A Dimensionality Reduction Framework",
+      "x": 0.474,
+      "y": 0.7804,
+      "cluster": 0,
+      "neighbors": [
+        93,
+        20,
+        67
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "The Impact of Hyper-Parameter Tuning for Landscape-Aware Performance Regression and Algorithm Selection",
+      "x": 0.4055,
+      "y": 0.7096,
+      "cluster": 0,
+      "neighbors": [
+        93,
+        104,
+        30
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Genetic Algorithm Niching by (Quasi-)Infinite Memory",
+      "x": 0.4431,
+      "y": 0.4479,
+      "cluster": 5,
+      "neighbors": [
+        41,
+        104,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Quick Extreme Hypervolume Contribution Algorithm",
+      "x": 0.758,
+      "y": 0.9789,
+      "cluster": 0,
+      "neighbors": [
+        107,
+        128,
+        114
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Signal Propagation in a Gradient-Based and Evolutionary Learning System",
+      "x": 0.0,
+      "y": 0.34,
+      "cluster": 5,
+      "neighbors": [
+        1,
+        38,
+        130
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolutionary Algorithms-assisted Construction of Cryptographic Boolean Functions",
+      "x": 0.4885,
+      "y": 0.3206,
+      "cluster": 3,
+      "neighbors": [
+        23,
+        51,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Ensemble Feature Extraction for Multi-Container Quality-Diversity Algorithms",
+      "x": 0.2183,
+      "y": 0.5812,
+      "cluster": 7,
+      "neighbors": [
+        12,
+        5,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Towards Effective GP Multi-Class Classification Based on Dynamic Targets",
+      "x": 0.0498,
+      "y": 0.8252,
+      "cluster": 4,
+      "neighbors": [
+        46,
+        127,
+        55
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Fishing for Interactions: A Network Science Approach to Modeling Fish School Search",
+      "x": 0.3728,
+      "y": 0.4463,
+      "cluster": 2,
+      "neighbors": [
+        104,
+        17,
+        10
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Lower Bounds from Fitness Levels Made Easy",
+      "x": 0.5765,
+      "y": 0.4297,
+      "cluster": 3,
+      "neighbors": [
+        104,
+        39,
+        41
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Unbalanced Mallows Models for Optimizing Expensive Black-Box Permutation Problems",
+      "x": 0.5841,
+      "y": 0.9371,
+      "cluster": 0,
+      "neighbors": [
+        67,
+        128,
+        17
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Convergence Analysis of Rule-Generality on the XCS Classifier System",
+      "x": 0.0301,
+      "y": 0.7896,
+      "cluster": 4,
+      "neighbors": [
+        122,
+        127,
+        46
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Genetic Programming is Naturally Suited to Evolve Bagging Ensembles",
+      "x": 0.1021,
+      "y": 0.7335,
+      "cluster": 4,
+      "neighbors": [
+        131,
+        34,
+        46
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Distance-based Subset Selection Revisited",
+      "x": 0.5633,
+      "y": 0.8707,
+      "cluster": 0,
+      "neighbors": [
+        55,
+        33,
+        67
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Level Generation for Angry Birds with Sequential VAE and Latent Variable Evolution",
+      "x": 0.0264,
+      "y": 0.3047,
+      "cluster": 5,
+      "neighbors": [
+        1,
+        81,
+        119
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "MAEDyS: Multiagent Evolution via Dynamic Skill Selection",
+      "x": 0.285,
+      "y": 0.3515,
+      "cluster": 2,
+      "neighbors": [
+        110,
+        123,
+        37
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "A Novel Surrogate-assisted Evolutionary Algorithm Applied to Partition-based Ensemble Learning",
+      "x": 0.2148,
+      "y": 0.8168,
+      "cluster": 4,
+      "neighbors": [
+        127,
+        22,
+        34
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Evolutionary Diversity Optimization and the Minimum Spanning Tree Problem",
+      "x": 0.6486,
+      "y": 0.4564,
+      "cluster": 3,
+      "neighbors": [
+        64,
+        37,
+        55
+      ],
+      "hasAbstract": true
+    },
+    {
+      "title": "Genetic Crossover in the Evolution of Time-dependent Neural Networks",
+      "x": 0.2064,
+      "y": 0.1837,
+      "cluster": 2,
+      "neighbors": [
+        32,
+        11,
+        112
+      ],
+      "hasAbstract": true
+    }
+  ]
+}

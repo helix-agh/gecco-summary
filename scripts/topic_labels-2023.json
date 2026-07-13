@@ -1,0 +1,11 @@
+{
+  "0": "Theory & runtime analysis",
+  "1": "Feature selection & evolutionary ML",
+  "2": "Quality-diversity & landscape analysis",
+  "3": "GP, symbolic regression & program synthesis",
+  "4": "Multi-objective optimization & CMA-ES",
+  "5": "Routing, scheduling & hyper-heuristics",
+  "6": "Robot swarms & morphological evolution",
+  "7": "Evolutionary reinforcement learning",
+  "8": "Neural architecture search"
+}

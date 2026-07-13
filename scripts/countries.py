@@ -37,7 +37,7 @@ USER_AGENT = (
 )
 SCRIPTS_DIR = Path(__file__).parent
 DATA_DIR = SCRIPTS_DIR.parent / "src" / "data"
-YEARS = (2024, 2025, 2026)
+YEARS = (2021, 2022, 2023, 2024, 2025, 2026)
 DEFAULT_YEAR = 2026
 
 

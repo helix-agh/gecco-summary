@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-13T01:04:34+00:00",
+    "source": "https://openalex.org",
+    "paperCount": 134,
+    "papersWithCountry": 129,
+    "countryCount": 36
+  },
+  "byTitle": {
+    "Measuring Feature Importance of Symbolic Regression Models Using Partial Effects": [
+      "BR"
+    ],
+    "Using Multiple Generative Adversarial Networks to Build Better-Connected Levels for Mega Man": [
+      "US"
+    ],
+    "Adaptive Scenario Subset Selection for Minimax Black-Box Continuous Optimization": [
+      "JP"
+    ],
+    "Genetic Programming for Borderline Instance Detection in High-dimensional Unbalanced Classification": [
+      "NZ",
+      "CN"
+    ],
+    "More Precise Runtime Analyses of Non-elitist EAs in Uncertain Environments": [
+      "GB"
+    ],
+    "BR-NS: an Archive-less Approach to Novelty Search": [
+      "FR"
+    ],
+    "Biodiversity in Evolved Voxel-based Soft Robots": [
+      "IT"
+    ],
+    "Continuously Running Genetic Algorithm for Real-Time Networking Device Optimization": [],
+    "A simple evolutionary algorithm guided by local mutations for an efficient RNA design.": [
+      "DE"
+    ],
+    "A hybrid ant colony optimization algorithm for the knapsack problem with a single continuous variable": [
+      "CN"
+    ],
+    "Stasis type particle stability in a stochastic model of particle swarm optimization": [
+      "PL"
+    ],
+    "A Geometric Encoding for Neural Network Evolution": [
+      "FR"
+    ],
+    "Multi-Emitter MAP-Elites: Improving quality, diversity and data efficiency with heterogeneous sets of emitters": [
+      "GB"
+    ],
+    "MA-ABC: A Memetic Algorithm Optimizing Attractiveness, Balance, and Cost for Capacitated Arc Routing Problems": [
+      "US"
+    ],
+    "Direct linkage discovery with empirical linkage learning": [
+      "PL"
+    ],
+    "A Genetic Algorithm For AC Optimal Transmission Switching": [
+      "TR"
+    ],
+    "A hybrid CP/MOLS Approach for Multi-Objective Imbalanced Classification": [
+      "FR"
+    ],
+    "Realistic Utility Functions Prove Difficult for State-of-the-Art Interactive Multiobjective Optimization Algorithms": [
+      "GB"
+    ],
+    "Heuristic Strategies for Solving Complex Interacting Stockpile Blending Problem with Chance Constraints": [
+      "AU"
+    ],
+    "Analysis of Evolutionary Diversity Optimisation for Permutation Problems": [
+      "AU"
+    ],
+    "Local Search Pivoting Rules and the Landscape Global Structure": [
+      "FR",
+      "GB"
+    ],
+    "On the Design and Anytime Performance of Indicator-based Branch and Bound for Multi-objective Combinatorial Optimization": [
+      "FR",
+      "PT"
+    ],
+    "Interaction between Model and Its Evolution Control in Surrogate-Assisted CMA Evolution Strategy": [
+      "CZ"
+    ],
+    "Quadratization of Gray Coded Representations, Long Path Problems and Needle Functions": [
+      "US",
+      "ES",
+      "JP"
+    ],
+    "An Efficient Computational Approach for Automatic Itinerary Planning on Web Servers": [
+      "CN"
+    ],
+    "Environmental Selection Using a Fuzzy Classifier for Multiobjective Evolutionary Algorithms": [
+      "CN"
+    ],
+    "Lazy Parameter Tuning and Control: Choosing All Parameters Randomly From a Power-Law Distribution": [
+      "RU",
+      "FR"
+    ],
+    "The Paradox of Choice in Evolving Swarms: Information Overload Leads to Limited Sensing": [
+      "GB",
+      "JP"
+    ],
+    "An Evolutionary Multi-Objective Feature Selection Approach for Detecting Music Segment Boundaries of Specific Types": [
+      "DE"
+    ],
+    "Solving the Paintshop Scheduling Problem with Memetic Algorithms": [
+      "AT"
+    ],
+    "Personalizing Performance Regression Models to Black-Box Optimization Problems": [
+      "SI",
+      "FR"
+    ],
+    "Augmented Lagrangian, penalty techniques and surrogate modeling for constrained optimization with CMA-ES": [
+      "FR"
+    ],
+    "Training Spiking Neural Networks with a Multi-Agent Evolutionary Robotics Framework": [
+      "US"
+    ],
+    "Metric for Evaluating Normalization Methods in Multiobjective Optimization": [
+      "CN",
+      "SG"
+    ],
+    "Accelerated Evolutionary Induction of Heterogeneous Decision Trees for Gene Expression-Based Classification": [
+      "PL"
+    ],
+    "A Genetic Algorithm Approach to Virtual Topology Design for Multi-Layer Communication Networks": [
+      "DE"
+    ],
+    "Policy Manifold Search: Exploring the Manifold Hypothesis for Diversity-based Neuroevolution": [
+      "GB"
+    ],
+    "Monte Carlo Elites: Quality-Diversity Selection as a Multi-Armed Bandit Problem": [
+      "MT"
+    ],
+    "CoInGP: Convolutional Inpainting with Genetic Programming": [
+      "HR",
+      "IT",
+      "NL",
+      "PT"
+    ],
+    "Optimal Static Mutation Strength Distributions for the (1+&#955;) Evolutionary Algorithm on OneMax": [
+      "RU",
+      "FR"
+    ],
+    "An Efficient Implementation of Iterative Partial Transcription for the Traveling Salesman Problem": [
+      "IN",
+      "US"
+    ],
+    "Self-Adjusting Population Sizes for Non-Elitist Evolutionary Algorithms: Why Success Rates Matter": [
+      "GB",
+      "DE"
+    ],
+    "Bayesian Preference Learning for Interactive Multi-objective Optimisation": [
+      "AU"
+    ],
+    "Generalized Jump Functions": [
+      "FR"
+    ],
+    "A survey of cluster validity indices for automatic data clustering using differential evolution": [
+      "FR",
+      "MX"
+    ],
+    "Saddle Point Optimization with Approximate Minimization Oracle": [
+      "JP"
+    ],
+    "Zoetrope Genetic Programming for regression": [],
+    "A Systematic Comparison Study on Hyperparameter Optimisation of Graph Neural Networks for Molecular Property Prediction": [
+      "GB"
+    ],
+    "A Matrix Adaptation Evolution Strategy for Optimization on General Quadratic Manifolds": [
+      "AT"
+    ],
+    "When Non-Elitism Meets Time-Linkage Problems": [
+      "CN"
+    ],
+    "Speed Benchmarking of Genetic Programming Frameworks": [
+      "PT"
+    ],
+    "Directing Evolution: The Automated Design of Evolutionary Pathways Using Directed Graphs": [
+      "US"
+    ],
+    "Zeroth-Order Optimizer Benchmarking for 3D Performance Capture": [],
+    "Diversifying Greedy Sampling and Evolutionary Diversity Optimisation for Constrained Monotone Submodular Functions": [
+      "AU",
+      "DE"
+    ],
+    "A Signal-Centric Perspective on the Evolution of Symbolic Communication": [
+      "IT"
+    ],
+    "Self-Referential Quality Diversity Through Differential Map-Elites": [
+      "KR",
+      "US"
+    ],
+    "A Parallel Ensemble Genetic Algorithm for the Traveling Salesman Problem": [
+      "US"
+    ],
+    "An Effective Action Covering for Multi-label Learning Classifier Systems: A Graph-Theoretic Approach": [
+      "US"
+    ],
+    "A Novel Multi-Task Genetic Programming Approach to Uncertain Capacitated Arc Routing Problem": [
+      "NZ"
+    ],
+    "Seeking Quality Diversity in Evolutionary Co-design of Morphology and Control of Soft Tensegrity Modular Robots": [
+      "IT",
+      "CH"
+    ],
+    "Coevolution of Remaining Useful Lifetime Estimation Pipelines for Automated Predictive Maintenance": [
+      "DE"
+    ],
+    "Pareto Compliance from a Practical Point of View": [],
+    "Parallel Differential Evolution Applied to Interleaving Generation with Precedence Evaluation of Tentative Solutions": [
+      "JP"
+    ],
+    "Explorative Data Analysis of Time Series based Algorithm Features of CMA-ES Variants": [
+      "NL"
+    ],
+    "Entropy-Based Evolutionary Diversity Optimisation for the Traveling Salesperson Problem": [
+      "AU",
+      "DE"
+    ],
+    "Resource Availability and The Evolution of Cooperation in a 3D Agent-Based Simulation": [
+      "GB"
+    ],
+    "The tiebreaking space of constructive heuristics for the permutation flowshop minimizing makespan": [
+      "BR",
+      "PE"
+    ],
+    "PSAF: A Probabilistic Surrogate-Assisted Framework for Single-Objective Optimization": [
+      "US"
+    ],
+    "On the Impact of Tangled Program Graph Marking Schemes under the Atari Reinforcement Learning Benchmark": [
+      "CA"
+    ],
+    "Interactive evolutionary multiple objective optimization algorithm using a fast calculation of holistic acceptabilities": [
+      "PL"
+    ],
+    "Generating Hard Inventory Routing Problem Instances using Evolutionary Algorithms": [
+      "PL"
+    ],
+    "Sparse Reward Exploration via Novelty Search and Emitters": [
+      "FR"
+    ],
+    "A Genetic Algorithm Approach for the Euclidean Steiner Tree Problem with Soft Obstacles": [
+      "AU"
+    ],
+    "A Graph Coloring based Parallel Hill Climber for Large-scale NK-landscapes": [
+      "FR"
+    ],
+    "A Two-Stage Multi-Objective Genetic Programming with Archive for Uncertain Capacitated Arc Routing Problem": [
+      "NZ"
+    ],
+    "Concurrent Model Synchronisation with Multiple Objectives": [
+      "DE"
+    ],
+    "Genetic Adversarial Training of Decision Trees": [
+      "IT"
+    ],
+    "Coevolutionary Modeling of Cyber Attack Patterns and Mitigations Using Public Datasets": [
+      "RU",
+      "US"
+    ],
+    "Regularized Evolutionary Population-Based Training": [
+      "US"
+    ],
+    "A Generalizability Measure for Program Synthesis with Genetic Programming": [
+      "DE"
+    ],
+    "Multi-objective Optimization Across Multiple Concepts: A Case Study on Lattice Structure Design": [
+      "AU"
+    ],
+    "Evolving Neural Architecture Using One Shot Model": [
+      "TW"
+    ],
+    "Evolutionary Meta Reinforcement Learning for Portfolio Optimization": [
+      "KR"
+    ],
+    "The Environment and Body-Brain Complexity": [
+      "ZA"
+    ],
+    "Convergence Rate of the (1+1)-Evolution Strategy with Success-Based Step-Size Adaptation on Convex Quadratic Function": [
+      "JP"
+    ],
+    "Evaluating Medical Aesthetics Treatments through Evolved Age-Estimation Models": [
+      "US",
+      "IN",
+      "GB"
+    ],
+    "Expressivity of Parameterized and Data-driven Representations in Quality Diversity Search": [
+      "DE",
+      "GB"
+    ],
+    "Simulated Annealing for Symbolic Regression": [
+      "BR"
+    ],
+    "A Bio-Inspired Spatial Defence Strategy for Collective Decision Making in Self-Organized Swarms": [
+      "AE",
+      "BE",
+      "NL"
+    ],
+    "Breeding Diverse Packings for the Knapsack Problem by Means of Diversity-Tailored Evolutionary Algorithms": [
+      "DE",
+      "AU"
+    ],
+    "Real-like MAX-SAT Instances and the Landscape Structure Across the Phase Transition": [
+      "ES",
+      "GB",
+      "CH"
+    ],
+    "A Rigorous Runtime Analysis of the 2-MMAS on Jump Functions: Ant Colony Optimizer Can Cope Well With Local Optima": [
+      "FR"
+    ],
+    "PSB2: The Second Program Synthesis Benchmark Suite": [
+      "US"
+    ],
+    "Landscape Features and Automated Algorithm Selection for Multi-objective Interpolated Continuous Optimisation Problems": [
+      "FR",
+      "GB"
+    ],
+    "Cooperative Coevolutionary Multiobjective Genetic Programming for Microarray Data Classification": [
+      "CN"
+    ],
+    "Evolvability and Complexity Properties of the Digital Circuit Genotype-Phenotype Map": [
+      "US"
+    ],
+    "Optimizing Loss Functions Through Multi-Variate Taylor Polynomial Parameterization": [
+      "US"
+    ],
+    "Design of Specific Primer Sets for SARS-CoV-2 Variants Using Evolutionary Algorithms": [
+      "NL",
+      "MX",
+      "FR"
+    ],
+    "Using Novelty Search to Explicitly Create Diversity in Ensembles of Classifiers": [
+      "GB"
+    ],
+    "Analyzing the Impact of Product Configuration Variations on Advanced Driver Assistance Systems with Search": [
+      "CN",
+      "JP",
+      "NO"
+    ],
+    "Evolving Gaits for Damage Control in a Hexapod Robot": [
+      "ZA"
+    ],
+    "Evolving Soft Robotic Jamming Grippers": [
+      "AU"
+    ],
+    "Multi-Objective Optimization of Item Selection in Computerized Adaptive Testing": [
+      "US"
+    ],
+    "Ants can solve the parallel drone scheduling traveling salesman problem": [
+      "VN"
+    ],
+    "Non-elitist Evolutionary Algorithms excel in Fitness Landscapes with Sparse Deceptive Regions and Dense Valleys": [
+      "GB",
+      "RU"
+    ],
+    "Encoding the Certainty of Boolean Variables to Improve the Guidance for Search-Based Test Generation": [
+      "DE"
+    ],
+    "Fitness Landscape Analysis of Graph Neural Network Architecture Search Spaces": [
+      "BR"
+    ],
+    "Greedy Approximated Hypervolume Subset Selection for Many-objective Optimization": [
+      "CN"
+    ],
+    "Evolutionary Minimization of Traffic Congestion": [
+      "DE",
+      "FR"
+    ],
+    "Stagnation Detection in Highly Multimodal Fitness Landscapes": [
+      "DK"
+    ],
+    "Policy Gradient Assisted MAP-Elites": [
+      "GB"
+    ],
+    "Partition Crossover for Continuous Optimization: ePX": [
+      "BR",
+      "US",
+      "ES",
+      "GB"
+    ],
+    "Evolving and Merging Hebbian Learning Rules: Increasing Generalization by Decreasing the Number of Rules": [
+      "DK"
+    ],
+    "Runtime Analysis of RLS and the (1+1) EA for the Chance-constrained Knapsack Problem with Correlated Uniform Weights": [
+      "AU",
+      "US"
+    ],
+    "Hypervolume in Biobjective Optimization Cannot Converge Faster Than $Omega(1/p)$": [
+      "FR"
+    ],
+    "Towards Exploratory Landscape Analysis for Large-scale Optimization: A Dimensionality Reduction Framework": [
+      "JP"
+    ],
+    "The Impact of Hyper-Parameter Tuning for Landscape-Aware Performance Regression and Algorithm Selection": [
+      "FR",
+      "SI"
+    ],
+    "Genetic Algorithm Niching by (Quasi-)Infinite Memory": [
+      "DE"
+    ],
+    "Quick Extreme Hypervolume Contribution Algorithm": [
+      "PL"
+    ],
+    "Signal Propagation in a Gradient-Based and Evolutionary Learning System": [
+      "US",
+      "ES"
+    ],
+    "Evolutionary Algorithms-assisted Construction of Cryptographic Boolean Functions": [
+      "NO",
+      "HR",
+      "NL"
+    ],
+    "Ensemble Feature Extraction for Multi-Container Quality-Diversity Algorithms": [
+      "JP"
+    ],
+    "Towards Effective GP Multi-Class Classification Based on Dynamic Targets": [
+      "IT",
+      "NZ",
+      "US"
+    ],
+    "Fishing for Interactions: A Network Science Approach to Modeling Fish School Search": [
+      "GB",
+      "US",
+      "BR"
+    ],
+    "Lower Bounds from Fitness Levels Made Easy": [
+      "FR",
+      "DE"
+    ],
+    "Unbalanced Mallows Models for Optimizing Expensive Black-Box Permutation Problems": [
+      "FR",
+      "BE",
+      "GB",
+      "ES"
+    ],
+    "Convergence Analysis of Rule-Generality on the XCS Classifier System": [
+      "JP"
+    ],
+    "Genetic Programming is Naturally Suited to Evolve Bagging Ensembles": [
+      "SE"
+    ],
+    "Distance-based Subset Selection Revisited": [
+      "CN"
+    ],
+    "Level Generation for Angry Birds with Sequential VAE and Latent Variable Evolution": [
+      "JP"
+    ],
+    "MAEDyS: Multiagent Evolution via Dynamic Skill Selection": [
+      "US",
+      "GB"
+    ],
+    "A Novel Surrogate-assisted Evolutionary Algorithm Applied to Partition-based Ensemble Learning": [
+      "NL"
+    ],
+    "Evolutionary Diversity Optimization and the Minimum Spanning Tree Problem": [
+      "DE",
+      "AU"
+    ],
+    "Genetic Crossover in the Evolution of Time-dependent Neural Networks": []
+  }
+}

@@ -1,3 +1,6 @@
+import topics2021 from '../data/topics-2021.json'
+import topics2022 from '../data/topics-2022.json'
+import topics2023 from '../data/topics-2023.json'
 import topics2024 from '../data/topics-2024.json'
 import topics2025 from '../data/topics-2025.json'
 import topics2026 from '../data/topics.json'
@@ -5,6 +8,9 @@ import type { Year } from './data'
 import type { Paper, Topics, TopicPoint } from '../types'
 
 export const topicsByYear: Record<Year, Topics> = {
+  2021: topics2021,
+  2022: topics2022,
+  2023: topics2023,
   2024: topics2024,
   2025: topics2025,
   2026: topics2026,

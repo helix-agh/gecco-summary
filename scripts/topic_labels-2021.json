@@ -1,0 +1,11 @@
+{
+  "0": "Multi-objective optimization & landscapes",
+  "1": "Routing, scheduling & logistics",
+  "2": "Evolved robots, swarms & communication",
+  "3": "Theory & runtime analysis",
+  "4": "Symbolic regression & classifiers",
+  "5": "Neural architecture & generative evolution",
+  "6": "Program synthesis & representations",
+  "7": "Novelty search & quality-diversity",
+  "8": "Evolution strategies & surrogate models"
+}

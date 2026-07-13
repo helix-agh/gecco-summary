@@ -3,6 +3,9 @@ node_modules/
 package-lock.json
 
 # Generated data files
-src/data/papers.json
+src/data/papers*.json
+src/data/topics*.json
 src/data/countries*.json
 scripts/countries-*.json
+scripts/abstracts*.json
+scripts/cluster_report*.md
