@@ -165,7 +165,7 @@ export function PapersTable({ papers, program }: PapersTableProps) {
             <tr>
               <th className="col-track">Track</th>
               {program && <th className="col-session">Session</th>}
-              <th>Title</th>
+              <th className="col-title">Title</th>
               <th className="col-authors">Authors</th>
             </tr>
           </thead>
@@ -202,7 +202,7 @@ export function PapersTable({ papers, program }: PapersTableProps) {
                       )}
                     </td>
                   )}
-                  <td>
+                  <td className="col-title">
                     {paper.doi ? (
                       <a
                         className="paper-title-link"

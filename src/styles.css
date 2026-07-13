@@ -106,7 +106,8 @@ a:hover {
 .year-switch {
   margin-top: 20px;
   display: inline-flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 4px 24px;
 }
 
 .year-option {
@@ -832,8 +833,67 @@ input.control-input {
     font-size: 26px;
   }
 
-  .col-authors {
+  .year-switch {
+    gap: 4px 16px;
+  }
+
+  /* Reflow each table row into a stacked card: title, authors, then a
+     track + session meta line. Keeps everything visible without a wide grid. */
+  .papers-table thead {
     display: none;
+  }
+
+  .papers-table,
+  .papers-table tbody {
+    display: block;
+  }
+
+  .papers-table tr {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'title title'
+      'authors authors'
+      'track session';
+    gap: 4px 10px;
+    align-items: start;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .papers-table td {
+    display: block;
+    border-bottom: none;
+    padding: 0;
+    width: auto;
+  }
+
+  .papers-table .col-title {
+    grid-area: title;
+  }
+
+  .papers-table .col-authors {
+    grid-area: authors;
+  }
+
+  .papers-table .col-track {
+    grid-area: track;
+    padding-top: 2px;
+  }
+
+  .papers-table .col-session {
+    grid-area: session;
+    white-space: normal;
+  }
+
+  .session-slot,
+  .session-room {
+    display: inline;
+  }
+
+  .session-room::before {
+    content: ' · ';
+    color: var(--ink-muted);
   }
 }
 
