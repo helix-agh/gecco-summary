@@ -7,6 +7,7 @@ import { TopicMap } from './components/TopicMap'
 import { YearSummary } from './components/YearSummary'
 import { DEFAULT_YEAR, YEARS, datasets, isYear } from './lib/data'
 import type { Year } from './lib/data'
+import { program2026 } from './lib/program'
 import {
   institutionMembers,
   papersByTrack,
@@ -206,7 +207,11 @@ export default function App() {
 
             <section className="card-plain">
               <h2 className="card-title">All papers</h2>
-              <PapersTable key={year} papers={papers} />
+              <PapersTable
+                key={year}
+                papers={papers}
+                program={year === 2026 ? program2026 : undefined}
+              />
             </section>
           </>
         )}

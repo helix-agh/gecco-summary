@@ -1,0 +1,1348 @@
+{
+  "meta": {
+    "conference": "GECCO 2026",
+    "source": "src/data/program.pdf",
+    "scrapedAt": "2026-07-13",
+    "sessionCount": 41,
+    "talkCount": 151,
+    "matchedPaperCount": 149
+  },
+  "sessions": [
+    {
+      "session": "RWA BP",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Corcovado",
+      "chair": "Alexander Brownlee",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Robust Multi-Objective Optimization for Bicycle Rebalancing in Shared Mobility Systems",
+          "doi": "10.1145/3795095.3805158",
+          "track": "RWA"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Evolving Macro-Actions for Monte Carlo Tree Search in Real-Time Domains",
+          "doi": "10.1145/3795095.3805064",
+          "track": "RWA"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Evolution With Purpose: Hierarchy-Informed Optimization of Whole-Brain Models",
+          "doi": "10.1145/3795095.3805080",
+          "track": "RWA",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "From Prompts to Pareto Fronts: Using Code LMs as Semantic Genetic Operators for Compiler Bug Discovery",
+          "doi": "10.1145/3795095.3805199",
+          "track": "RWA",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "GA + Theory BP",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Manuel Antonio",
+      "chair": "Carlos A. Coello Coello",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Analysis of the Impact of Tournament Size on Coevolutionary Search",
+          "doi": "10.1145/3795095.3805159",
+          "track": "THEORY"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Gray-Box Optimization and the Vertex Coloring Problem",
+          "doi": "10.1145/3795095.3805057",
+          "track": "THEORY"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Dropout-Inspired Strategies For Enhanced Exploration In Evolutionary Algorithms",
+          "doi": "10.1145/3795095.3805162",
+          "track": "GA",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Parent Selection Mechanisms in Elitist Crossover-Based Algorithms",
+          "doi": "10.1145/3795095.3805131",
+          "track": "THEORY",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "CS + SI BP",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Poas",
+      "chair": "Peter A.N. Bosman",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Dynamic Descriptor Mutations Improve Automated Quality-Diversity",
+          "doi": "10.1145/3795095.3805072",
+          "track": "SI"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Automated PSO Configuration Framework via Deep Neural Networks and Function Landscape Descriptors",
+          "doi": "10.1145/3795095.3805049",
+          "track": "SI",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "In Search of the Ingredients of Open-Endedness: Replicating Picbreeder with Large Vision-Language Models",
+          "doi": "10.1145/3795095.3805186",
+          "track": "CS",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Stability-Driven CPG Design for More Effective Quality-Diversity in Evolutionary Robotics",
+          "doi": "10.1145/3795095.3805096",
+          "track": "CS"
+        }
+      ]
+    },
+    {
+      "session": "BBSR 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Monteverde",
+      "chair": "Mike Preuss",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Benchmarking Evolutionary and Machine Learning Algorithms: The SIREN Challenge of Emergency Medical Services",
+          "doi": "10.1145/3795095.3805056",
+          "track": "BBSR"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Block-Bench: A Framework for Controllable and Transparent Discrete Optimization Benchmarking",
+          "doi": "10.1145/3795095.3805071",
+          "track": "BBSR"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Benchmarking Stopping Criteria for Evolutionary Multi-objective Optimization",
+          "doi": "10.1145/3795095.3805068",
+          "track": "BBSR"
+        }
+      ]
+    },
+    {
+      "session": "EMO 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Tortuguero",
+      "chair": "Deepanshu Yadav",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Dominance-Boundary-Based Reference Point Generation for Indicator-Based Multiobjective Optimization",
+          "doi": "10.1145/3795095.3805105",
+          "track": "EMO"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Not All Problems Are Equal: Weighted Performance Profiles For Many-Objective Optimization",
+          "doi": "10.1145/3795095.3805089",
+          "track": "EMO"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Stable Normalization for Preference-based Subset Selection with an Unbounded External Archive",
+          "doi": "10.1145/3795095.3805084",
+          "track": "EMO"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Simultaneous Approximation of Constraint-Specific Pareto Fronts by Constraint-Decomposed Push and Pull Search",
+          "doi": "10.1145/3795095.3805106",
+          "track": "EMO"
+        }
+      ]
+    },
+    {
+      "session": "ECOM 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Chirripó",
+      "chair": "Francisco Chicano",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "A Granular Ball–Ant Colony Optimization Framework Enhanced by Variable Neighborhood Search for the Multi-Depot Half-Open Time-Dependent EVRP",
+          "doi": "10.1145/3795095.3805141",
+          "track": "ECOM"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Adaptive Stochastic Natural Gradient Method for Safe Optimization on Binary Space",
+          "doi": "10.1145/3795095.3805125",
+          "track": "ECOM"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Minimizing restacks in load-unload-ordered rectangular packing via Generational Sequence Pair",
+          "doi": "10.1145/3795095.3805060",
+          "track": "ECOM"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Addressing Combinatorial Optimization with Estimation of Distribution Algorithms Based on Diffusion Models",
+          "doi": "10.1145/3795095.3805121",
+          "track": "ECOM"
+        }
+      ]
+    },
+    {
+      "session": "EML 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "11:30-13:00",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Will Neil Browne",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Investigating Robustness in Vision-Language Models via Adversarial Prompt Illumination",
+          "doi": "10.1145/3795095.3805104",
+          "track": "EML"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Wave-GA: Cyclical Evolutionary Optimization for Streaming Classification with Emerging Labels",
+          "doi": "10.1145/3795095.3805062",
+          "track": "EML"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Phase-Alternation and Tree-Initialization to Facilitate Interpretable Rule-based Machine Learning",
+          "doi": "10.1145/3795095.3805127",
+          "track": "EML"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Multi-Objective Evolution of Patch Tokens for Tabular Transformers",
+          "doi": "10.1145/3795095.3805076",
+          "track": "EML"
+        }
+      ]
+    },
+    {
+      "session": "RWA 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "15:00-16:30",
+      "room": "Corcovado",
+      "chair": "Daniel R. Tauritz",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Should I Overtake? Cue Learning using Evolution for Accurate Recognition of Safe Autonomous Vehicle Maneuvers",
+          "doi": "10.1145/3795095.3805095",
+          "track": "RWA"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "BACE: LLM-based Code Generation through Bayesian Anchored Co-Evolution of Code and Test Populations",
+          "doi": "10.1145/3795095.3805085",
+          "track": "RWA"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Many-Objective Multiple TSP in Path-Influenced Environments using Evolutionary Optimization",
+          "doi": "10.1145/3795095.3805070",
+          "track": "RWA"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Landscape-aware Automated Algorithm Design: An Efficient Framework for Real-world Optimization",
+          "doi": "10.1145/3795095.3805094",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "Theory 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "15:00-16:30",
+      "room": "Manuel Antonio",
+      "chair": "Michal Witold Przewozniczek",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Anytime Analysis on BinVal: Adaptive Parameters Help",
+          "doi": "10.1145/3795095.3805066",
+          "track": "THEORY"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Convergence Analysis of Evolution Strategies for Mixed-Integer Optimization",
+          "doi": "10.1145/3795095.3805122",
+          "track": "THEORY"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "When Switching Algorithms Helps: A Theoretical Study of Online Algorithm Selection",
+          "doi": "10.1145/3795095.3805156",
+          "track": "THEORY"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "A Generic Framework for Optimisation under Uncertainty with Recourse: Theory and Examples",
+          "doi": "10.1145/3795095.3805194",
+          "track": "THEORY"
+        }
+      ]
+    },
+    {
+      "session": "GP 1",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "15:00-16:30",
+      "room": "Tortuguero",
+      "chair": "Jose Manuel Velasco",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "From Six to Two: SLIM-DUO, a Simplified Extension of SLIM-GSGP",
+          "doi": "10.1145/3795095.3805151",
+          "track": "GP"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Prior-Informed Symbolic Regression for Multiview Scientific Discovery",
+          "doi": "10.1145/3795095.3805119",
+          "track": "GP"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Fitness Landscape Analysis of Grammatical Evolution Models for Glucose Prediction",
+          "doi": "10.1145/3795095.3805138",
+          "track": "GP"
+        }
+      ]
+    },
+    {
+      "session": "ECOM 2",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "15:00-16:30",
+      "room": "Chirripó",
+      "chair": "Luca Mariot",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "When Frequency Fitness Assignment Fails: Trapped States in Frequency-Guided Local Search",
+          "doi": "10.1145/3795095.3805098",
+          "track": "ECOM"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Digging to the Ground Truth: Solving Multi-objective Gray-Box Optimization Problems through Hyperplane Elimination",
+          "doi": "10.1145/3795095.3805136",
+          "track": "ECOM"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Accelerating LLM-Based Algorithm Evolution for the 3D Container Loading Problem",
+          "doi": "10.1145/3795095.3805178",
+          "track": "ECOM"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "GRASP-RVND Metaheuristic for the Traveling Salesman Problem with Drone Launch Station Location",
+          "doi": "10.1145/3795095.3805143",
+          "track": "ECOM"
+        }
+      ]
+    },
+    {
+      "session": "EML 2",
+      "day": "Wednesday",
+      "date": "2026-07-15",
+      "timeSlot": "15:00-16:30",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Ryan Urbanowicz",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Cooperative Coevolution versus Monolithic Evolutionary Search for Semi-Supervised Tabular Classification",
+          "doi": "10.1145/3795095.3805161",
+          "track": "EML"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Multi-Objective Orchestration of Small Language Model Ensembles: Balancing Accuracy, Diversity, and Fairness",
+          "doi": "10.1145/3795095.3805132",
+          "track": "EML"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Personalized Federated Multi-Task Optimization via Learning-assisted Search Path Reconstruction",
+          "doi": "10.1145/3795095.3805052",
+          "track": "EML"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "SONATA: Self-adaptive Evolutionary Framework for Hardware-aware Neural Architecture Search",
+          "doi": "10.1145/3795095.3805189",
+          "track": "EML"
+        }
+      ]
+    },
+    {
+      "session": "GP BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Corcovado",
+      "chair": "Nelishia Pillay",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "A Comparative Study of Model Selection Criteria for Symbolic Regression",
+          "doi": "10.1145/3795095.3805157",
+          "track": "GP"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Evolving Hardware-Efficient Grover Circuits with Grammatical Evolution",
+          "doi": "10.1145/3795095.3805176",
+          "track": "GP"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Introns and Templates Matter: Rethinking Linkage in GP-GOMEA",
+          "doi": "10.1145/3795095.3805139",
+          "track": "GP",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Generalization Analysis of Symbolic Regression Algorithms via Stability Theory",
+          "doi": "10.1145/3795095.3805123",
+          "track": "GP",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "EMO BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Manuel Antonio",
+      "chair": "Carlos Ignacio Hernández Castellanos",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "A Bi-Criteria Selection Framework for Incorporating Preference Information into Evolutionary Multi-objective Optimization",
+          "doi": "10.1145/3795095.3805083",
+          "track": "EMO"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Structural Bias in Continuous Multi-objective Optimization",
+          "doi": "10.1145/3795095.3805108",
+          "track": "EMO",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Multi-objective Local Optima Networks based on Decomposition",
+          "doi": "10.1145/3795095.3805091",
+          "track": "EMO",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "QUIVER: Cost-Aware Adaptive Preference Querying in Surrogate-Assisted Evolutionary Multi-Objective Optimization",
+          "doi": "10.1145/3795095.3805174",
+          "track": "EMO",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "NE BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Poas",
+      "chair": "Penousal Machado",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Evolving Multi-Channel Confidence-Aware Activation Functions for Missing Data with Channel Propagation",
+          "doi": "10.1145/3795095.3805092",
+          "track": "NE",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Optimizing Chlorination in Water Distribution Systems via Surrogate-assisted Neuroevolution",
+          "doi": "10.1145/3795095.3805109",
+          "track": "NE"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "LsmGrid: A Data-Aware Neuroevolution Framework for Designing Minimal Liquid State Machines",
+          "doi": "10.1145/3795095.3805051",
+          "track": "NE"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "NEAT-DNFs: A NeuroEvolutionary Framework for Evolving Dynamic Neural Field Architectures",
+          "doi": "10.1145/3795095.3805169",
+          "track": "NE"
+        }
+      ]
+    },
+    {
+      "session": "ENUM 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Arenal",
+      "chair": "Pierrick Legrand",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Effect of Mirrored Orthogonal Sampling for CMA-ES on Multimodal Problems",
+          "doi": "10.1145/3795095.3805082",
+          "track": "ENUM"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Hierarchical Evolution Strategy for Optimization of Sharp Ridge",
+          "doi": "10.1145/3795095.3805124",
+          "track": "ENUM"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Evaluation of Element-wise Effectiveness Estimation for Augmented Lagrangian CMA-ES",
+          "doi": "10.1145/3795095.3805126",
+          "track": "ENUM"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "On the Use of the \"Mutate Large, But Inherit Small Principle\" in Global and Noisy Optimization",
+          "doi": "10.1145/3795095.3805063",
+          "track": "ENUM"
+        }
+      ]
+    },
+    {
+      "session": "GA 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Monteverde",
+      "chair": "Dirk Thierens",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Evolving Robust Schedules: Advantages of Genetic Algorithms for FJSSP-W under Uncertainties",
+          "doi": "10.1145/3795095.3805147",
+          "track": "GA"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Limited Perfect Monotonical Surrogates constructed using low-cost recursive empirical linkage discovery with guaranteed output",
+          "doi": "10.1145/3795095.3805171",
+          "track": "GA"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Evolutionary Algorithms for Generating Graphs Matching Desired Laplacian Spectra",
+          "doi": "10.1145/3795095.3805128",
+          "track": "GA"
+        }
+      ]
+    },
+    {
+      "session": "L4EC 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Tortuguero",
+      "chair": "Eva Tuba",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "On the Sufficiency of SAT Features for Genetic Algorithm Parameter Selection",
+          "doi": "10.1145/3795095.3805177",
+          "track": "L4EC"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Similarity-based Portfolio Construction for Black-box Optimization",
+          "doi": "10.1145/3795095.3805145",
+          "track": "L4EC"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Analyzing search behavior of population-based optimization algorithms using graph neural networks",
+          "doi": "10.1145/3795095.3805195",
+          "track": "L4EC"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "MODE: Manifold Operator Decoding Embeddings for Neural Neighborhood Search for Vehicle Routing Problems",
+          "doi": "10.1145/3795095.3805099",
+          "track": "L4EC"
+        }
+      ]
+    },
+    {
+      "session": "RWA 2",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Chirripó",
+      "chair": "Alexander Brownlee",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Exact and Heuristic Methods for Capacitated Path Planning for Agricultural Field Operations",
+          "doi": "10.1145/3795095.3805120",
+          "track": "RWA"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "To Balance Competitive Games Using a Multi-objective Coevolutionary Approach",
+          "doi": "10.1145/3795095.3805088",
+          "track": "RWA"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Operational Decision Support for Evacuating Nursing Home Residents: A Hamburg Benchmark and Metaheuristic Comparison Under a 5-Minute Time Budget",
+          "doi": "10.1145/3795095.3805113",
+          "track": "RWA"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "IDEM Enough? Evolving Highly Nonlinear Idempotent Boolean Functions",
+          "doi": "10.1145/3795095.3805191",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "EML 3",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "11:30-13:00",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Will Neil Browne",
+      "papers": [
+        {
+          "time": "11:30-11:50",
+          "title": "Evolutionary Mapping of Neural Networks to Spatial Accelerators",
+          "doi": "10.1145/3795095.3805135",
+          "track": "EML"
+        },
+        {
+          "time": "11:50-12:10",
+          "title": "Surrogate-Assisted Evolutionary Multi-Agent Reinforcement Learning with Adaptive Fitness Evaluation",
+          "doi": "10.1145/3795095.3805146",
+          "track": "EML"
+        },
+        {
+          "time": "12:10-12:30",
+          "title": "Value Consistency Prioritization for Accelerating Knowledge Discovery in Sparse Reward Anticipatory Classifier Systems",
+          "doi": "10.1145/3795095.3805168",
+          "track": "EML"
+        },
+        {
+          "time": "12:30-12:50",
+          "title": "Evolutionary Discovery of Reinforcement Learning Algorithms via Large Language Models",
+          "doi": "10.1145/3795095.3805180",
+          "track": "EML"
+        }
+      ]
+    },
+    {
+      "session": "EML BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Corcovado",
+      "chair": "Ryan Urbanowicz",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "EvoBatch: A Mini-Batch, Compute-Constrained Evolutionary Algorithm Reduces the Generalization Gap in Deep Learning",
+          "doi": "10.1145/3795095.3805050",
+          "track": "EML"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Mortar: Evolving Mechanics for Automatic Game Design",
+          "doi": "10.1145/3795095.3805100",
+          "track": "EML",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Distributional Value Estimation Without Target Networks for Robust Quality-Diversity",
+          "doi": "10.1145/3795095.3805197",
+          "track": "EML",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "COvolve: Adversarial Co-Evolution of Large-Language-Model-Generated Policies and Environments via Two-Player Zero-Sum Game",
+          "doi": "10.1145/3795095.3805144",
+          "track": "EML"
+        }
+      ]
+    },
+    {
+      "session": "ECOM BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Manuel Antonio",
+      "chair": "Enrique Alba",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Obtaining Partition Crossover masks using Statistical Linkage Learning for solving noised optimization problems with hidden variable dependency structure",
+          "doi": "10.1145/3795095.3805172",
+          "track": "ECOM",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Vehicle Routing Problem with Resource-Constrained Pickup and Delivery: A Heuristic-Informed BRKGA with Pattern-Based Analysis",
+          "doi": "10.1145/3795095.3805185",
+          "track": "ECOM",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "A Heterogeneous Ant Colony Framework with Semantic Manifold Learning for Dynamic Ore-Flow Blending",
+          "doi": "10.1145/3795095.3805181",
+          "track": "ECOM",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "BBSR + ENUM BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Poas",
+      "chair": "Anne Auger",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Accelerating Black-Box Bilevel Optimization with Rank-Based Upper-Level Value Function Approximation",
+          "doi": "10.1145/3795095.3805065",
+          "track": "ENUM"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "S3-LRA-xNES: Step-size and Shape Separated Learning Rate Adaptation for Exponential Natural Evolution Strategy",
+          "doi": "10.1145/3795095.3805058",
+          "track": "ENUM",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Assessing Reproducibility in Evolutionary Computation: A Case Study using Human- and LLM-based Assessment",
+          "doi": null,
+          "track": "BBSR",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Exploration of Pareto-preserving search-space transformations in multi-objective test functions",
+          "doi": "10.1145/3795095.3805129",
+          "track": "BBSR",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "EMO 2",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Monteverde",
+      "chair": "Carlos Ignacio Hernández Castellanos",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "On Reference Set Selection for Constrained Multiobjective Optimization Problems",
+          "doi": "10.1145/3795095.3805160",
+          "track": "EMO"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Weight Vector Specification in MOEA/D to Find Balanced and Promising Solutions for Multi-Criteria Decision Making",
+          "doi": "10.1145/3795095.3805110",
+          "track": "EMO"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "On the Use of Bi-Objective Evolutionary Algorithms for the Stochastic Multiple Knapsack Problem under Dynamic Constraints",
+          "doi": "10.1145/3795095.3805133",
+          "track": "EMO"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Adaptive Ensemble Multi-Objective Differential Evolution for High-Dimensional Gene Selection",
+          "doi": "10.1145/3795095.3805170",
+          "track": "EMO"
+        }
+      ]
+    },
+    {
+      "session": "GECH 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Tortuguero",
+      "chair": "Yuri Lavinas",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "An Efficient Hybrid Racing Method for Portfolio Configuration",
+          "doi": "10.1145/3795095.3805134",
+          "track": "GECH"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Automatically Designing Novel Evolutionary Architectures",
+          "doi": "10.1145/3795095.3805077",
+          "track": "GECH"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Digital Red Queen: Adversarial Program Evolution in Core War with LLMs",
+          "doi": "10.1145/3795095.3805116",
+          "track": "GECH"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Discrete Self-Adaptation in Competitive Coevolution for Constrained Hardware",
+          "doi": "10.1145/3795095.3805079",
+          "track": "GECH"
+        }
+      ]
+    },
+    {
+      "session": "RWA 3",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Chirripó",
+      "chair": "Sylvain Cussat-Blanc",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "Integrating Digital Twins into Evolutionary Optimization of Factory Layouts",
+          "doi": "10.1145/3795095.3805166",
+          "track": "RWA"
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Genetic Programming for Evolving Tailored Spectral Vegetation Indices in the Context of Crop Pathogen Detection",
+          "doi": "10.1145/3795095.3805155",
+          "track": "RWA"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "Quantum-Behaved PSO-DE for Ubiquitous Connectivity in Space-Terrestrial Cell-Free Massive MIMO Systems",
+          "doi": "10.1145/3795095.3805182",
+          "track": "RWA"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Survival Is Not Enough: Improving Glycemic Control with Sexual Selection",
+          "doi": "10.1145/3795095.3805137",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "GP 2 + Impact",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "15:00-16:30",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Nelishia Pillay",
+      "papers": [
+        {
+          "time": "15:00-15:20",
+          "title": "The role of genetic programming in agentic AI – reflecting on 10 years of TPOT",
+          "invited": true
+        },
+        {
+          "time": "15:20-15:40",
+          "title": "Teaching the Teacher: The Role of Teacher-Student Smoothness Alignment in Genetic Programming-based Symbolic Distillation",
+          "doi": "10.1145/3795095.3805148",
+          "track": "GP"
+        },
+        {
+          "time": "15:40-16:00",
+          "title": "A Boundary-Aware Multi-Objective Genetic Programming Classifier with Stacking-Based Integration",
+          "doi": "10.1145/3795095.3805111",
+          "track": "GP"
+        },
+        {
+          "time": "16:00-16:20",
+          "title": "Evolving Dispatching Rules for the Unrelated Parallel Machines Scheduling Problem with Precedence and Resource Constraints with Genetic Programming",
+          "doi": "10.1145/3795095.3805192",
+          "track": "GP"
+        }
+      ]
+    },
+    {
+      "session": "L4EC BP",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Corcovado",
+      "chair": "Lee Spector",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "LLaMEA-BO: A Large Language Model Evolutionary Algorithm for Automatically Generating Bayesian Optimization Algorithms",
+          "doi": "10.1145/3795095.3805059",
+          "track": "L4EC"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Deep Learning for Feature-Free Landscape Analysis in Combinatorial Optimization: An Empirical Study on NK-landscapes",
+          "doi": "10.1145/3795095.3805142",
+          "track": "L4EC",
+          "bestPaperNominee": true
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "A Learning-Based Cooperative Coevolution Framework for Heterogeneous Large-Scale Global Optimization",
+          "doi": "10.1145/3795095.3805054",
+          "track": "L4EC",
+          "bestPaperNominee": true
+        }
+      ]
+    },
+    {
+      "session": "BBSR 2",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Poas",
+      "chair": "Tea Tusar",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "Benchmarking Interactive Multi-Criterion Decision-Making Procedures Following Machine Learning-Based Decision-Maker",
+          "doi": "10.1145/3795095.3805101",
+          "track": "BBSR"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Constructing Streams of Optimization Instances for Benchmarking Algorithm Selection and Configuration Approaches in Streaming Scenarios",
+          "doi": "10.1145/3795095.3805073",
+          "track": "BBSR"
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "Designing Landscape-Aware Benchmarks with Explicit Local Optima for Single- and Multi-Objective Optimization",
+          "doi": "10.1145/3795095.3805188",
+          "track": "BBSR"
+        }
+      ]
+    },
+    {
+      "session": "CS 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Arenal",
+      "chair": "Pier Luca Lanzi",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "Social Learning Strategies for Evolved Virtual Soft Robots",
+          "doi": "10.1145/3795095.3805149",
+          "track": "CS"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Tournament Informed Adversarial Quality Diversity",
+          "doi": "10.1145/3795095.3805154",
+          "track": "CS"
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "Emergence Of Internal State-Modulated Swarming In Multi-Agent Patch Foraging System",
+          "doi": "10.1145/3795095.3805114",
+          "track": "CS"
+        }
+      ]
+    },
+    {
+      "session": "EMO 3",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Monteverde",
+      "chair": "Saúl Zapotecas-Martínez",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "Deep Reinforcement Learning Based Environmental and Mating Selection for Evolutionary Multi-objective Optimization",
+          "doi": "10.1145/3795095.3805102",
+          "track": "EMO"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "P-MOEBC: A Pairwise Evolutionary Framework for Balanced Clustering",
+          "doi": "10.1145/3795095.3805103",
+          "track": "EMO"
+        }
+      ]
+    },
+    {
+      "session": "SI 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Tortuguero",
+      "chair": "Pierrick Legrand",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "A Hybrid GA–PSO with Collective Learning for Obstacle-Aware Sensor Node Deployment in IoT-Enabled Networks",
+          "doi": "10.1145/3795095.3805074",
+          "track": "SI"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Particle Swarm Optimization with Population Dynamics - Artificial Splitting, Extinction, and Migration",
+          "doi": "10.1145/3795095.3805107",
+          "track": "SI"
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "Efficient EV Charging Allocation in Fog Computing via Committee-Based Surrogate-Assisted PSO",
+          "doi": "10.1145/3795095.3805140",
+          "track": "SI"
+        }
+      ]
+    },
+    {
+      "session": "RWA 4",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Chirripó",
+      "chair": "Elizabeth Wanner",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "Dual-Layer Synchronous Ring Cellular UMDA Based On Anisotropic RBF Surrogate for High-Dimensional Evolutionary Optimization in Energy Management",
+          "doi": "10.1145/3795095.3805150",
+          "track": "RWA"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Anisotropic Random-Feature Surrogate-Assisted Evolutionary Algorithm for High-Dimensional Risk-Based Energy Management Optimization",
+          "doi": "10.1145/3795095.3805187",
+          "track": "RWA"
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "Robust Evolutionary Optimization for Demand-Balanced Railway Route Design",
+          "doi": "10.1145/3795095.3805167",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "NE 1",
+      "day": "Thursday",
+      "date": "2026-07-16",
+      "timeSlot": "17:00-18:00",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Travis Desell",
+      "papers": [
+        {
+          "time": "17:00-17:20",
+          "title": "Measuring Intrinsic Dimension of Multiobjective Landscapes and Dimensionality-Reduced Neuroevolution of Deep Reinforcement Learning",
+          "doi": "10.1145/3795095.3805093",
+          "track": "NE"
+        },
+        {
+          "time": "17:20-17:40",
+          "title": "Asynchronous Neuro-Evolutionary Symbolic Regression with Maturity-Based Replacement",
+          "doi": "10.1145/3795095.3805164",
+          "track": "NE"
+        },
+        {
+          "time": "17:40-18:00",
+          "title": "Investigating Memetic Scheduling Strategies for Distributed Neuroevolution",
+          "doi": "10.1145/3795095.3805165",
+          "track": "NE"
+        }
+      ]
+    },
+    {
+      "session": "RWA 5 + EML 4",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Corcovado",
+      "chair": "Vanessa Volz",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "When Fitness Is Cheap: Pareto-Based Evolutionary Optimisation for Lightweight Neural Architectures",
+          "doi": "10.1145/3795095.3805081",
+          "track": "EML"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Search-Based Risk Feature Discovery in Document Structure Spaces under a Constrained Budget",
+          "doi": "10.1145/3795095.3805086",
+          "track": "RWA"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "CURE: Adaptive Multi-Channel Fusion via Genetic Optimization for Chronic Wound Image Analysis",
+          "notInPapersJson": true
+        },
+        {
+          "time": "10:00-10:20",
+          "title": "Evolutionary‑Driven Bayesian Optimization for Automated Molecular Docking with AutoDock Vina",
+          "doi": "10.1145/3795095.3805179",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "NE 2 + GP 3",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Manuel Antonio",
+      "chair": "Thomas Helmuth",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "EvoTS: Evolutionary Transformer Search for Time Series Forecasting",
+          "doi": "10.1145/3795095.3805078",
+          "track": "NE"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models",
+          "doi": "10.1145/3795095.3805067",
+          "track": "GP"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "Diversified Residual Symbolic Regression",
+          "doi": "10.1145/3795095.3805087",
+          "track": "GP"
+        },
+        {
+          "time": "10:00-10:30",
+          "title": "ROIDS: Robust Outlier-Aware Informed Down-Sampling",
+          "doi": "10.1145/3795095.3805130",
+          "track": "GP"
+        }
+      ]
+    },
+    {
+      "session": "GECH 2",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Poas",
+      "chair": "Ilya Basin",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "ProFiT: Program Search for Financial Trading",
+          "doi": "10.1145/3795095.3805175",
+          "track": "GECH"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Energy-Aware Metaheuristics",
+          "doi": "10.1145/3795095.3805196",
+          "track": "GECH"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "Interactive LLM-assisted curriculum learning for multi-task policy search",
+          "doi": "10.1145/3795095.3805152",
+          "track": "GECH"
+        },
+        {
+          "time": "10:00-10:20",
+          "title": "MixDiBB: Distributed Black-Box Optimization for Mixed-Parameter Search Spaces",
+          "doi": "10.1145/3795095.3805118",
+          "track": "GECH"
+        }
+      ]
+    },
+    {
+      "session": "EMO 4",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Monteverde",
+      "chair": "Manuel López-Ibáñez",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "An Adaptive Offspring Generation Wrapper for Constrained Multimodal Multiobjective Evolutionary Algorithms",
+          "doi": "10.1145/3795095.3805075",
+          "track": "EMO"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Pareto Optimization with Robust Evaluation for Noisy Subset Selection",
+          "doi": "10.1145/3795095.3805201",
+          "track": "EMO"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "Approximating the Hypervolume Indicator using Fast Low-Discrepancy Sequences",
+          "doi": "10.1145/3795095.3805198",
+          "track": "EMO"
+        },
+        {
+          "time": "10:00-10:20",
+          "title": "Bi-objective Stochastic Simulation Optimization on Integer Lattices via Scalarization",
+          "doi": "10.1145/3795095.3805200",
+          "track": "EMO"
+        }
+      ]
+    },
+    {
+      "session": "ECOM 3 + GA 2",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Tortuguero",
+      "chair": "Niki van Stein",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "LLM Policy Induction for Heuristic Search Control: A Trace-Driven ALNS Framework",
+          "doi": "10.1145/3795095.3805061",
+          "track": "ECOM"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Interpretable Algorithm Selection via Multi-Objective Evolutionary Decision Trees",
+          "doi": "10.1145/3795095.3805097",
+          "track": "ECOM"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "The hop-like problem nature -- unveiling and modelling new features of real-world problems",
+          "doi": "10.1145/3795095.3805173",
+          "track": "GA"
+        },
+        {
+          "time": "10:00-10:20",
+          "title": "Evolutionary Tunneling and Periodicity Across the Big Valley Distribution",
+          "doi": "10.1145/3795095.3805090",
+          "track": "GA"
+        }
+      ]
+    },
+    {
+      "session": "RWA 6",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Chirripó",
+      "chair": "Yazmin Maldonado",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "Evolutionary Multitask Optimization for Coupled Continuous Decision Spaces: A GPU-Accelerated Pre-optimization for Movable-Antenna-and-RIS-aided Systems",
+          "doi": "10.1145/3795095.3805153",
+          "track": "RWA"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Adaptive Grid-Based Multi-Objective Evolutionary Optimization for Coordinated Truck–Drone Routing with Backhauls",
+          "doi": "10.1145/3795095.3805193",
+          "track": "RWA"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "Evolutionary Computation for Tax-Minimizing Strategies in Special Economic Zones",
+          "doi": "10.1145/3795095.3805115",
+          "track": "RWA"
+        },
+        {
+          "time": "10:00-10:20",
+          "title": "Hybridized Evolution Accelerating Thermostability (HEAT): A Novel MOEA Approach to EASME Protein Engineering",
+          "doi": "10.1145/3795095.3805117",
+          "track": "RWA"
+        }
+      ]
+    },
+    {
+      "session": "L4EC 2",
+      "day": "Friday",
+      "date": "2026-07-17",
+      "timeSlot": "09:00-10:30",
+      "room": "Gandoca-Manzanillo",
+      "chair": "Elena Raponi",
+      "papers": [
+        {
+          "time": "09:00-09:20",
+          "title": "Advancing CMA-ES with Learning-Based Cooperative Coevolution for Scalable Optimization",
+          "doi": "10.1145/3795095.3805053",
+          "track": "L4EC"
+        },
+        {
+          "time": "09:20-09:40",
+          "title": "Detect and Act: Automated Dynamic Optimizer through Meta-Black-Box Optimization",
+          "doi": "10.1145/3795095.3805055",
+          "track": "L4EC"
+        },
+        {
+          "time": "09:40-10:00",
+          "title": "Does Dimensionality Reduction via Random Projections preserve Landscape Features?",
+          "doi": "10.1145/3795095.3805190",
+          "track": "L4EC"
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,13 @@
 import { useMemo, useState } from 'react'
+import type { ProgramIndex } from '../lib/program'
 import { authorUrl } from '../lib/scholar'
 import { trackName } from '../lib/tracks'
 import type { Paper } from '../types'
 
 interface PapersTableProps {
   papers: Paper[]
+  /** Presentation schedule; enables the day/time filters and session column. */
+  program?: ProgramIndex
 }
 
 interface HoverState {
@@ -26,9 +29,16 @@ function matchesQuery(paper: Paper, query: string): boolean {
   )
 }
 
-export function PapersTable({ papers }: PapersTableProps) {
+/** "11:30-13:00" → "11:30–13:00" for display. */
+function slotLabel(slot: string): string {
+  return slot.replace('-', '–')
+}
+
+export function PapersTable({ papers, program }: PapersTableProps) {
   const [query, setQuery] = useState('')
   const [track, setTrack] = useState('')
+  const [day, setDay] = useState('')
+  const [slot, setSlot] = useState('')
   const [hover, setHover] = useState<HoverState | null>(null)
 
   const showAbstract = (paper: Paper, event: { clientX: number; clientY: number }) => {
@@ -41,14 +51,37 @@ export function PapersTable({ papers }: PapersTableProps) {
     [papers],
   )
 
+  const slots = program?.days.find((d) => d.date === day)?.slots ?? []
+
   const filtered = useMemo(() => {
     const normalized = query.trim().toLowerCase()
-    return papers.filter(
-      (paper) =>
-        (track === '' || paper.track === track) &&
-        (normalized === '' || matchesQuery(paper, normalized)),
-    )
-  }, [papers, query, track])
+    const result = papers.filter((paper) => {
+      if (track !== '' && paper.track !== track) return false
+      if (normalized !== '' && !matchesQuery(paper, normalized)) return false
+      if (day !== '' || slot !== '') {
+        const talk = program?.byTitle.get(paper.title)
+        if (!talk) return false
+        if (day !== '' && talk.date !== day) return false
+        if (slot !== '' && talk.timeSlot !== slot) return false
+      }
+      return true
+    })
+    // With a schedule filter active the table reads as a mini-program:
+    // chronological, with parallel sessions grouped together.
+    if (program && day !== '') {
+      result.sort((a, b) => {
+        const ta = program.byTitle.get(a.title)
+        const tb = program.byTitle.get(b.title)
+        if (!ta || !tb) return 0
+        return (
+          ta.timeSlot.localeCompare(tb.timeSlot) ||
+          ta.session.localeCompare(tb.session) ||
+          ta.time.localeCompare(tb.time)
+        )
+      })
+    }
+    return result
+  }, [papers, query, track, day, slot, program])
 
   return (
     <div>
@@ -78,6 +111,49 @@ export function PapersTable({ papers }: PapersTableProps) {
             </option>
           ))}
         </select>
+        {program && (
+          <>
+            <select
+              className="control-input control-select"
+              value={day}
+              onChange={(event) => {
+                setDay(event.target.value)
+                setSlot('')
+              }}
+              aria-label="Filter by day"
+            >
+              <option value="">All days</option>
+              {program.days.map((option) => (
+                <option key={option.date} value={option.date}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+            <select
+              className="control-input control-select"
+              value={slot}
+              disabled={day === ''}
+              onChange={(event) => {
+                setSlot(event.target.value)
+              }}
+              aria-label="Filter by session time"
+              title={day === '' ? 'Pick a day first' : undefined}
+            >
+              <option value="">{day === '' ? 'Pick a day first' : 'All times'}</option>
+              {slots.map((option) => (
+                <option key={option} value={option}>
+                  {slotLabel(option)}
+                </option>
+              ))}
+            </select>
+            <span className="bp-legend">
+              <span className="bp-star" aria-hidden="true">
+                ★
+              </span>{' '}
+              Best Paper nominee
+            </span>
+          </>
+        )}
         <span className="table-count">
           {filtered.length} of {papers.length} papers
         </span>
@@ -88,63 +164,86 @@ export function PapersTable({ papers }: PapersTableProps) {
           <thead>
             <tr>
               <th className="col-track">Track</th>
+              {program && <th className="col-session">Session</th>}
               <th>Title</th>
               <th className="col-authors">Authors</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((paper) => (
-              <tr
-                key={paper.title}
-                className={paper.abstract ? 'has-abstract' : undefined}
-                onMouseEnter={(event) => {
-                  showAbstract(paper, event)
-                }}
-                onMouseLeave={() => {
-                  setHover(null)
-                }}
-              >
-                <td className="col-track">
-                  <span className="track-chip" title={trackName(paper.track)}>
-                    {paper.track}
-                  </span>
-                </td>
-                <td>
-                  {paper.doi ? (
-                    <a
-                      className="paper-title-link"
-                      href={`https://doi.org/${paper.doi}`}
-                      target="_blank"
-                      rel="noreferrer"
-                      title="Open in the ACM Digital Library"
-                    >
-                      {paper.title}
-                      <span className="external-mark" aria-hidden="true">
-                        ↗
-                      </span>
-                    </a>
-                  ) : (
-                    paper.title
+            {filtered.map((paper) => {
+              const talk = program?.byTitle.get(paper.title)
+              return (
+                <tr
+                  key={paper.title}
+                  className={paper.abstract ? 'has-abstract' : undefined}
+                  onMouseEnter={(event) => {
+                    showAbstract(paper, event)
+                  }}
+                  onMouseLeave={() => {
+                    setHover(null)
+                  }}
+                >
+                  <td className="col-track">
+                    <span className="track-chip" title={trackName(paper.track)}>
+                      {paper.track}
+                    </span>
+                  </td>
+                  {program && (
+                    <td className="col-session">
+                      {talk && (
+                        <>
+                          <span className="session-slot">
+                            {talk.day.slice(0, 3)} {slotLabel(talk.time)}
+                          </span>
+                          <span className="session-room">
+                            {talk.session} · {talk.room}
+                          </span>
+                        </>
+                      )}
+                    </td>
                   )}
-                </td>
-                <td className="col-authors">
-                  {paper.authors.map((author, index) => (
-                    <span key={author.name}>
-                      {index > 0 && ', '}
+                  <td>
+                    {paper.doi ? (
                       <a
-                        className="author-name"
-                        href={authorUrl(author.name, author.orcid)}
+                        className="paper-title-link"
+                        href={`https://doi.org/${paper.doi}`}
                         target="_blank"
                         rel="noreferrer"
-                        title={author.affiliations.join(', ')}
+                        title="Open in the ACM Digital Library"
                       >
-                        {author.name}
+                        {paper.title}
+                        <span className="external-mark" aria-hidden="true">
+                          ↗
+                        </span>
                       </a>
-                    </span>
-                  ))}
-                </td>
-              </tr>
-            ))}
+                    ) : (
+                      paper.title
+                    )}
+                    {talk?.bestPaperNominee && (
+                      <span className="bp-star" title="Best Paper Award nominee">
+                        ★
+                      </span>
+                    )}
+                  </td>
+                  <td className="col-authors">
+                    {paper.authors.map((author, index) => (
+                      <span key={author.name}>
+                        {index > 0 && ', '}
+                        <a
+                          className="author-name"
+                          href={authorUrl(author.name, author.orcid)}
+                          target="_blank"
+                          rel="noreferrer"
+                          title={author.affiliations.join(', ')}
+                        >
+                          {author.name}
+                        </a>
+                      </span>
+                    ))}
+                  </td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
         {filtered.length === 0 && <p className="table-empty">No papers match your search.</p>}
