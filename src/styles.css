@@ -63,9 +63,7 @@ a:hover {
 
 .site-header {
   border-top: 4px solid var(--accent);
-  border-bottom: 1px solid var(--hairline);
-  padding: 44px 0 36px;
-  background: var(--surface);
+  padding: 44px 0 12px;
 }
 
 .header-inner {
@@ -106,48 +104,44 @@ a:hover {
 }
 
 .year-switch {
-  margin-top: 18px;
+  margin-top: 20px;
   display: inline-flex;
-  border: 1px solid var(--hairline);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: var(--shadow);
+  gap: 24px;
 }
 
 .year-option {
   appearance: none;
   border: 0;
-  border-left: 1px solid var(--hairline);
-  background: var(--surface);
-  padding: 7px 16px;
+  background: none;
+  padding: 4px 1px 6px;
   font: inherit;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
-  color: var(--ink-secondary);
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-muted);
+  border-bottom: 2px solid transparent;
   cursor: pointer;
-}
-
-.year-option:first-child {
-  border-left: 0;
+  transition:
+    color 150ms ease,
+    border-color 150ms ease;
 }
 
 .year-option:hover {
   color: var(--accent-strong);
-  background: var(--tint);
 }
 
 .year-option.is-active {
-  color: #fff;
-  background: var(--accent);
+  color: var(--ink);
+  border-bottom-color: var(--accent);
 }
 
 .year-option:focus-visible {
   outline: 2px solid var(--focus);
-  outline-offset: -2px;
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .site-footer {
-  border-top: 1px solid var(--hairline);
   margin-top: 64px;
   padding: 28px 0 48px;
   color: var(--ink-muted);
