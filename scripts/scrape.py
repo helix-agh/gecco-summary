@@ -5,8 +5,7 @@ Pipeline:
   1. Fetch the "Accepted Papers" page (a static HTML table: Track / Title / Authors).
   2. Parse each row; split the authors cell into (name, affiliations) entries.
   3. Match papers to ACM DOIs via the Crossref API (open, no key required),
-     and each author to their ORCID iD from the Crossref author metadata
-     (ACM requires an ORCID from every author, so coverage is complete).
+     and authors to ORCID iDs where Crossref author metadata provides them.
   4. Write src/data/papers.json (2026) or src/data/papers-<year>.json.
 
 Standard library only — no third-party dependencies.
@@ -76,7 +75,7 @@ CONFERENCES: dict[int, dict[str, str | None]] = {
 }
 USER_AGENT = (
     "gecco-summary/0.1 (https://github.com/helix-agh/gecco-summary; "
-    "mailto:wachtelik@gmail.com)"
+    "mailto:wachtelik@agh.edu.pl)"
 )
 
 
@@ -312,6 +311,30 @@ def name_key(name: str) -> tuple[str, str]:
     return (first, last)
 
 
+# Corrections validated against author or institutional profiles. Crossref
+# deposits occasionally contain another co-author's ORCID or an obsolete ID.
+ORCID_OVERRIDES: dict[tuple[str, str], str] = {
+    name_key("Ana Kostovska"): "0000-0002-5983-7169",
+    name_key("Carola Doerr"): "0000-0002-4981-3227",
+    name_key("Marcin Komarnicki"): "0000-0002-3008-9320",
+    name_key("Manuel López-Ibáñez"): "0000-0001-9974-1295",
+    name_key("Benjamin Doerr"): "0000-0001-5283-4208",
+    name_key("Sara Silva"): "0000-0001-8223-4799",
+    name_key("Una-May O'Reilly"): "0000-0001-6923-8445",
+}
+
+
+def valid_orcid(orcid: str) -> bool:
+    """Validate the ORCID structure and ISO 7064 MOD 11-2 check digit."""
+    if not re.fullmatch(r"\d{4}-\d{4}-\d{4}-\d{3}[\dX]", orcid):
+        return False
+    total = 0
+    for digit in orcid.replace("-", "")[:15]:
+        total = (total + int(digit)) * 2
+    check = (12 - total % 11) % 11
+    return orcid[-1] == ("X" if check == 10 else str(check))
+
+
 def match_crossref_author(
     name: str, crossref_authors: list[dict[str, object]]
 ) -> dict[str, object] | None:
@@ -345,25 +368,29 @@ def resolve_orcids(
 ) -> dict[tuple[str, str], str]:
     """Pick one ORCID per author name key from per-paper (name, ORCID) votes.
 
-    ACM metadata occasionally attaches a co-author's ORCID to the wrong person
-    (observed at GECCO 2026: Una-May O'Reilly carrying Jamal Toutouh's iD on
-    one paper). A name keeps an ORCID only if no other name cites it strictly
-    more often; among kept ORCIDs, the name's most frequent one wins.
+    A unique most-frequent ID wins. Ambiguous ties are left unresolved for
+    manual review; different names may intentionally share an ID when they are
+    aliases for the same person.
     """
-    top_votes: Counter[str] = Counter()
-    for orcid_counts in votes.values():
-        for orcid, count in orcid_counts.items():
-            top_votes[orcid] = max(top_votes[orcid], count)
     resolved: dict[tuple[str, str], str] = {}
     for name, orcid_counts in votes.items():
-        owned = [
-            orcid for orcid, count in orcid_counts.items() if count == top_votes[orcid]
-        ]
-        if owned:
-            resolved[name] = max(owned, key=lambda orcid: orcid_counts[orcid])
+        best_count = max(orcid_counts.values())
+        winners = [orcid for orcid, count in orcid_counts.items() if count == best_count]
+        if len(winners) == 1:
+            resolved[name] = winners[0]
         else:
-            print(f"  ORCID conflict, none kept for: {name}", file=sys.stderr)
+            print(f"  ORCID conflict, tied IDs for: {name}", file=sys.stderr)
     return resolved
+
+
+def audit_shared_orcids(assignments: dict[tuple[str, str], str]) -> None:
+    """Report ORCIDs used by multiple name keys for manual alias validation."""
+    names_by_orcid: dict[str, list[tuple[str, str]]] = {}
+    for name, orcid in assignments.items():
+        names_by_orcid.setdefault(orcid, []).append(name)
+    for orcid, names in names_by_orcid.items():
+        if len(names) > 1:
+            print(f"  shared ORCID, verify aliases: {orcid} -> {names}", file=sys.stderr)
 
 
 # Camera-ready titles sometimes differ slightly from the ones announced on the
@@ -404,7 +431,10 @@ def attach_dois_and_orcids(
             orcid = (entry or {}).get("ORCID")
             if orcid:
                 orcid = str(orcid).removeprefix("https://orcid.org/")
-                votes.setdefault(name_key(str(author["name"])), Counter())[orcid] += 1
+                if valid_orcid(orcid):
+                    votes.setdefault(name_key(str(author["name"])), Counter())[orcid] += 1
+                else:
+                    print(f"  invalid ORCID ignored: {orcid}", file=sys.stderr)
             else:
                 print(
                     f"  no Crossref author match: {author['name']}"
@@ -415,10 +445,13 @@ def attach_dois_and_orcids(
     # Assign the resolved ORCID everywhere the name appears — this also covers
     # authors whose own paper had no DOI but who appear on another paper.
     orcid_by_name = resolve_orcids(votes)
+    orcid_by_name.update(ORCID_OVERRIDES)
+    audit_shared_orcids(orcid_by_name)
     orcid_matched = 0
     for paper in papers:
         for author in paper["authors"]:
-            orcid = orcid_by_name.get(name_key(str(author["name"])))
+            key = name_key(str(author["name"]))
+            orcid = orcid_by_name.get(key)
             if orcid:
                 author["orcid"] = orcid
                 orcid_matched += 1

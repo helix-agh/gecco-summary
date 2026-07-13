@@ -33,7 +33,7 @@ OPENALEX_API = "https://api.openalex.org/works"
 OPENALEX_BATCH = 50
 USER_AGENT = (
     "gecco-summary/0.1 (https://github.com/helix-agh/gecco-summary; "
-    "mailto:wachtelik@gmail.com)"
+    "mailto:wachtelik@agh.edu.pl)"
 )
 SCRIPTS_DIR = Path(__file__).parent
 DATA_DIR = SCRIPTS_DIR.parent / "src" / "data"

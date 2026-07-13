@@ -19,19 +19,10 @@ import {
 } from './lib/stats'
 import { papersByContinent, papersByCountry, uniqueCountryCount } from './lib/countries'
 import { authorUrl } from './lib/scholar'
+import { canonicalAuthorProfiles } from './lib/authors'
 import { trackName } from './lib/tracks'
 
 const TOP_N = 10
-
-/** Natural pixel size of each public/logo-<year>.png, for layout reservation. */
-const LOGO_SIZES: Record<Year, { width: number; height: number }> = {
-  2021: { width: 580, height: 540 },
-  2022: { width: 800, height: 706 },
-  2023: { width: 800, height: 834 },
-  2024: { width: 800, height: 800 },
-  2025: { width: 1000, height: 876 },
-  2026: { width: 500, height: 468 },
-}
 
 /** The cross-year Overview tab, selected alongside the individual editions. */
 const OVERVIEW = 'overview'
@@ -48,7 +39,7 @@ export default function App() {
   const [view, setView] = useState<View>(initialView)
   const isOverview = view === OVERVIEW
   // The Overview has no single edition; fall back to the default year's metadata
-  // (conference name, logo) for the header while it is showing.
+  // for the header while it is showing.
   const year: Year = isOverview ? DEFAULT_YEAR : view
   const { meta, papers } = datasets[year]
 
@@ -77,15 +68,7 @@ export default function App() {
 
   const membersByInstitution = useMemo(() => institutionMembers(papers), [papers])
 
-  const orcidByAuthor = useMemo(() => {
-    const map = new Map<string, string>()
-    for (const paper of papers) {
-      for (const author of paper.authors) {
-        if (author.orcid) map.set(author.name, author.orcid)
-      }
-    }
-    return map
-  }, [papers])
+  const orcidByAuthor = useMemo(() => canonicalAuthorProfiles(papers), [papers])
 
   return (
     <div className="page">
@@ -120,15 +103,6 @@ export default function App() {
               </button>
             </div>
           </div>
-          {!isOverview && (
-            <img
-              className="site-logo"
-              src={`${import.meta.env.BASE_URL}logo-${String(year)}.png`}
-              alt={`GECCO ${String(year)} logo`}
-              width={LOGO_SIZES[year].width}
-              height={LOGO_SIZES[year].height}
-            />
-          )}
         </div>
       </header>
 
@@ -232,6 +206,15 @@ export default function App() {
             >
               Source on GitHub
             </a>
+          </p>
+          <p className="site-footer-disclaimer">
+            Made by fans of GECCO, not its organizers — this independent project isn&apos;t
+            affiliated with or endorsed by ACM, SIGEVO, or the conference team. When in doubt,
+            the{' '}
+            <a href={meta.source} target="_blank" rel="noreferrer">
+              official GECCO pages
+            </a>{' '}
+            have the final say.
           </p>
         </div>
       </footer>

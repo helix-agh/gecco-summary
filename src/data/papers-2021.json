@@ -5,7 +5,7 @@
     "scrapedAt": "2026-07-13T01:04:07+00:00",
     "paperCount": 134,
     "doiMatched": 134,
-    "orcidMatched": 0
+    "orcidMatched": 11
   },
   "papers": [
     {
@@ -445,7 +445,7 @@
           "affiliations": [
             "Wroclaw University of Science and Technology"
           ],
-          "orcid": null
+          "orcid": "0000-0002-3008-9320"
         },
         {
           "name": "Bartosz Frej",
@@ -513,7 +513,7 @@
           "affiliations": [
             "University of Manchester"
           ],
-          "orcid": null
+          "orcid": "0000-0001-9974-1295"
         },
         {
           "name": "Joshua Knowles",
@@ -806,7 +806,7 @@
             "Ecole Polytechnique",
             "Laboratoire d'Informatique (LIX)"
           ],
-          "orcid": null
+          "orcid": "0000-0001-5283-4208"
         }
       ]
     },
@@ -929,7 +929,7 @@
           "affiliations": [
             "Sorbonne Université"
           ],
-          "orcid": null
+          "orcid": "0000-0002-4981-3227"
         },
         {
           "name": "Peter Korošec",
@@ -1182,7 +1182,7 @@
           "affiliations": [
             "Sorbonne Université"
           ],
-          "orcid": null
+          "orcid": "0000-0002-4981-3227"
         }
       ]
     },
@@ -1306,7 +1306,7 @@
             "École Polytechnique",
             "Laboratoire d'Informatique (LIX)"
           ],
-          "orcid": null
+          "orcid": "0000-0001-5283-4208"
         }
       ]
     },
@@ -2318,7 +2318,7 @@
           "affiliations": [
             "MIT"
           ],
-          "orcid": null
+          "orcid": "0000-0001-6923-8445"
         }
       ]
     },
@@ -2775,7 +2775,7 @@
             "Ecole Polytechnique",
             "Laboratoire d'Informatique (LIX)"
           ],
-          "orcid": null
+          "orcid": "0000-0001-5283-4208"
         }
       ]
     },
@@ -3481,7 +3481,7 @@
             "CNRS",
             "Sorbonne Université"
           ],
-          "orcid": null
+          "orcid": "0000-0002-4981-3227"
         }
       ]
     },
@@ -3708,7 +3708,7 @@
             "Ecole Polytechnique",
             "Laboratoire d'Informatique (LIX)"
           ],
-          "orcid": null
+          "orcid": "0000-0001-5283-4208"
         },
         {
           "name": "Timo Kötzing",
@@ -3737,7 +3737,7 @@
           "affiliations": [
             "University of Málaga"
           ],
-          "orcid": null
+          "orcid": "0000-0001-9974-1295"
         }
       ]
     },

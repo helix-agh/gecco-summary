@@ -73,12 +73,6 @@ a:hover {
   gap: 32px;
 }
 
-.site-logo {
-  flex: none;
-  width: 148px;
-  height: auto;
-}
-
 .site-kicker {
   margin: 0 0 6px;
   font-size: 13px;
@@ -161,6 +155,10 @@ a:hover {
 .site-footer p {
   margin: 0 0 8px;
   max-width: 72ch;
+}
+
+.site-footer-disclaimer {
+  line-height: 1.55;
 }
 
 /* ---------- AI summary ---------- */
@@ -823,10 +821,6 @@ input.control-input {
 @media (max-width: 640px) {
   .site-header {
     padding: 32px 0 26px;
-  }
-
-  .site-logo {
-    display: none;
   }
 
   .site-title {

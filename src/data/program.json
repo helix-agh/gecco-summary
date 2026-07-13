@@ -1,7 +1,7 @@
 {
   "meta": {
     "conference": "GECCO 2026",
-    "source": "src/data/program.pdf",
+    "source": "https://gecco-2026.sigevo.org/Program",
     "scrapedAt": "2026-07-13",
     "sessionCount": 41,
     "talkCount": 151,

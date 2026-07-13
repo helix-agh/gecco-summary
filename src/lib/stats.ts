@@ -1,4 +1,5 @@
 import { canonicalInstitution } from './institutions'
+import { buildAuthorIndex } from './authors'
 import type { Paper } from '../types'
 
 export interface RankedItem {
@@ -21,10 +22,15 @@ export function papersByTrack(papers: Paper[]): RankedItem[] {
 }
 
 export function topAuthors(papers: Paper[], limit: number): RankedItem[] {
+  const index = buildAuthorIndex(papers)
   const counts = new Map<string, number>()
   for (const paper of papers) {
+    const seen = new Set<string>()
     for (const author of paper.authors) {
-      counts.set(author.name, (counts.get(author.name) ?? 0) + 1)
+      const canonical = index.byAuthor.get(author)
+      if (!canonical || seen.has(canonical.key)) continue
+      seen.add(canonical.key)
+      counts.set(canonical.name, (counts.get(canonical.name) ?? 0) + 1)
     }
   }
   return rank(counts).slice(0, limit)
@@ -51,14 +57,16 @@ export function topInstitutions(papers: Paper[], limit: number): RankedItem[] {
 
 /** Canonical institution -> sorted, de-duplicated names of its affiliated authors. */
 export function institutionMembers(papers: Paper[]): Map<string, string[]> {
+  const index = buildAuthorIndex(papers)
   const members = new Map<string, Set<string>>()
   for (const paper of papers) {
     for (const author of paper.authors) {
+      const name = index.byAuthor.get(author)?.name ?? author.name
       for (const affiliation of author.affiliations) {
         const institution = canonicalInstitution(affiliation)
         if (institution === null) continue
         const names = members.get(institution) ?? new Set<string>()
-        names.add(author.name)
+        names.add(name)
         members.set(institution, names)
       }
     }
@@ -86,7 +94,7 @@ export function teamSizeDistribution(papers: Paper[]): RankedItem[] {
 }
 
 export function uniqueAuthorCount(papers: Paper[]): number {
-  return new Set(papers.flatMap((paper) => paper.authors.map((author) => author.name))).size
+  return buildAuthorIndex(papers).authors.length
 }
 
 export function uniqueInstitutionCount(papers: Paper[]): number {
